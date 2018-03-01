@@ -1,0 +1,37 @@
+baseURL = "http://urssi.us/"
+languageCode = "en-us"
+title = "Official Website of the US Research Software Sustaiability Institute"
+theme = "urssi"
+
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+footnotereturnlinkcontents = "↩"
+
+paginate = 5
+paginatePath = "page"
+rssLimit = 20
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:slug/"
+    technotes = "/technotes/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>URSSI Blog on Official Website of the US Research Software Sustaiability Institute</title>
+    <link>http://urssi.us/blog/</link>
+    <description>Recent content in URSSI Blog on Official Website of the US Research Software Sustaiability Institute</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Jul 2017 22:00:37 -0700</lastBuildDate>
+    
+	<atom:link href="http://urssi.us/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Berkeley Workshop</title>
+      <link>http://urssi.us/blog/2018/03/01/berkeley-workshop/</link>
+      <pubDate>Thu, 01 Mar 2018 13:54:59 -0800</pubDate>
+      
+      <guid>http://urssi.us/blog/2018/03/01/berkeley-workshop/</guid>
+      <description>This is the blog post for the Berkeley workshop</description>
+    </item>
+    
+  </channel>
+</rss>

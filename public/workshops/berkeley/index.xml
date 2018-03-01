@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logistics on Official Website of the US Research Software Sustaiability Institute</title>
+    <link>http://urssi.us/workshops/berkeley/</link>
+    <description>Recent content in Logistics on Official Website of the US Research Software Sustaiability Institute</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Mar 2018 12:19:11 -0800</lastBuildDate>
+    
+	<atom:link href="http://urssi.us/workshops/berkeley/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Logistics for Berkeley Workshop (April 10-12)</title>
+      <link>http://urssi.us/workshops/berkeley/logistics/</link>
+      <pubDate>Thu, 01 Mar 2018 12:19:11 -0800</pubDate>
+      
+      <guid>http://urssi.us/workshops/berkeley/logistics/</guid>
+      <description> Logistics of the Berkeley Workshop </description>
+    </item>
+    
+  </channel>
+</rss>

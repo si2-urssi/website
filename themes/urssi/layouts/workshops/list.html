@@ -1,11 +1,11 @@
 {{ partial "header.html" . }}
 <section class="content_40 padding_top60 padding_bottom110">
     <div class="container nopadding padding_left100">
-        <h2 class="raleway light font42 dark_gray bottom50">{{ .Title }} (default)</h2>
+        <h2 class="raleway light font42 dark_gray bottom50">{{ .Title }}</h2>
         <div class="float_left max_width770 block_left">
             <div class="padding_sides30 padding_top30 padding_bottom30 radius10">
                 <div class="content">
-                    <h1>{{ title .Data.Term  }}</h1> {{ range first 8 .Pages }} {{ if eq .Type "blog"}}
+                    <h1>{{ title .Data.Term  }}</h1> {{ range first 8 .Pages }} {{ if eq .Type "workshops"}}
                     <p>
                         <!-- <aside>{{ .Date.Format "January 2, 2006"}}</aside> -->
                         <a href="{{ .Permalink }}" style="color:black;">{{ .Title }}, {{ .Date.Format "January 2, 2006"}}</a>{{ if .Draft }} <span style="color:#FF4136;">(unpublished)</span>{{ end }}

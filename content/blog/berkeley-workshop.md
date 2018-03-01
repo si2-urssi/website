@@ -1,5 +1,5 @@
 ---
-title: "Berkeley Workshop"
+title: "Blog post 1"
 date: 2018-03-01T13:54:59-08:00
 ---
 

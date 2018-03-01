@@ -1,2 +1,8 @@
 .DS_Store
 public/*
+/public/blog/index.html
+/public/blog/index.xml
+/public/index.xml
+/public/sitemap.xml
+/public/workshops/berkeley/index.html
+/public/workshops/index.html

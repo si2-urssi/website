@@ -18,3 +18,6 @@ rssLimit = 20
 [[menu.main]]
     name = "Subscribe"
     url = "/index.xml"
+    
+[params]
+DateForm = "Mon Jan _2 15:04:05 2006"

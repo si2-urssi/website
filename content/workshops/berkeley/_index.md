@@ -1,5 +1,5 @@
 ---
-title: "Logistics"
+title: "Berkeley URSSI Workshop, April 10-12"
 date: 2018-02-28T12:19:11-08:00
 ---
 

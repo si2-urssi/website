@@ -1,6 +1,6 @@
 ---
 title: "Logistics"
-date: 2018-03-01T12:19:11-08:00
+date: 2018-02-28T12:19:11-08:00
 ---
 
 ### US Research Software Sustainability Institute Berkeley Workshop (April 10-12)

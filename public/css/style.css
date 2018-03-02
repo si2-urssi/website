@@ -59,6 +59,10 @@ a:focus {
   outline: none;
 }
 
+a:visited {
+    color: #2c3e50;
+}
+
 button {
   border: none;
   outline: none !important;

@@ -5,7 +5,7 @@
         <div class="float_left max_width770 block_left">
             <div class="padding_sides30 padding_top30 padding_bottom30 radius10">
                 <div class="content">
-                    <h1>{{ title .Data.Term  }}</h1> {{ range first 8 .Pages }} {{ if eq .Type "blog"}}
+                    <!-- <h1>{{ title .Data.Term  }}</h1> --> {{ range first 8 .Pages }} {{ if eq .Type "news"}}
                     <p>
                         <!-- <aside>{{ .Date.Format "January 2, 2006"}}</aside> -->
                         <a href="{{ .Permalink }}" style="color:black;">{{ .Title }}, {{ .Date.Format "January 2, 2006"}}</a>{{ if .Draft }} <span style="color:#FF4136;">(unpublished)</span>{{ end }}

@@ -24,6 +24,17 @@ hugo server -D
 
 Once you're happy with your post, remove `draft: true` from the yml and send a pull request explaining your additions and/or changes.
 
+
+## Sending a pull reqest
+
+- Fork the repo if you don't have write access, otherwise create a new branch
+- Make changes and send a pull request.
+- Wait for PR to build, then click Details to preview changes live.
+
+![](https://i.imgur.com/lQZgpM5.png)
+
+- Wait for someone with write access to merge.
+
 ## Code of Conduct
 
 This website has a [code of conduct](https://github.com/si2-urssi/website/blob/master/CODE_OF_CONDUCT.md)

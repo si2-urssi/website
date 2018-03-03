@@ -3237,7 +3237,13 @@ b {
 /* Footer 10 */
 .footer_10 {
   background: #141414;
+  color: #ccc;
 }
+
+.footer_10 a {
+  color: #ecf0f1;
+}
+
 
 /* Footer 11 */
 .footer_11 {

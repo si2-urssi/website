@@ -92,7 +92,7 @@ label {
 
 h1 {
   margin: 0 auto;
-  font-size: 82px;
+  font-size: 52px;
   line-height: 92px;
   font-weight: 300;
   font-family: Raleway;
@@ -3242,6 +3242,7 @@ b {
 .footer_10 {
   background: #141414;
   color: #ccc;
+  overflow: hidden;
 }
 
 .footer_10 a {

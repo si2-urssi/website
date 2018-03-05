@@ -8,9 +8,6 @@ author: "Karthik Ram"
 
 ![](https://i.imgur.com/o8xjqVy.jpg)
 
-
-### Workshop 1
-
 In this workshop, we want to:
 
 - Introduce URSSI

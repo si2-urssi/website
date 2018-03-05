@@ -24,7 +24,7 @@ To preview draft content:
 hugo server -D
 ```
 
-Once you're happy with your post, remove `draft: true` from the yml and send a pull request explaining your additions and/or changes.
+Once you're happy with your post, remove `draft: true` from the yml and send a pull request explaining your additions and/or changes. You can add author information to the yml as well (e.g. `author: "Karthik Ram"`)
 
 
 ## Sending a pull request

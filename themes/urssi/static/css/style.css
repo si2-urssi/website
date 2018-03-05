@@ -36,6 +36,10 @@ nav {
   width: 100%;
 }
 
+.nav:a {
+  color: #ecf0f1;
+}
+
 nav.transparent {
   background: transparent;
 }
@@ -85,7 +89,7 @@ label {
   cursor: pointer;
 }
 
-я
+
 h1 {
   margin: 0 auto;
   font-size: 82px;
@@ -7241,3 +7245,7 @@ table {
 }
 
 /* End Mail Chimp*/
+
+.font20 a {
+  color: #ccc;
+}

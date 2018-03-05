@@ -1,5 +1,5 @@
 ---
-title: "URSSI Workshop, Berkeley, CA (April 10-12, 2018)"
+title: "First URSSI Workshop, Berkeley, CA (April 10-12, 2018)"
 date: 2018-03-01T14:51:36-08:00
 author: "Karthik Ram"
 ---
@@ -8,17 +8,26 @@ author: "Karthik Ram"
 
 ![](https://i.imgur.com/o8xjqVy.jpg)
 
-
-### Workshop 1
-
 In this workshop, we want to:
 
-Introduce URSSI
-Help attendees meet each other and understand their goals Pilot some initial survey questions, and gather inputs about where it should be distributed Talk about the idea of ethnographic studies, and rather ideas on specific people and projects to study Present a set of topics that think will be important to further study, as areas of work in our future institute Identify a subset of these, plus additional topics that are potentially important to the community, to discuss further Refine, merge, discard topics Find who among the attendees might lead discussion on them Document the workshop’s results
+- Introduce URSSI
+- Help attendees meet each other and understand their goals
+- Pilot some initial survey questions, and gather inputs about where it should be distributed
+- Talk about the idea of ethnographic studies, and rather ideas on specific people and projects to study
+- Present a set of topics that think will be important to further study, as areas of work in our future institute
+- Identify a subset of these, plus additional topics that are potentially important to the community, to discuss further
+- Refine, merge, discard topics
+- Find who among the attendees might lead discussion on them
+- Document the workshop’s results
 
 We want to come out of this workshop with:
 
-An informed and enthused set of attendees An improved survey, and a set of survey distribution mechanism Potential ethnographic study subjects An initial list of candidate topics for an institute, some of which may be well-understood A set of topics that should be further discussed in smaller follow-on workshops Initial thoughts on institute roles - what could the institute do to address the topics? Initial thoughts on institute organization - how could the institute be organized to do this?
+- An informed and enthused set of attendees An improved survey, and a set of survey distribution mechanism
+- Potential ethnographic study subjects
+- An initial list of candidate topics for an institute, some of which may be well-understood
+- A set of topics that should be further discussed in smaller follow-on workshops
+- Initial thoughts on institute roles - what could the institute do to address the topics?
+- Initial thoughts on institute organization - how could the institute be organized to do this?
 
 ####  Very Preliminary Agenda
 

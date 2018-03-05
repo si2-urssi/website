@@ -1,6 +1,6 @@
 ---
 title: "About URSSI"
-date: 2018-03-01T12:12:24-08:00
+date: 2018-03-04T12:12:24-08:00
 ---
 
 Many science advances have been possible thanks to use of software. This software, also known as "research software", has become essential to progress in science and engineering. The scientists who develop the software are experts in their discipline, but do not have sufficient understanding of the practices that make software development easier, and the software more robust, reliable, maintainable and sustainable. This project will work with these scientists to understand how the research community can best work together to design and maintain better software with lower effort, so that they and others can continue to use it over long periods of time. This project will conduct several workshops and a survey in order to gather and understand the community's needs and the software expertise of its members. These needs will be widely disseminated via newsletters and via a website. The primary deliverable of this project will be a design and strategic plan for a US Research Software Sustainability Institute (URSSI) which will serve as a community hub and provide services to scientists that will help them create improved, more sustainable software. This software in turn will accelerate the progress of science, thus serving NSF's mission.
@@ -12,7 +12,7 @@ Modern research is inescapably digital, with data and publications most often cr
 <a name="team"></a> 
 
 - Karthik Ram (Principal Investigator)
-- Daniel Katz (Co-Principal Investigator)
+- Daniel S. Katz (Co-Principal Investigator)
 - Jeffrey Carver (Co-Principal Investigator)
 - Sandra Gesing (Co-Principal Investigator)
 - Nicholas Weber (Co-Principal Investigator)

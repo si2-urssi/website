@@ -4,7 +4,10 @@ date: 2018-03-01T14:51:36-08:00
 author: "Karthik Ram"
 ---
 
-### US Research Software Sustainability Institute Berkeley Workshop (April 10-12)
+### First Software Sustainability Institute Workshop in Berkeley, CA (April 10-12)
+
+![](https://i.imgur.com/o8xjqVy.jpg)
+
 
 Modern research is digital: data & publications are created, analyzed, and stored electronically using tools and methods expressed in software. Much software is developed specifically for research, by researchers. This research software essential to progress in almost all research fields, but it’s often not developed in an efficient or sustainable way, and knowledge is often locked away in individual laboratories or only shared via method papers that cannot directly be used by others. Researchers who develop software know their disciplines, but often don’t have training and understanding of best practices to ease development & maintainability and to encourage sustainability & reproducibility. And, developers don’t match the diversity of overall society or of user communities.
 
@@ -56,3 +59,7 @@ Tell us what you think. What have we missed? What else do you think we should do
 If you would like to write a short position paper for this workshop and this overall project, please feel free to do so, and to self-publish it (via arxiv.org, figshare, zenodo, OSF, etc.), then send us (contact at urssi.us) a link to your paper, and we will post it on our website (http://urssi.us).
 
 We will also be collecting links to related projects, papers, and reports on our website (http://urssi.us). Please feel free to send us (contact@urssi.us) any links that you think we should list, if possible, along with a few words about how each is related.
+
+**Resources**
+
+- [Github repository for workshop](https://github.com/si2-urssi/berkeley_workshop)

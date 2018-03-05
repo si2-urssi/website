@@ -1,5 +1,5 @@
 ---
-title: "URSSI Workshop, Berkeley, CA (April 10-12, 2018)"
+title: "First URSSI Workshop, Berkeley, CA (April 10-12, 2018)"
 date: 2018-03-01T14:51:36-08:00
 author: "Karthik Ram"
 ---

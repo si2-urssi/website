@@ -9,33 +9,6 @@ author: "Karthik Ram"
 ![](https://i.imgur.com/o8xjqVy.jpg)
 
 
-Modern research is digital: data & publications are created, analyzed, and stored electronically using tools and methods expressed in software. Much software is developed specifically for research, by researchers. This research software essential to progress in almost all research fields, but it’s often not developed in an efficient or sustainable way, and knowledge is often locked away in individual laboratories or only shared via method papers that cannot directly be used by others. Researchers who develop software know their disciplines, but often don’t have training and understanding of best practices to ease development & maintainability and to encourage sustainability & reproducibility. And, developers don’t match the diversity of overall society or of user communities.
-
-We have been funded by the NSF as “S2I2 Conceptualization: URSSI: Conceptualizing a US Research Software Sustainability Institute.” We proposed that the long-term goals of an institute should include:
-
-- Help research software projects grow, become sustainable, and develop a governance model
-- Establish developers with good practices
-- Track software impact and usage, which are difficult to measure and interpret
-- Help grantees of major funders communicate and share resources with each other
-- Give the public a better understanding of science
-- Bring more diversity into the field
-
-
-In our conceptualization project, we want to:
-
-- Conceptualize (plan) a US Research Software Sustainability Institute that goes beyond resources like GitHub
-- Cut across existing activities funded by NSF and beyond
-- Directly and indirectly positively impact all software development and maintenance projects across all of NSF
-- Focus on the entire research software ecosystem, including the people who create, maintain, and use research software
-
-Over the life of this project, we seek to create:
-
-- An eager, supportive & inclusive community
-- A concrete institute plan configured to offer valued services
-- A published survey and data that demonstrates community need
-
-We have planned a set of activities to achieve these outcomes, including 5 workshops (1 general, 3 focused, and 1 aimed to wrap up the work), a survey, a set of ethnographic studies, and a set of communication activities. This is our first workshop.
-
 ### Workshop 1
 
 In this workshop, we want to:

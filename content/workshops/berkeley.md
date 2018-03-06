@@ -39,9 +39,9 @@ Tell us what you think. What have we missed? What else do you think we should do
 
 **Related Material**
 
-If you would like to write a short position paper for this workshop and this overall project, please feel free to do so, and to self-publish it (via arxiv.org, figshare, zenodo, OSF, etc.), then send us (contact at urssi.us) a link to your paper, and we will post it on our website (http://urssi.us).
+If you would like to write a short position paper for this workshop and this overall project, please feel free to do so, and to self-publish it (via arxiv.org, figshare, zenodo, OSF, etc.), then send us (contact@urssi.us) a link to your paper, and we will post it on our website (http://urssi.us).
 
-We will also be collecting links to related projects, papers, and reports on our website (http://urssi.us). Please feel free to send us (contact@urssi.us) any links that you think we should list, if possible, along with a few words about how each is related.
+We will also be collecting links to related projects, papers, and reports on our website (http://urssi.us/resources/). Please feel free to send us (contact@urssi.us) any links that you think we should list, if possible, along with a few words about how each is related.
 
 **Resources**
 

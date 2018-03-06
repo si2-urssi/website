@@ -12,9 +12,9 @@ In this workshop, we want to:
 
 - Introduce URSSI
 - Help attendees meet each other and understand their goals
-- Pilot some initial survey questions, and gather inputs about where it should be distributed
-- Talk about the idea of ethnographic studies, and rather ideas on specific people and projects to study
-- Present a set of topics that think will be important to further study, as areas of work in our future institute
+- Pilot some initial survey questions, and gather inputs about where our survey should be distributed
+- Talk about the idea of ethnographic studies, and gather ideas on specific people and projects to study
+- Present a set of topics that we think will be potential areas of work in a future institute
 - Identify a subset of these, plus additional topics that are potentially important to the community, to discuss further
 - Refine, merge, discard topics
 - Find who among the attendees might lead discussion on them
@@ -22,16 +22,17 @@ In this workshop, we want to:
 
 We want to come out of this workshop with:
 
-- An informed and enthused set of attendees An improved survey, and a set of survey distribution mechanism
+- An informed and enthused set of attendees
+- An improved survey, and a set of survey distribution mechanism
 - Potential ethnographic study subjects
 - An initial list of candidate topics for an institute, some of which may be well-understood
 - A set of topics that should be further discussed in smaller follow-on workshops
-- Initial thoughts on institute roles - what could the institute do to address the topics?
-- Initial thoughts on institute organization - how could the institute be organized to do this?
+- Initial thoughts on institute roles - what could an institute do to address the topics?
+- Initial thoughts on institute organization - how could an institute be organized to do this?
 
 ####  Very Preliminary Agenda
 
-The workshop will be 2 ½ days, starting the morning of day 1 (April 10), and ending at lunch on day 3 (April 12), with an additional ½ day for PIs to document and start planning the next activities. We will start with talks from NSF about institutes, talks about successful conceptualization project that led to institutes (SGCI and MolSSI) and a talk a from a recent conceptualization project in high-energy physics. The remainder of the workshop will include a mix of plenary (including lightning talks selected from the attendees), general topic breakouts (with similar questions asked of all attendees arranged in small groups), and unconference breakouts (with focused discussion around topics in self-selected groups)
+The workshop will be 2 ½ days, starting the morning of day 1 (April 10), and ending at lunch on day 3 (April 12), with an additional ½ day for PIs to document and start planning the next activities. We will start with a talk from NSF about institutes, talks about successful conceptualization project that led to institutes (SGCI and MolSSI) and a talk a from a recent conceptualization project in high-energy physics. The remainder of the workshop will include a mix of plenary (including lightning talks selected from the attendees), general topic breakouts (with similar questions asked of all attendees arranged in small groups), and unconference breakouts (with focused discussion around topics in self-selected groups)
 
 **Open questions**
 

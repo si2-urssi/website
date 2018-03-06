@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+<section class="content_40 padding_top60 padding_bottom110">
+    <div class="container nopadding padding_left100">
+        <h2 class="raleway light font42 dark_gray bottom20">{{ .Title }}</h2>
+        <div class="float_left max_width770 block_left">
+            <div class="padding_sides30 padding_top10 padding_bottom30 radius10">
+                {{ .Content }}
+            </div>
+        </div>
+</section>
+{{ partial "footer.html" . }}

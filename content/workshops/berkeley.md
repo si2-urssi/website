@@ -22,7 +22,7 @@ In this workshop, we want to:
 
 We want to come out of this workshop with:
 
-- An informed and enthused set of attendees
+- An informed and enthused set of attendees (including a group photo)
 - An improved survey, and a set of survey distribution mechanism
 - Potential ethnographic study subjects
 - An initial list of candidate topics for an institute, some of which may be well-understood

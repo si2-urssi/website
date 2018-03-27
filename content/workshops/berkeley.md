@@ -30,13 +30,13 @@ We want to come out of this workshop with:
 - Initial thoughts on institute roles - what could an institute do to address the topics?
 - Initial thoughts on institute organization - how could an institute be organized to do this?
 
-####  Very Preliminary Agenda
+####  Agenda
 
-The workshop will be 2 ½ days, starting the morning of day 1 (April 10), and ending at lunch on day 3 (April 12), with an additional ½ day for PIs to document and start planning the next activities. We will start with a talk from NSF about institutes, talks about successful conceptualization project that led to institutes (SGCI and MolSSI) and a talk a from a recent conceptualization project in high-energy physics. The remainder of the workshop will include a mix of plenary (including lightning talks selected from the attendees), general topic breakouts (with similar questions asked of all attendees arranged in small groups), and unconference breakouts (with focused discussion around topics in self-selected groups)
+The [full agenda](https://github.com/si2-urssi/berkeley_workshop/blob/master/agenda.md) is available on the [GitHub repository for the workshop](https://github.com/si2-urssi/berkeley_workshop).
 
 **Open questions**
 
-Tell us what you think. What have we missed? What else do you think we should do during the workshop to best achieve the goals? What do you not understand? What do you want to learn and/or take away from the workshop?
+Tell us what you think. What have we missed? What else do you think we should do during the workshop to best achieve the goals? What do you not understand? What do you want to learn and/or take away from the workshop? If you'd like to propose a discussion, please post an [issue](https://github.com/si2-urssi/berkeley_workshop/issues/new)
 
 **Related Material**
 

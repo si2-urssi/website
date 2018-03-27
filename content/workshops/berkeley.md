@@ -47,3 +47,5 @@ We will also be collecting links to related projects, papers, and reports on our
 **Resources**
 
 - [Github repository for workshop](https://github.com/si2-urssi/berkeley_workshop)
+- [List of participants](https://github.com/si2-urssi/berkeley_workshop/blob/master/participants.csv)
+

@@ -24,6 +24,10 @@ date: 2018-03-01T12:17:32-08:00
 
 - [Computational Science and Engineering Software Sustainability and Productivity (CSESSP) Challenges Workshop Report](https://www.nitrd.gov/PUBS/CSESSPWorkshopReport.pdf)
 
+**Open Source Documents**
+
+- [Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure](https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure)
+
 **Software Engineering: Process and project/team management examples**
 
 - [Scaled Agile Framework](http://www.scaledagileframework.com) (being followed by [SKA](https://www.skatelescope.org))

@@ -44,5 +44,5 @@ date: 2018-03-01T12:17:32-08:00
 
 **URSSI Position Papers**
 
-- [Sustaining a multi-discipline open science community](https://github.com/si2-urssi/berkeley_workshop/blob/master/position-paper/Sustaining_a_multi-discipline_open_science_community.pdf) by Ted Habermann, HDF Group
-- [Supporting research software by growing a culture of openness in academia](https://doi.org/10.6084/m9.figshare.6104840.v1) by Abigail Cabunoc Mayes, Mozilla Foundation
+- [Sustaining a multi-discipline open science community](https://github.com/si2-urssi/berkeley_workshop/blob/master/position-paper/Sustaining_a_multi-discipline_open_science_community.pdf), by Ted Habermann, HDF Group
+- [Supporting research software by growing a culture of openness in academia](https://doi.org/10.6084/m9.figshare.6104840.v1), by Abigail Cabunoc Mayes, Mozilla Foundation

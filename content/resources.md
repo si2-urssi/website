@@ -15,6 +15,7 @@ date: 2018-03-01T12:17:32-08:00
 **Projects**
 
 - [Better Scientific Software (BSSw)](https://bssw.io/)
+- [CHAOSS](https://www.linuxfoundation.org/blog/chaoss-project-creates-tools-to-analyze-software-development-and-measure-open-source-community-health/) - Linux Foundation project working to measure health and success of open source software products
 
 **Collections of papers**
 

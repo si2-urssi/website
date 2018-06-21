@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Workshops on Official Website of the US Research Software Sustaiability Institute</title>
+    <title>URSSI Workshops on Official Website of the US Research Software Sustaiability Institute</title>
     <link>http://urssi.us/workshops/</link>
-    <description>Recent content in Workshops on Official Website of the US Research Software Sustaiability Institute</description>
+    <description>Recent content in URSSI Workshops on Official Website of the US Research Software Sustaiability Institute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Mar 2018 12:17:21 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 12:26:39 -0800</lastBuildDate>
     
 	<atom:link href="http://urssi.us/workshops/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>First URSSI Workshop, Berkeley, CA (April 10-12, 2018)</title>
+      <link>http://urssi.us/workshops/berkeley/</link>
+      <pubDate>Thu, 01 Mar 2018 14:51:36 -0800</pubDate>
+      
+      <guid>http://urssi.us/workshops/berkeley/</guid>
+      <description>First Software Sustainability Institute Workshop in Berkeley, CA (April 10-12) In this workshop, we want to:
+ Introduce URSSI Help attendees meet each other and understand their goals Pilot some initial survey questions, and gather inputs about where our survey should be distributed Talk about the idea of ethnographic studies, and gather ideas on specific people and projects to study Present a set of topics that we think will be potential areas of work in a future institute Identify a subset of these, plus additional topics that are potentially important to the community, to discuss further Refine, merge, discard topics Find who among the attendees might lead discussion on them Document the workshop’s results  We want to come out of this workshop with:</description>
+    </item>
     
   </channel>
 </rss>

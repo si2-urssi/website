@@ -3,6 +3,10 @@ title: "Resources"
 date: 2018-03-01T12:17:32-08:00
 ---
 
+**Papers and articles about URSSI**
+
+- [Conceptualization of a US Research Software Sustainability Institute (URSSI)](https://doi.org/10.1109/MCSE.2018.03221924), Computing in Science & Engineering 20(3), May/June 2018
+
 **Github resources**
 
 - [URSSI GitHub organization](https://github.com/si2-urssi)

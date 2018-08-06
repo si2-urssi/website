@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>US Research Software Sustainability Institute (URSSI)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico?v3" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet" />
     <script src="/js/jquery.min.js"></script>
@@ -18,9 +18,10 @@
 <body>
     <nav class="navigation_19 padding_top30 padding_bottom30">
         <div class="container nopadding">
-            <div class="float_left white font20 line_height40"><b><a href="/">URSSI</a></b></div>
+            <div class="float_left white font20 line_height40"><b><a href="/"><img src="/img/small_logo.png"></a></b></div>
             <div class="float_right">
                 <a href="/about" class="link white semibold font12 line_height40 uppercase spacing20 sides15">About</a>
+                <a href="/blog" class="link white semibold font12 line_height40 uppercase spacing20 sides15">Blog</a>
                 <a href="/workshops" class="link white semibold font12 line_height40 uppercase spacing20 sides15">Workshops</a>
                 <a href="https://discuss.urssi.us" class="link white semibold font12 line_height40 uppercase spacing20 sides15">Discuss</a>
                 
@@ -37,7 +38,13 @@
         <h2 class="raleway light font42 dark_gray bottom50">Resources</h2>
         <div class="float_left max_width770 block_left">
             <div class="padding_sides30 padding_top30 padding_bottom30 radius10">
-                <p><strong>Github resources</strong></p>
+                <p><strong>Papers and articles about URSSI</strong></p>
+
+<ul>
+<li><a href="https://doi.org/10.1109/MCSE.2018.03221924">Conceptualization of a US Research Software Sustainability Institute (URSSI)</a>, Computing in Science &amp; Engineering 20(3), May/June 2018</li>
+</ul>
+
+<p><strong>Github resources</strong></p>
 
 <ul>
 <li><a href="https://github.com/si2-urssi">URSSI GitHub organization</a></li>
@@ -108,11 +115,20 @@ Papers:</li>
             </div>
         </div>
 </section>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-462421-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-462421-7');
+</script>
 <footer class="footer_10 padding_top95 padding_bottom85">
     <div class="container nopadding">
         <div class="row">
             <div class="col-md-4 col-sm-12 bottom50">
-                <div class="font22 raleway white"><b><a href="/">URSSI</a></b></div>
+                <div class="font22 raleway white"><b><a href="/"><img src="/img/small_logo.png"></a></b></div>
                 <div class="top40 socials">
                     <a href="https://twitter.com/si2urssi" class="font18 link white right30"><i class="fa fa-twitter"></i></a>
                     <a href="https://github.com/si2-urssi" class="font18 link white right30"><i class="fa fa-github"></i></a>
@@ -121,6 +137,7 @@ Papers:</li>
             <div class="col-md-2 col-sm-3 col-xs-6 bottom50">
                 <div class="bottom30 font22 raleway light white title">About</div>
                 <div class="bottom10"><a href="/about" class="font16 light link white opacity7">Project Description</a></div>
+                <div class="bottom10"><a href="/blog" class="font16 light link white opacity7">Blog</a></div>
                 <div class="bottom10"><a href="/about#team" class="font16 light link white opacity7">Team</a></div>
             </div>
             <div class="col-md-2 col-sm-3 col-xs-6 bottom50">
@@ -128,17 +145,25 @@ Papers:</li>
                 <div class="bottom10"><a href="https://discuss.urssi.us/" class="font16 light link white opacity7">Discussion board</a></div>
                  <div class="bottom10"><a href="/workshops" class="font16 light link white opacity7">Workshop plan</a></div>
                 <div class="bottom10"><a href="/news" class="font16 light link white opacity7">Project Updates</a></div>
+                <div class="bottom10"><a href="https://urssi.us17.list-manage.com/subscribe/post?u=34c9c3bb4d54665136bd03e49&id=f55b22de1d" class="font16 light link white opacity7">Sign up for our mailing list</a></div>
+                <div class="bottom10"><a href="/newsletter" class="font16 light link white opacity7">Newsletters</a></div>
                 <div class="bottom10"><a href="/resources" class="font16 light link white opacity7">Resources</a></div>
                 <div class="bottom10"><a href="/contact" class="font16 light link white opacity7">Contact</a></div>
             </div>
             <div class="col-md-2 col-sm-3 col-xs-6 bottom50">
                 <div class="bottom30 font22 raleway light white title">Workshops</div>
-                <div class="bottom10"><a href="/workshops/berkeley" class="font16 light link white opacity7">Berkeley, April 9-12, 2018</a></div>
+                <div class="bottom10"><a href="/workshops/berkeley" class="font16 light link white opacity7">Berkeley workshop, April 2018</a></div>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-6 bottom50">
+                <div class="bottom30 font22 raleway light white title">RSS Feeds</div>
+                <div class="bottom10"><a href="http://urssi.us/blog/index.xml" class="font16 light link white opacity7">Blog Feed</a></div>
+                <div class="bottom10"><a href="http://urssi.us/workshops/index.xml" class="font16 light link white opacity7">Workshop Feed</a></div>
             </div>
         </div>
         <center>Contributions, corrections and suggestions for this website are welcome on the <a href="https://github.com/si2-urssi/website">project repository</a>.</center>
     </div>
 </footer>
+
 <div class="overlay"></div>
 <script src="/js/slick.min.js"></script>
 <script src="/js/aos.min.js"></script>

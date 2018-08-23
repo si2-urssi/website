@@ -1,5 +1,5 @@
 ---
-title: "Report for Berkeley URSSI workshop"
+title: "Report from the first URSSI workshop"
 date: 2018-08-23T12:27:50-07:00
 author: "Karthik Ram, Daniel S. Katz, Jeffrey Carver, Nic Weber and Sandra Gesing"
 ---

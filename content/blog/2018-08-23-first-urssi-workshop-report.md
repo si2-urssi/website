@@ -116,7 +116,7 @@ As a final activity of the workshop, we also had an open poll about what partici
 
 * **Software credit & metrics** - A small workshop is set to happen in January 2019. More details will be forthcoming on the URSSI blog.
 
-* **Incubating sustainable **** software projects** - Ideas and discussions around helping research open source projects become sustainable. A small workshop is being planned for February 2019. Again, more details will be forthcoming on the URSSI blog.
+* **Incubating sustainable software projects** - Ideas and discussions around helping research open source projects become sustainable. A small workshop is being planned for February 2019. Again, more details will be forthcoming on the URSSI blog.
 
 * **Institute planning** - Various activities looking at existing institutes to learn from successes and failures.
 

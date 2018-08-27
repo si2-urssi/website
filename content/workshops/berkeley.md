@@ -30,6 +30,10 @@ We want to come out of this workshop with:
 - Initial thoughts on institute roles - what could an institute do to address the topics?
 - Initial thoughts on institute organization - how could an institute be organized to do this?
 
+#### Report
+
+The [report from the workshop](http://urssi.us/blog/2018/08/23/report-from-the-first-urssi-workshop/) is now [available](http://urssi.us/blog/2018/08/23/report-from-the-first-urssi-workshop/).
+
 ####  Agenda
 
 The [full agenda](https://github.com/si2-urssi/berkeley_workshop/blob/master/agenda.md) is available on the [GitHub repository for the workshop](https://github.com/si2-urssi/berkeley_workshop).

@@ -7,7 +7,7 @@ author: "Sandra Gesing"
 
 ### Second Research Software Sustainability Institute Workshop in Chicago, IL (October 23-24, 2018)
 
-![](Chicago-IlliniCenter.png?raw=true)
+![image](https://i.imgur.com/Jkm6CYA.jpg)
 
 We are excited to announce the second workshop in the URSSI conceptualization which will take place October 23 and 24 in [Chicago, IL](https://illinicenter.illinois.edu/). 
 Similar to our [first workshop in Berkeley](http://urssi.us/workshops/berkeley/), the event will be mostly participant driven. In addition to a few keynotes and 

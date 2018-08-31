@@ -32,7 +32,7 @@ We want to come out of this workshop with:
 
 We welcome participation from anyone interested in issues and challenges facing research software sustainability. 
 Our goal is to host up to 90 participants, a size that will allow for dynamic discussions in small breakout groups. 
-If you are keen to participate or have suggestions for us, please [fill out our form](http://urssi.us/workshops/berkeley/) 
+If you are keen to participate or have suggestions for us, please [fill out our form](http://urssi.us/suggest/) 
 as soon as possible. We will strive to accommodate as many participants as possible. We also have limited travel support 
 for the meeting and ask that you contact us before September 17th if you require support. We will notify everyone by September 21st.
 

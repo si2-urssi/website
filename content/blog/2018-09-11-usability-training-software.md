@@ -2,7 +2,6 @@
 title: "Usability, Training, and Software -- Understanding what Investigators in the Life Sciences Need Most"
 date: 2018-09-11T11:06:26-05:00
 author: "Jason Williams and Lindsay Barone (Cold Spring Harbor Laboratory)"
-draft: true
 ---
 
 It is a truth universally acknowledged that a biologist in possession of a data must be in want of a computer to analyze it on. Or, perhaps not. In 2016 as part of our efforts to better understand the needs of users and potential users of [CyVerse](http://www.cyverse.org) (NSF-funded cyberinfrastructure for life sciences), we conducted a survey of NSF-funded investigators to determine what was important for them when it comes to analyzing large datasets. Surprisingly, foundational resources like high-performance computers and data storage were dead last in investigator's ranking of unmet needs. 

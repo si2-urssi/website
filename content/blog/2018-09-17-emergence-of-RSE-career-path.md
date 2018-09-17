@@ -1,0 +1,19 @@
+---
+title: "Through demand, not lobbying: the emergence of an RSE career path"
+date: 2018-09-17T06:06:16-05:00
+author: "Simon Hettrick (Software Sustainability Institute)"
+---
+
+**When I first started thinking about how we could create a career path for [Research Software Engineers (RSEs)](https://rse.ac.uk) in academia, I assumed it would involve persuading university managers to implement a new career path. Quite frankly, I wasn't looking forward to the interminable bureaucracy that such a change would require me to navigate. Fortunately, a completely different solution quickly gained traction in the UK: the rise of RSE Groups.**
+
+An RSE Group is a centralized group, based at a university or other research organization, that employs a number of RSEs and then hires them out to researchers across the organization. It's a win-win for researchers: they gain access to the skills they need and they only pay for RSE staff when they need their skills. An RSE group pools demand for RSE services across an entire organization which allows large groups to form (the largest is currently 20 RSEs), but the real benefit to pooling is that it evens out the peaks and troughs in demand - and this equates to consistent employment. This is a welcome change for a group of people who were previously expected to view breaks in their contracts as just part of their jobs.
+
+RSE groups usually launch with a group of generalists --- good software engineers with a broad experience of technologies and research areas --- but as they grow they can support more specialist roles. Alongside this growth comes the need to share responsibility across a new tier of senior staff who can run projects and oversee the work of others. This creates a career path. In summary, we're winning the fight for RSE careers not through lobbying senior university management, but by providing researchers with a service they are willing to pay for and using this success to build a new type of group in academia.
+
+The first group to explicitly use this model was set up at UCL in 2012 (although similar groups, like EPCC in Edinburgh, have been around since the 90s). It was two years before the next group was founded at the University of Manchester, then four more groups (including my group in Southampton) were created in 2015. Growth has accelerated since this time. There are now RSE Groups at 20 research organizations across the UK, and we are receiving requests for help setting up new groups with increasing regularity.
+
+<img src="http://urssi.us/img/UK_RSGs.png" width=100%>
+
+Setting up an RSE Group is not easy. We recently [asked some of the leaders of the established groups to share their experiences](http://rse.ac.uk/resources/how-to-start-an-rse-group/). In summary, if you want to set up an RSE group, it's advisable to find a friendly senior academic, prepare a business case that shows both the need for software and the route to recovering costs, include a training program, and promote a collaborative, community-building philosophy.
+
+Yet, we can't relax! There is still no career path for the majority of RSEs who exist within research groups rather than in central RSE Groups. But now that RSE Groups provide a new and attractive home for RSEs, the hope is that market forces will force the more tardy research groups into providing better employment conditions. Saying that, there are always some in academia who possess a surprising ability to change a silver lining into a lead balloon. There have been some recent reports of universities questioning the need for embedded RSEs when a central RSE Groups exist. This overlooks the fact that a group of 4--20 RSEs cannot support the thousands of researchers at a typical university. Ultimately, while RSE Groups are part of the solution to providing software experts in academia, they are not the only solution.

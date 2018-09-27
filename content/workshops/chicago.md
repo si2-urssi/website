@@ -34,7 +34,7 @@ We welcome participation from anyone interested in issues and challenges facing 
 Our goal is to host up to 90 participants, a size that will allow for dynamic discussions in small breakout groups. 
 If you are keen to participate or have suggestions for us, please [fill out our form](http://urssi.us/suggest/) 
 as soon as possible. We will strive to accommodate as many participants as possible. We also have limited travel support 
-for the meeting and ask that you contact us before September 17th if you require support. We will notify everyone by September 21st.
+for the meeting and ask that you contact us before September 30th if you require support. We will notify everyone by October 2nd.
 
 Anyone interested in research software sustainability who would like to see specific topics covered in a community-driven 
 discussion can suggest them in [our discussion forum](http://discuss.urssi.us). 

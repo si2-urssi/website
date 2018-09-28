@@ -6,6 +6,7 @@ At URSSI we send out monthly newsletters to update the community on our activiti
 
 ### Newsletter archive
 
+- [September 2018](https://mailchi.mp/d93a797a23c2/urssi-september-2018-newsletter-342405?e=9fbd3ca24a)
 - [August 2018](https://mailchi.mp/7082e3e4e780/urssi-july-2018-newsletter-322665?e=9fbd3ca24a)
 - [July 2018](https://mailchi.mp/757753f0ab73/urssi-july-2018-newsletter)
 - [June 2018](https://mailchi.mp/a196adfad82a/urssi-june-2018-newsletter)

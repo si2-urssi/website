@@ -48,7 +48,7 @@ Tuesday, October 23, 2018
 |13:30-15:00|Lightning Talks|
 |15:00-15:30|Coffee Break|
 |15:30-17:00|Interactive sessions/breakouts|
-|17:00-20:00| Reception at [Kimpton Hotel Allegro]{https://www.google.com/maps/place/Kimpton+Hotel+Allegro/@41.8843279,-87.633355,15z/data=!4m7!3m6!1s0x0:0xc8e1dba9ea6e1732!5m1!1s2018-10-28!8m2!3d41.8843279!4d-87.633355]|
+|17:00-20:00| Reception at [Kimpton Hotel Allegro](https://www.google.com/maps/place/Kimpton+Hotel+Allegro/@41.8843279,-87.633355,15z/data=!4m7!3m6!1s0x0:0xc8e1dba9ea6e1732!5m1!1s2018-10-28!8m2!3d41.8843279!4d-87.633355)|
 
 
 

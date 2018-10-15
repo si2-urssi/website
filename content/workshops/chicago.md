@@ -30,12 +30,38 @@ We want to come out of this workshop with:
 - Thoughts on institute roles - what could an institute do to address the topics?
 - Thoughts on institute organization - how could an institute be organized to do this?
 
-We welcome participation from anyone interested in issues and challenges facing research software sustainability. 
-Our goal is to host up to 90 participants, a size that will allow for dynamic discussions in small breakout groups. 
-If you are keen to participate or have suggestions for us, please [fill out our form](http://urssi.us/suggest/) 
-as soon as possible. We will strive to accommodate as many participants as possible. We also have limited travel support 
-for the meeting and ask that you contact us before September 30th if you require support. We will notify everyone by October 2nd.
+We welcome participation from anyone interested in issues and challenges facing research software sustainability. Specific topics can be suggested in [GitHub](https://github.com/si2-urssi/chicago_workshop/issues). 
 
-Anyone interested in research software sustainability who would like to see specific topics covered in a community-driven 
-discussion can suggest them in [our discussion forum](http://discuss.urssi.us). 
+Please find below the preliminary agenda
+
+Tuesday, October 23, 2018
+|Time|Session|Speakers|
+|-----|--------|-----------|
+|8:30-9:00am|Arrival|
+|9:00-9:15|Introduction and overview of URSSI|Karthik Ram and Dan Katz|
+|9:15-10:00|URSSI: Mission and Vision, Survey, Ethnography, Outreach and Engagement|
+|10:00-10:30|Three invited talks|
+|10:30-11:00|Coffee break|
+|11:00-12:30|Interactive sessions/breakouts|
+|12:30-13:30|Lunch|
+|13:30-15:00|Lightning Talks|
+|15:00-15:30|Coffee Break|
+|15:30-17:00|Interactive sessions/breakouts|
+|17:00-20:00| Reception at [Kimpton Hotel Allegro]{https://www.google.com/maps/place/Kimpton+Hotel+Allegro/@41.8843279,-87.633355,15z/data=!4m7!3m6!1s0x0:0xc8e1dba9ea6e1732!5m1!1s2018-10-28!8m2!3d41.8843279!4d-87.633355]|
+
+
+
+Wednesday, October 24, 2018
+|Time|Session|Speakers|
+|-----|--------|-----------|
+|8:30-9:00am|Arrival|
+|9:00-9:15|Recap from first day|
+|9:15-10:00|URSSI: Strawhorse|
+|10:00-10:30|Lightning talks|
+|10:30-11:00|Coffee break|
+|11:00-12:30|Interactive sessions/breakouts|
+|12:30-13:30|Lunch|
+|13:30-15:00|Interactive sessions/breakouts|
+|15:00-15:30|Adjourn|
+
 

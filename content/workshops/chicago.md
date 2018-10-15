@@ -35,6 +35,7 @@ We welcome participation from anyone interested in issues and challenges facing 
 Please find below the preliminary agenda
 
 Tuesday, October 23, 2018
+
 |Time|Session|Speakers|
 |-----|--------|-----------|
 |8:30-9:00am|Arrival|
@@ -52,6 +53,7 @@ Tuesday, October 23, 2018
 
 
 Wednesday, October 24, 2018
+
 |Time|Session|Speakers|
 |-----|--------|-----------|
 |8:30-9:00am|Arrival|

@@ -48,7 +48,7 @@ Tuesday, October 23, 2018
 |13:30-15:00|Lightning Talks|
 |15:00-15:30|Coffee Break|
 |15:30-17:00|Interactive sessions/breakouts|
-|17:00-20:00| Reception at [Kimpton Hotel Allegro](https://www.google.com/maps/place/Kimpton+Hotel+Allegro/@41.8843279,-87.633355,15z/data=!4m7!3m6!1s0x0:0xc8e1dba9ea6e1732!5m1!1s2018-10-28!8m2!3d41.8843279!4d-87.633355)|
+|17:00-20:00| Reception at [Kimpton Hotel Allegro](https://www.google.com/maps/dir/Illini+Center,+South+Wacker+Drive,+Chicago,+IL/Kimpton+Hotel+Allegro,+171+W+Randolph+St,+Chicago,+IL+60601/@41.8818387,-87.6374657,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x880e2cbf6ac71899:0xe2fe46c158ac85cb!2m2!1d-87.637199!2d41.879211!1m5!1m1!1s0x880e2cb9f5d96ca9:0xc8e1dba9ea6e1732!2m2!1d-87.633355!2d41.8843279!3e2)|
 
 
 

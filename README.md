@@ -10,7 +10,7 @@ This is a static site based on Hugo. To preview additions and changes on your lo
 |:--|:--|:--|
 | Create a blog post | `hugo new blog/<title_of_post>.md`  | Then edit the front matter and content of `/content/blog/<title_of_post.md>` in your editor.  |
 | Adding a standard page | `hugo new /<title_of_page>.md` | Then edit the front matter and content of `/content/<title_of_page.md>` in your editor.   |
-| Adding a workshop page | `hugo new workshop/<title_of_page>.md` | Then edit the front matter and content of `/content/workshop/<title_of_page.md>` in your editor.  |
+| Adding a workshop page | `hugo new workshops/<title_of_page>.md` | Then edit the front matter and content of `/content/workshop/<title_of_page.md>` in your editor.  |
 
 You can also add content without Hugo (but you wont be able to preview the site) by copying any markdown file and changing the slug/date/author. 
 

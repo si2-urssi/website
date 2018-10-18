@@ -1,5 +1,5 @@
 ---
-title: "Workshop on software metrics, credit and citation"
+title: "Workshop on software metrics, credit and citation, January 2019"
 date: 2018-10-17T07:37:53-07:00
 author: "Karthik Ram"
 ---

@@ -40,8 +40,8 @@ Tuesday, October 23, 2018
 |-----|--------|-----------|
 |8:30-9:00am|Arrival|
 |9:00-9:15|Introduction and overview of URSSI|Karthik Ram and Dan Katz|
-|9:15-10:00|URSSI: Mission and Vision, Survey, Ethnography, Outreach and Engagement|
-|10:00-10:30|Three invited talks|
+|9:15-9:50|URSSI: Mission and Vision, Survey, Ethnography, Outreach and Engagement|
+|9:50-10:30|Four invited talks|Lorraine Hwang, Tanu Malik, Henry Neeman and Rick Johnson|
 |10:30-11:00|Coffee break|
 |11:00-12:30|Interactive sessions/breakouts|
 |12:30-13:30|Lunch|

@@ -40,13 +40,13 @@ Tuesday, October 23, 2018
 |-----|--------|-----------|
 |8:30-9:00am|Arrival|
 |9:00-9:15|Introduction and overview of URSSI|Karthik Ram and Dan Katz|
-|9:15-9:50|URSSI: Mission and Vision, Survey, Ethnography|
-|9:50-10:30|Four invited talks|Lorraine Hwang, Tanu Malik, Henry Neeman and Rick Johnson|
+|9:15-9:30|URSSI: Mission and Vision|
+|9:30-10:30|Four invited talks|Lorraine Hwang, Tanu Malik, Henry Neeman and Rick Johnson|
 |10:30-11:00|Coffee break|
 |11:00-12:30|Interactive sessions/breakouts|
 |12:30-13:30|Lunch|
 |13:30-14:30|Lightning Talks|
-|14:30-15:00|URSSI: Outreach and Engagement
+|14:30-15:00|URSSI: Survey, Ethnography, Outreach and Engagement
 |15:00-15:30|Coffee Break|
 |15:30-17:00|Interactive sessions/breakouts|
 |17:00-20:00| Reception at [Kimpton Hotel Allegro](https://www.google.com/maps/dir/Illini+Center,+South+Wacker+Drive,+Chicago,+IL/Kimpton+Hotel+Allegro,+171+W+Randolph+St,+Chicago,+IL+60601/@41.8818387,-87.6374657,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x880e2cbf6ac71899:0xe2fe46c158ac85cb!2m2!1d-87.637199!2d41.879211!1m5!1m1!1s0x880e2cb9f5d96ca9:0xc8e1dba9ea6e1732!2m2!1d-87.633355!2d41.8843279!3e2)|

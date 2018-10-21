@@ -9,7 +9,7 @@ author: "Sandra Gesing"
 
 ![smaller](https://i.imgur.com/XxItviv.jpg)
 
-We are excited to announce the second workshop in the URSSI conceptualization which will take place October 23 and 24 in [Chicago, IL](https://illinicenter.illinois.edu/). 
+We are excited to announce the second workshop in the URSSI conceptualization which will take place October 23 and 24 at the [Illini Center in Chicago, IL](https://illinicenter.illinois.edu/). 
 Similar to our [first workshop in Berkeley](http://urssi.us/workshops/berkeley/), the event will be mostly participant driven. In addition to a few keynotes and 
 lightning talks, the agenda will mostly be open discussions around topics suggested by participants prior to and during the meeting. 
 

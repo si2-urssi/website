@@ -58,13 +58,13 @@ Wednesday, October 24, 2018
 |Time|Session|Speakers|
 |-----|--------|-----------|
 |8:30-9:00am|Arrival|
-|9:00-9:15|Recap from first day|
-|9:15-10:00|URSSI: Strawhorse|
-|10:00-10:30|Lightning talks| Asif Imran
+|9:00-9:15|Recap from first day| Sandra Gesing |
+|9:15-10:30|URSSI: Strawhorse|Dan Katz|
 |10:30-11:00|Coffee break|
-|11:00-12:30|Interactive sessions/breakouts|
+|11:00-11:15|Lighnting talks| Asif Imran
+|11:15-12:30|Interactive sessions/breakouts|
 |12:30-13:30|Lunch|
 |13:30-15:00|Interactive sessions/breakouts|
-|15:00-15:30|Adjourn|
+|15:00-15:30|Adjourn and closing remarks| Karthik Ram
 
 

@@ -42,9 +42,9 @@ Tuesday, October 23, 2018
 |9:00-9:15|Introduction and overview of URSSI|Karthik Ram and Dan Katz|
 |9:15-9:30|URSSI: Survey, Ethnography, Outreach and Engagement| Jeff Carver, Nic Weber and Sandra Gesing
 |9:30-10:30|Four invited talks|Lorraine Hwang, Tanu Malik, Henry Neeman and Rick Johnson|
-|10:30-11:00|Coffee break|
-|11:00-12:30|Interactive sessions/breakouts|
-|12:30-13:30|Lunch|
+|10:30-10:45|Coffee break|
+|10:45-12:00|Interactive sessions/breakouts|
+|12:00-13:30|Lunch|
 |13:30-14:30|Lightning Talks| Juliane Schneider, Tuan Do, Matthew Krafczyk, Rinku Gupta, Holly Bik, Dan Scholler, Sudhakar Pamidighantam, Sandra Gesing
 |14:30-15:00|URSSI: Mission and Vision| Nic Weber
 |15:00-15:30|Coffee Break|
@@ -60,10 +60,10 @@ Wednesday, October 24, 2018
 |8:30-9:00am|Arrival|
 |9:00-9:15|Recap from first day| Sandra Gesing |
 |9:15-10:30|URSSI: Strawhorse|Dan Katz|
-|10:30-11:00|Coffee break|
-|11:00-11:15|Lighnting talks| Asif Imran
-|11:15-12:30|Interactive sessions/breakouts|
-|12:30-13:30|Lunch|
+|10:30-10:45|Coffee break|
+|10:45-11:00|Lighnting talks| Asif Imran
+|11:00-12:00|Interactive sessions/breakouts|
+|12:00-13:30|Lunch|
 |13:30-15:00|Interactive sessions/breakouts|
 |15:00-15:30|Adjourn and closing remarks| Karthik Ram
 

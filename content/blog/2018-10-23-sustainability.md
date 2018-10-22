@@ -2,7 +2,7 @@
 title: "Fundamentals of Software Sustainability"
 date: 2018-10-24T08:53:12-05:00
 author: "Daniel S. Katz (University of Illinois Urbana-Champaign)"
-draft: "True"
+draft: true
 ---
 
 (reposted from [Daniel S. Katz's blog](https://danielskatzblog.wordpress.com/2018/09/26/fundamentals-of-software-sustainability/)

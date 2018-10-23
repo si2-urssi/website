@@ -7,9 +7,9 @@ author: "Daniel S. Katz (University of Illinois Urbana-Champaign)"
 (reposted from [Daniel S. Katz's blog](https://danielskatzblog.wordpress.com/2018/09/26/fundamentals-of-software-sustainability/)
 
 
-This blog post is intended as companion text for a talk I gave at the September 2018 NumFOCUS Project Forum in in New York, though I also hope it stands on its own.
+This blog post is intended as companion text for [a talk I gave](https://www.slideshare.net/danielskatz/fundamentals-of-software-sustainability) at the September 2018 NumFOCUS Project Forum in in New York, though I also hope it stands on its own.
 
-To address software sustainability, it is important first to understand how the term sustainability is used more generally.  It’s most often used in the context of ecology, often specifically in the relationship between humans and the planet. An example of this is from Karl-Henrik Robèrt,  who has said (paraphrased and via Wikipedia) that while natural processes are cyclical, we (humans) process resources linearly. We  consume resources, and convert them in part into waste. This waste doesn’t find its way back into natural cycles; it’s not reused or reassimilated. Robèrt called for life-styles and forms of societal organization based on cyclic processes compatible with the Earth’s natural cycles. I think the key element of this is that sustainability means using cyclic processes that do not use up resources.
+To address software sustainability, it is important first to understand how the term sustainability is used more generally.  It’s most often used in the context of ecology, often specifically in the relationship between humans and the planet. An example of this is from Karl-Henrik Robèrt,  who has said (paraphrased and via [Wikipedia](https://en.wikipedia.org/wiki/Karl-Henrik_Robèrt)) that while natural processes are cyclical, we (humans) process resources linearly. We  consume resources, and convert them in part into waste. This waste doesn’t find its way back into natural cycles; it’s not reused or reassimilated. Robèrt called for life-styles and forms of societal organization based on cyclic processes compatible with the Earth’s natural cycles. I think the key element of this is that sustainability means using cyclic processes that do not use up resources.
 
 ## Software sustainability for whom?
 
@@ -25,7 +25,7 @@ Developers have two different things that they often mean when discussing softwa
 
 ## Software Collapse
 
-Konrad Hinsen has coined the term “software collapse” to describe the fact that software stops working eventually if is not actively maintained. This is one reason sustainability is important. He says that software stacks used in computational science have a nearly universal multi-layer structure:
+Konrad Hinsen has [coined the term “software collapse”](http://blog.khinsen.net/posts/2017/01/13/sustainable-software-and-reproducible-research-dealing-with-software-collapse/) to describe the fact that software stops working eventually if is not actively maintained. This is one reason sustainability is important. He says that software stacks used in computational science have a nearly universal multi-layer structure:
 
 * Project-specific software: whatever it takes to do a computation using software building blocks from the lower three levels: scripts, workflows, computational notebooks, small special-purpose libraries and utilities
 * Discipline-specific research software: tools and libraries that implement models and methods which are developed and used by research communities
@@ -34,7 +34,7 @@ Konrad Hinsen has coined the term “software collapse” to describe the fact t
 
 where software in each layer builds on and depends on software in all layers below it, and any changes in any lower layer can cause it to collapse. NumFOCUS’s projects generally work in the middle two layers.
 
-Hinsen goes on to say that merely addressing project-specific software (the top layer) isn’t enough to solve software collapse; the lower layers are still likely to change. And the options he suggests (and I’ve named) are similar to those available to house owners facing the risk of earthquakes:
+Hinsen [goes on to say](http://blog.khinsen.net/posts/2017/01/13/sustainable-software-and-reproducible-research-dealing-with-software-collapse/) that merely addressing project-specific software (the top layer) isn’t enough to solve software collapse; the lower layers are still likely to change. And the options he suggests (and I’ve named) are similar to those available to house owners facing the risk of earthquakes:
 
 * Teardown – treat your home as having minimal value, subject to collapse at any time, and in case of collapse, start from scratch
 * Repair – whenever shaking foundations cause damage, do repair work before more serious collapse happens
@@ -49,27 +49,27 @@ Users want to make good product (software) choices that pay off in discoveries. 
 
 ## Software sustainability and economics
 
-Elinor Ostrom (in Governing the Commons) defined sustainability for a common-pool resource (CPR) as, “as long as the average rate of withdrawal does not exceed the average rate of replenishment, a renewable resource is sustained over time.” This has the notion of sustainability as a cyclic property, though the period of the cycle not specified. It also is general with respect to exactly what resource the common-pool resource is.
+Elinor Ostrom (in [Governing the Commons](https://www.amazon.com/Governing-Commons-Evolution-Institutions-Collective/dp/0521405998)) defined sustainability for a common-pool resource (CPR) as, “as long as the average rate of withdrawal does not exceed the average rate of replenishment, a renewable resource is sustained over time.” This has the notion of sustainability as a cyclic property, though the period of the cycle not specified. It also is general with respect to exactly what resource the common-pool resource is.
 
-Titus Brown proposed “the common pool resource in open online projects is effort.” This idea, of sustainability of effort, may be appropriate for the developer. For it to happen, for effort to be available, there needs to be a link to recognition, reward, and position for developers. For users and funders, sustainability of effort may make less sense, and sustainability of software may be appropriate.  But software is not a renewable resource, so this doesn’t quite fit this model, and how to make it fit is unclear. Sustainability of funding may be appropriate for the manager, as well as for the developer.
+Titus Brown [proposed](http://ivory.idyll.org/blog/2018-oss-framework-cpr.html) “the common pool resource in open online projects is effort.” This idea, of sustainability of effort, may be appropriate for the developer. For it to happen, for effort to be available, there needs to be a link to recognition, reward, and position for developers. For users and funders, sustainability of effort may make less sense, and sustainability of software may be appropriate.  But software is not a renewable resource, so this doesn’t quite fit this model, and how to make it fit is unclear. Sustainability of funding may be appropriate for the manager, as well as for the developer.
 
 ## Software sustainability “equations”
 
 If we put all of this together, we can hypothesize four “equations” of software sustainability, where equations is used very loosely.  The first is:
 
-<center>Software sustainability ≡ sufficient ∆ software state   (1)</center>
+<center><bold>Software sustainability ≡ sufficient ∆ software state   (1)</bold></center>
 
 where sufficient means enough to deal with the issues we’ve previously discussed, such as software collapse, bugs, and the new features that are needed.  Next is:
 
-<center>∆ software state = (human effort in – human effort out – friction) * efficiency   (2)</center>
+<center><bold>∆ software state = (human effort in – human effort out – friction) * efficiency   (2)</bold></center>
 
 This means that software stops being sustained when human effort out > human effort in over some time.  Third is:
 
-<center>Human effort ⇆ $   (3)</center>
+<center><bold>Human effort ⇆ $   (3)</bold></center>
 
-The idea that human effort is equivalent to (transferable to and from) money is not completely correct, but has some value. (This idea is explored in great detail by David Graeber in Debt: The First 5,000 Years.)  There are successful software projects that are mostly based on human effort, such as community open source.  There are also successful software projects that are all based on funds, transferred in salary, such as commercial software and grant-funded projects.  When these two types of resource are combined, they lead to tension, such as when some some people are paid to work on a project and others work as volunteers, in part because humans are not purely rational and do not completely accept that money and effort are equivalent.  The fourth “equation” is:
+The idea that human effort is equivalent to (transferable to and from) money is not completely correct, but has some value. (This idea is explored in great detail by David Graeber in [Debt: The First 5,000 Years](https://www.amazon.com/Debt-Updated-Expanded-First-Years/dp/1612194192/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=HFFH3E80EGJSWVQM6F2P).)  There are successful software projects that are mostly based on human effort, such as community open source.  There are also successful software projects that are all based on funds, transferred in salary, such as commercial software and grant-funded projects.  When these two types of resource are combined, they lead to tension, such as when some some people are paid to work on a project and others work as volunteers, in part because humans are not purely rational and do not completely accept that money and effort are equivalent.  The fourth “equation” is:
 
-<center>∆ software state → users choose to volunteer effort or $   (4)</center>
+<center><bold>∆ software state → users choose to volunteer effort or $   (4)</bold></center>
 
 Development choices might take this into account, and prioritize changes that will lead to more resources over those that lead to more users.
 
@@ -85,7 +85,7 @@ Software sustainability means different things to different groups of people, in
 
 ### Acknowledgements
 
-My thinking, and some of the definitions here, are due, in addition to the links in the text above, to discussions with Neil Chue Hong and other leaders and members of the UK SSI, discussions at various WSSSPE workshops, a keynote by James Howison at RSE2018, discussions with Rob Haines and Caroline Jay at U. Manchester, and feedback from Matt Turk, James Howison, and Dan Sholler.  In addition, some material pertinent to the above is:
+My thinking, and some of the definitions here, are due, in addition to the links in the text above, to discussions with Neil Chue Hong and other leaders and members of the UK SSI, discussions at various [WSSSPE](http://wssspe.researchcomputing.org.uk/) workshops, a keynote by James Howison at [RSE2018](https://rse.ac.uk/conf2018/), discussions with Rob Haines and Caroline Jay at U. Manchester, and feedback from Matt Turk, James Howison, and Dan Sholler.  In addition, some material pertinent to the above is:
 
 * D. S. Katz, “Scientific Software Challenges and Community Responses,” 2015. https://www.slideshare.net/danielskatz/scientific-software-challenges-and-community-responses
 * C. C. Venters, C. Jay, L. Lau, M. K. Griffiths, V. Holmes, R. R. Ward, J. Austin, C. E. Dibsdale, J. Xu, “Software Sustainability: The Modern Tower of Babel,” Proceedings of Third International Workshop on Requirements Engineering for Sustainable Systems (RE4SuSy 2014), Karlskrona, Sweden. http://ceur-ws.org/Vol-1216/paper2.pdf

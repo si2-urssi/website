@@ -61,7 +61,7 @@ Wednesday, October 24, 2018
 |9:00-9:15|Recap from first day| Sandra Gesing |
 |9:15-10:30|URSSI: Strawhorse|Dan Katz|
 |10:30-10:45|Coffee break|
-|10:45-11:00|Lighnting talks| Asif Imran, Julian Pistorius, Sandra Gesing
+|10:45-11:00|Lighnting talks| Asif Imran, Julian Pistorius, Birgit Sipocz, Sandra Gesing
 |11:00-12:00|Interactive sessions/breakouts|
 |12:00-13:30|Lunch|
 |13:30-15:00|Interactive sessions/breakouts|

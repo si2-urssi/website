@@ -45,7 +45,7 @@ Tuesday, October 23, 2018
 |10:30-10:45|Coffee break|
 |10:45-12:00|Interactive sessions/breakouts|
 |12:00-13:30|Lunch|
-|13:30-14:30|Lightning Talks| Juliane Schneider, Tuan Do, Matthew Krafczyk, Rinku Gupta, Holly Bik, Dan Scholler, Sudhakar Pamidighantam, Sandra Gesing
+|13:30-14:30|Lightning Talks| Juliane Schneider, Tuan Do, Matthew Krafczyk, Rinku Gupta, Holly Bik, Dan Scholler, Sudhakar Pamidighantam
 |14:30-15:00|URSSI: Mission and Vision| Nic Weber
 |15:00-15:30|Coffee Break|
 |15:30-17:00|Interactive sessions/breakouts|
@@ -61,7 +61,7 @@ Wednesday, October 24, 2018
 |9:00-9:15|Recap from first day| Sandra Gesing |
 |9:15-10:30|URSSI: Strawhorse|Dan Katz|
 |10:30-10:45|Coffee break|
-|10:45-11:00|Lighnting talks| Asif Imran, Julian Pistorius
+|10:45-11:00|Lighnting talks| Asif Imran, Julian Pistorius, Sandra Gesing
 |11:00-12:00|Interactive sessions/breakouts|
 |12:00-13:30|Lunch|
 |13:30-15:00|Interactive sessions/breakouts|

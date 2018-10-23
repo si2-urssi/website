@@ -57,19 +57,19 @@ Titus Brown [proposed](http://ivory.idyll.org/blog/2018-oss-framework-cpr.html) 
 
 If we put all of this together, we can hypothesize four “equations” of software sustainability, where equations is used very loosely.  The first is:
 
-<center><bold>Software sustainability ≡ sufficient ∆ software state   (1)</bold></center>
+<center>**Software sustainability ≡ sufficient ∆ software state   (1)**</center>
 
 where sufficient means enough to deal with the issues we’ve previously discussed, such as software collapse, bugs, and the new features that are needed.  Next is:
 
-<center><bold>∆ software state = (human effort in – human effort out – friction) * efficiency   (2)</bold></center>
+<center>**∆ software state = (human effort in – human effort out – friction) * efficiency   (2)**</center>
 
 This means that software stops being sustained when human effort out > human effort in over some time.  Third is:
 
-<center><bold>Human effort ⇆ $   (3)</bold></center>
+<center>**Human effort ⇆ $   (3)**</center>
 
 The idea that human effort is equivalent to (transferable to and from) money is not completely correct, but has some value. (This idea is explored in great detail by David Graeber in [Debt: The First 5,000 Years](https://www.amazon.com/Debt-Updated-Expanded-First-Years/dp/1612194192/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=HFFH3E80EGJSWVQM6F2P).)  There are successful software projects that are mostly based on human effort, such as community open source.  There are also successful software projects that are all based on funds, transferred in salary, such as commercial software and grant-funded projects.  When these two types of resource are combined, they lead to tension, such as when some some people are paid to work on a project and others work as volunteers, in part because humans are not purely rational and do not completely accept that money and effort are equivalent.  The fourth “equation” is:
 
-<center><bold>∆ software state → users choose to volunteer effort or $   (4)</bold></center>
+<center>**∆ software state → users choose to volunteer effort or $   (4)**</center>
 
 Development choices might take this into account, and prioritize changes that will lead to more resources over those that lead to more users.
 

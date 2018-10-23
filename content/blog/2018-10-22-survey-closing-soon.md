@@ -1,7 +1,7 @@
 ---
 title: "Survey on sustainable research software ending soon"
 date: 2018-10-22T16:31:10-05:00
-
+author: "Karthik Ram"
 ---
 
 # Last chance to take our survey on sustainable development of research software 

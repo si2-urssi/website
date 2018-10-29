@@ -4,7 +4,7 @@
         <h2 class="raleway light font42 dark_gray">{{ .Title }}</h2>
         <div class="float_left max_width770 block_left">
             <div class="  padding_bottom30">
-                {{ .Params.author | default .Site.Params.author }}, <i>{{ .Date.Format "January 2, 2006"}}</i><br>
+                {{ .Params.author | default .Site.Params.author }}<br> <i>{{ .Date.Format "January 2, 2006"}}</i><br>
             </div>
             {{ .Content }}
         </div>

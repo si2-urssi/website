@@ -5,7 +5,7 @@
         <div class="float_left max_width770 block_left">
             <div class="padding_sides30 padding_top30 radius10">
                 <div class="content">
-                    <h1>{{ title .Data.Term  }}</h1> {{ range first 25 .Pages }} {{ if eq .Type "blog"}}
+                    <h1>{{ title .Data.Term  }}</h1> {{ range .Pages }} {{ if eq .Type "blog"}}
                     <p>
                         <!-- <aside>{{ .Date.Format "January 2, 2006"}}</aside> -->
                         <a href="{{ .Permalink }}" style="color:black;"><h2>{{ .Title }} </h2><br> <b>{{ .Params.author | default .Site.Params.author }}</b> • <i>{{ .Date.Format "January 2, 2006"}}</i></a>{{ if .Draft }} <span style="color:#FF4136;">(unpublished)</span>{{ end }}

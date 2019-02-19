@@ -1,6 +1,6 @@
 ---
 title: "Software Incubator Workshop: A Synthesis"
-date: 2019-02-17T17:44:32-06:00
+date: 2019-02-19T17:44:32-06:00
 author: "Sebastian P. Benthall"
 ---
 
@@ -12,8 +12,7 @@ This was the question we explored at a Community Workshop for the conceptualizat
 
 This model is meant as a loose schematic; not all projects go through all stages. It also does not cover the entire diversity of ways open software projects can exist. Rather, this model is tailored to scientific software in particular as it emerges from one scientific lab into an open project supported by its users.
 
-
-[IMAGE GOES HERE]
+![Four stages of open scientific research software.](/img/URSSI-Incubator-Open-Stages.png)
 
 At Stage 0, there is some software code and user of it. But there is no sustained team working on the code over time.
 
@@ -55,6 +54,6 @@ One way to address this resource scarcity is for an NSF incubator to leverage it
 
 We acknowledged, but did not discuss in depth, a different path for sustainability for research software: proprietary commercialization. The NSF supports this already through NSF I-Corps supports this. 
 
-[IMAGE GOES HERE]
+![A path to proprietary commercialization.](/img/URSSI-Incubator-Proprietary.png)
 
 Implicit in our discussion was the tension that science is an open process, but that science depends on technology for progress. Technology is often sustained in an industrial context. Research software, which is both technology and a way of expressing scientific ideas, challenges traditional models of “technology transfer” as a way of bringing scientific results into wider use. Our work conceptualizing an URSSI Incubator outlined one path that research software could take towards open and community-driven sustainability.

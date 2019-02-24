@@ -6,7 +6,7 @@ author: "Sebastian P. Benthall"
 
 *Thanks for comments from: Dan Katz, Suresh Marru, Abby Cabunoc Mayes, Micaela S. Parker, Danielle Robinson, and Nic Weber.*
 
-Research software is software created by scholarly researchers. Often researchers produce code that is ‘open’, in alignment with scientific norms. But this code and the research it supports is not always “sustainable”, because it does not have a viable community of developers and users working with it in an ongoing way. For open source software in general, there are several detailed, existing taxonomies of successful open source community models, including the[ Apache Project Maturity Model](http://community.apache.org/apache-way/apache-project-maturity-model.html) and Mozilla’s [Open Source Archetypes](https://blog.mozilla.org/wp-content/uploads/2018/05/MZOTS_OS_Archetypes_report_ext_scr.pdf). Are there specific patterns of open community challenges and growth for research software that an incubator could address?
+Research software is software created by scholarly researchers. Often researchers produce source code that is ‘open’, in alignment with scientific norms. But this code and the research it supports is not always “sustainable”, because it does not have a viable community of developers and users working with it in an ongoing way. For open source software in general, there are several detailed, existing taxonomies of successful open source community models, including the[ Apache Project Maturity Model](http://community.apache.org/apache-way/apache-project-maturity-model.html) and Mozilla’s [Open Source Archetypes](https://blog.mozilla.org/wp-content/uploads/2018/05/MZOTS_OS_Archetypes_report_ext_scr.pdf). Are there specific patterns of open community challenges and growth for research software that an incubator could address?
 
 This was the question we explored at a Community Workshop for the conceptualization of a US Research Software Sustainability Institute (URSSI). Aspirationally, URSSI would be funded by the National Science Foundation. The focus of this workshop was on the possibility of an Incubator associated with URSSI, an incubator imagined as an institution that assists research software that is not yet sustainable to become sustainable. In our workshop meeting, representatives of several different open community incubators, including those dedicated to research software and open communities more generally, presented their approaches. The following model was synthesized from those cases. It characterizes several stages of a project as it grows from initial software source code to a sustainable open community. 
 
@@ -14,9 +14,9 @@ This model is meant as a loose schematic; not all projects go through all stages
 
 ![Four stages of open scientific research software.](/img/URSSI-Incubator-Open-Stages.png)
 
-At Stage 0, there is some software code and user of it. But there is no sustained team working on the code over time.
+At Stage 0, there is some software code and at least one user of it. But there is no sustained team working on the code over time.
 
-At Stage 1, a financially sustained team has formed around the software. Perhaps this is a single lab funded by grants. Attaining Stage 1 requires software engineering skills for the team to coordinate effectively.
+At Stage 1, a financially sustained team has formed around the software. Perhaps this is a single lab or group funded by grants. Attaining Stage 1 requires software engineering skills for the team to coordinate effectively.
 
 At Stage 2, development on the same software is distributed to multiple institutional homes. This encourages practices of openness and collaborative software engineering. Each institution funds its contributions separately, for example from grants or university funds. Governance can be informal, but the multiple teams must discover each other and be willing to collaborate in order to achieve this stage.
 
@@ -44,15 +44,15 @@ This raises the question: which stages should a URSSI incubator be focused on?  
 
 ## How an incubator could work
 
-Graduating a project from one Stage to another is not trivial. Each stage requires different resources and expertise. An NSF funded incubator could help research software along the path by first credentialing project based on the stage that they have attained, and then offering mentorship or workshops to give teams the necessary skills to advance to the next stage.
+Graduating a project from one Stage to another is not trivial. Each stage requires different resources and expertise. An NSF-funded incubator could help research software along the path by first credentialing projects based on the stage that they have attained, and then offering mentorship or workshops to give teams the necessary skills to advance to the next stage.
 
 Successful sustainability is not guaranteed for every scientific research software project. Realistically, most projects fail. This raises the important question of which projects an Incubator would invest in, and how it would decide between them, given limited resources.
 
-One way to address this resource scarcity is for an NSF incubator to leverage its NSF affiliation as a source of incentives. NSF proposals already evaluate applications based on “broader impact” and “intellectual merit”. What if contributions to research software were considered for their broader impact and intellectual merit? What if the amount of impact and merit of these contributions depended on the stage of the software project? For example, a contribution to a project at Stage 2 (which is used by multiple institutions) could be considered to have more impact and merit than a project at Stage 1. An URSSI Incubator could support research software by adjusting the incentives around its development. By credentialing projects as having achieved certain Stages and changing the criteria for grant acceptance to take these stages into account, that would orient scientific research communities towards greater cooperation on software.
+One way to address this resource scarcity is for an NSF incubator to leverage its NSF affiliation as a source of incentives. NSF proposals already evaluate applications based on “broader impact” and “intellectual merit”. What if contributions to research software were considered for their broader impact and intellectual merit? What if the amount of impact and merit of these contributions depended on the stage of the software project? For example, a contribution to a project at Stage 2 (which is used by multiple institutions) could be considered to have more impact and merit than a project at Stage 1. An URSSI Incubator could support research software by advocating for changing the incentives around its development. By credentialing projects as having achieved certain Stages and suggesting changes to the criteria for grant acceptance to take these stages into account, that would orient scientific research communities towards greater cooperation on software.
 
 ## What about the commercial option?
 
-We acknowledged, but did not discuss in depth, a different path for sustainability for research software: proprietary commercialization. The NSF supports this already through NSF I-Corps supports this. 
+We acknowledged, but did not discuss in depth, a different path for sustainability for research software: proprietary commercialization. The NSF supports this already through NSF [I-Corps](https://www.nsf.gov/news/special_reports/i-corps/) supports this. 
 
 ![A path to proprietary commercialization.](/img/URSSI-Incubator-Proprietary.png)
 

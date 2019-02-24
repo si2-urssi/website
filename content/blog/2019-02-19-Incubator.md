@@ -1,6 +1,6 @@
 ---
 title: "Software Incubator Workshop: A Synthesis"
-date: 2019-02-19T17:44:32-06:00
+date: 2019-02-25T17:44:32-06:00
 author: "Sebastian P. Benthall"
 ---
 

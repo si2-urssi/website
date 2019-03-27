@@ -4,6 +4,11 @@ date: 2019-03-24T15:17:22-07:00
 author: "Karthik Ram"
 ---
 
+**Summary:** 
+
+One of the biggest obstacles to making research software sustainable is ensuring appropriate credit and recognition for researchers who develop and maintain such software. We convened 16 experts over two days to identify core issues around software credit and propose concrete steps that a software institute might take to solve them. We identified six core issues directly related to credit (career paths, individual impact, disincentives in the academic credit model, quality versus impact, recognition of software value, lack of funding) and two broader challenges (lack of funding for maintenance and lack of awareness of best practices). Using a strategy development exercise we brainstormed these topics in small groups and came up with lists of short and long term actions for an institute to tackle.
+
+---
 
 The mission of the URSSI conceptualization is to understand the challenges that researchers face regarding sustainable research software and to design a potential institute that would address these challenges. One particular challenge identified in our first workshop was the lack of consensus on credit for research software. There is a need to gain a deeper understanding of the concept of credit for research software and how, as a community, we could define and measure impact. To explore this topic in greater detail we conducted a [topic focused workshop](https://github.com/si2-urssi/software-credit#software-metrics-credit-and-citation-workshop) on software metrics and credit at the [National Center for Ecological Analysis and Synthesis (NCEAS)](https://www.nceas.ucsb.edu/) in Santa Barbara on January 23-24, 2019.  We invited [19 experts](https://github.com/si2-urssi/software-credit#confirmed-participants) to participate in a series of discussions and deliver short presentations on their organization's efforts in this space. Below is a summary of our discussions from the two days.
 

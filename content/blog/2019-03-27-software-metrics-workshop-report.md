@@ -75,23 +75,23 @@ In the last half-day of the workshop, the group tried to follow the methodology 
 First, the attendees, working with the overall challenge of making research software more sustainable, determined a set of eight challenges, six of which are related to credit: 
 
 
-**1.	Career paths aren't well established**
+1.	Career paths aren't well established
 
-**2.	It's hard to measure the impact of individuals**
+2.	It's hard to measure the impact of individuals
 
-**3.	The academic credit model disincentivizes individual contributions to public goods / infrastructure**
+3.	The academic credit model disincentivizes individual contributions to public goods / infrastructure
 
-**4.	[Disentangle | We conflate] quality and impact of software**
+4.	[Disentangle | We conflate] quality and impact of software
 
-**5.	There is a lack of recognition of the value and importance of software**
+5.	There is a lack of recognition of the value and importance of software
 
-**6.	There is a lack of [funding opportunities | stable funding] for maintenance of software that is important but doesn't have a generic market**
+6.	There is a lack of [funding opportunities | stable funding] for maintenance of software that is important but doesn't have a generic market
 
-**And two of which are not:**
+And two of which are not:
 
-**7.	"Lumpy" project funding means that maintenance/sustainability can't be reliably folded into project costs**
+7.	"Lumpy" project funding means that maintenance/sustainability can't be reliably folded into project costs
 
-**8.	There's a lack of awareness of best practices for developing and maintaining research software**
+8.	There's a lack of awareness of best practices for developing and maintaining research software
 
 While discussing these challenges, the group also stated a belief that discoverability and credit are inherently linked. Software with very high credit is going to be more discoverable, but a lot of research software doesn't get high credit. If the software does not receive high credit, and is not discoverable, then people cannot use it. As a result, rather than using existing software, researcher develop new software. Furthermore, how people choose which software to use is not well understood, which has been studied by [Hucka & Graham](https://arxiv.org/abs/1605.02265). 
 

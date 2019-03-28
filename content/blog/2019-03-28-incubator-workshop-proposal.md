@@ -2,7 +2,6 @@
 title: "Report from URSSI workshop on research software incubators"
 date: 2019-03-28T10:00:22-07:00
 author: "Nic Weber"
-published: false
 ---
 
 ## Summary 

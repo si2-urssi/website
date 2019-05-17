@@ -14,6 +14,9 @@ The survey had seven sections: Development Practices, Tools, Training, funding, 
 
 We received 1194 complete or partial responses to the survey. In order to help us understand the population, we asked each respondent to characterize their relationship with research software as either a *Researcher (pure user)*, a *Developer (pure software developer)*, or a *Combination (both user and developer)*. Most respondents were either *Researchers* or *Combination*, with slightly more *Combination*. The figures below show two key characteristics of the respondents. A large majority are employed by educational institutions and are in faculty positions.
 
+![Employment](/img/Survey-Org.png)
+![Job Title](/img/Survey-Job.png)
+
 **Development Practices**
 
 We first examine which aspects of the software development process consume the respondents' time. We find that there is a discrepancy between where people currently spend their time (Figure 3) and where they would like to spend their time (Figure 4): respondents would like to spend more time coding, more time in design and less time testing and debugging.

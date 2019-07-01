@@ -24,9 +24,30 @@
 <!-- <script src="js/custom.js" type="text/javascript"></script> -->
 
 <!-- Fonts and Material Icons -->
-	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons"/>
-	</head>
-<body class="slides noPreload animated">
+	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Nunito:100,300,400,500,600,800|Nunito:300|Nunito:600|Material+Icons"/>
+	<style type="text/css">
+				.slides,
+			.slides p {
+				font-family: 'Nunito', sans-serif;
+				font-weight: 300;
+			}
+					.slides h1,
+			.slides h2,
+			.slides h3,
+			.slides h4,
+			.slides h5,
+			.slides h6 {
+				font-family: 'Nunito', sans-serif;
+				font-weight: 300;
+			}
+					.slides .button,
+			.slides .slides-form {
+				font-family: 'Nunito', sans-serif;
+				font-weight: 600;
+			}
+		</style>
+</head>
+<body class="slides animated">
 		
 <!-- SVG Library -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -109,25 +130,76 @@
   </div>
 </nav>
 
-<!-- Slide 1 (#11) -->
+<!-- Slide 1 (#50) -->
 <section class="slide fade-6 kenBurns">
   <div class="content">
     <div class="container">
       <div class="wrap">
-      
-        <div class="fix-9-12">
-          <h1 class="ae-1">Announcing a URSSI Winter School in Research Software Engineering.</h1>
-          <h3>December 13-16, 2019 • Seattle, WA</h3>
-          <p class="ae-2"><span class="opacity-8">As part of the URSSI institute planning, we are planning a pilot 2-day workshop on research software engineering skills. Topics include, x, y, and z. We have travel support for most attendees although space is limited. Sign up below to be notified when the program in announced</span></p>
-          <a class="button blue gradient ae-5 fromCenter" href="/winterschool/notify.html">Sign up to be notified</a>
-
-
+              <div class="fix-10-12">
+          <h1 class="ae-1 margin-bottom-2">Announcing a URSSI Winter School in Research Software Engineering</h1>
+          <h3 class="ae-1 margin-bottom-2">December 17-19, 2019 • Seattle, WA</h3>
+          <div class="ae-2"><p class="hero opacity-8">As part of the URSSI institute planning, we are planning a pilot 2.5-day workshop on research software engineering skills. This is aimed at early-career researchers, like graduate students and postdocs, who are familiar with the basics such as the Unix shell, version control with Git, and Python programming, but would like to learn more about best-practices for developing research software.</p></div>
+          <div class="button blue gradient cropBottom popupTrigger margin-top-2 ae-3 fromCenter" data-popup-id="71-1"><a href="/winterschool/notify.html">Sign up to be notified</a></div>
         </div>
-      
+        <div class="fix-11-12 left">
+        <ul class="grid later margin-top-4">
+            <li class="col-4-12 left ae-3">
+              <div class="fix-3-12 toLeft">
+                <h3 class="ae-4">Topics Include</h3>
+                <div class="ae-5"><p class="tiny opacity-8">
+        <span class="opacity-8"><ol>
+          <li>Collaborative software developmeng via GitHub</li>
+           <li>Software testing in Python</li>
+           <li>Peer code review</li>
+           <li>Packaging and distributing Python software</li>
+           <li>Software design and modularity</li>
+          </ol></span> 
+
+                </p></div>
+              </div>
+            </li>
+            <li class="col-4-12 left ae-4">
+              <div class="fix-3-12 toLeft">
+                <h3 class="ae-5">Travel Support</h3>
+                <div class="ae-6"><p class="tiny opacity-8">We have travel support for most attendees although space is limited. Sign up below to be notified when the program in announced.</p></div>
+              </div>
+            </li>
+            <li class="col-4-12 left ae-5">
+              <div class="fix-3-12 toLeft">
+                <h3 class="ae-6">Applications opening soon</h3>
+                <div class="ae-7"><p class="tiny opacity-8">Sign up above to be notified or watch for updates on this page.</p></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/background/img-11.jpg)"></div>
+  <div class="background" style="background-image:url(assets/img/background/img-50.jpg)"></div>
 </section>
+
+
+
+<!-- Popup Video -->
+<div class="popup autoplay" data-popup-id="71-1">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-10-12">
+          <div class="embedVideo popupContent">
+            <iframe src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Loading Progress Bar -->
+<div class="progress-bar blue"></div>
+		
 </body>
 </html>

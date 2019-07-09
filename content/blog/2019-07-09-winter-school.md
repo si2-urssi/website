@@ -18,7 +18,7 @@ This 2.5 day, hands-on workshop will expose participants to a series of topics n
 
 
 *   **Software design and modularity**
-*   **Collaborative Software Development via GitHub**
+*   **Collaborative software development via GitHub**
 *   **Software testing in Python**
 *   **Peer code review**
 *   **Packaging and distributing Python software**

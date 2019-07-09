@@ -1,5 +1,5 @@
 ---
-title: "Applications Now Open for the Urssi Winter School in Research Software Engineering"
+title: "Applications Now Open for the URSSI Winter School in Research Software Engineering"
 date: 2019-07-09T14:13:01-07:00
 author: "Kyle Niemeyer, Jeffrey Carver, Karthik Ram"
 ---

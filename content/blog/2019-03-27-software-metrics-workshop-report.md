@@ -38,7 +38,7 @@ What should a software sustainability institute focus on with respect to softwar
 
 
 
-The institute could work towards helping scientists get to the next stage from simply sharing scripts. This could take the form of training and support to develop vetted, published software packages that follow community centric best practices.  The institute could also help create metrics that would be useful for tenure committees. Software is making its way to[tenure letters](https://cos.io/blog/are-reproducibility-and-open-science-starting-matter-tenure-and-promotion-review/) and URSSI could play a  role in placing research software in the right context for evaluation. 
+The institute could work towards helping scientists get to the next stage from simply sharing scripts. This could take the form of training and support to develop vetted, published software packages that follow community centric best practices.  The institute could also help create metrics that would be useful for tenure committees. Software is making its way to [tenure letters](https://cos.io/blog/are-reproducibility-and-open-science-starting-matter-tenure-and-promotion-review/) and URSSI could play a  role in placing research software in the right context for evaluation. 
 
 
 

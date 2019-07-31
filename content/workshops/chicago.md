@@ -13,6 +13,8 @@ We are excited to announce the second workshop in the URSSI conceptualization wh
 Similar to our [first workshop in Berkeley](http://urssi.us/workshops/berkeley/), the event will be mostly participant driven. In addition to a few keynotes and 
 lightning talks, the agenda will mostly be open discussions around topics suggested by participants prior to and during the meeting. 
 
+We've <a href="http://urssi.us/blog/2019/04/04/urssi-chicago-workshop-report/">summarized this workshop in a blog post.</a>
+
 In this workshop, we want to:
 
 - Help attendees meet each other and understand their goals

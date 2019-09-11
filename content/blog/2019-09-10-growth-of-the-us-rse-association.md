@@ -31,7 +31,7 @@ formed a [steering committee](https://us-rse.org/steering-committee/), created a
 everything from social media to an official code of conduct.  We now have an active slack channel and a twitter account, 
 [@us_rse](https://twitter.com/us_rse). And we recently ran an event at PEARC19, and have a couple of upcoming events at SC19 (see below).
 
-<img src="US-RSE-Membership-August2019.png" alt="drawing" width="800"/>
+<img src="https://raw.githubusercontent.com/si2-urssi/website/master/static/img/US-RSE-Membership-August2019.png" alt="drawing" width="800"/>
 
 **Goals of the US-RSE**
 

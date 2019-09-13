@@ -17,8 +17,8 @@ maintainers to openly state that they should no longer be used. So how is an par
 and attract contributors? Basically, it takes work. It is not sufficient for a piece of computational science and 
 engineering (CSE) software to be used in high-quality papers by the developers - though that certainly helps gain 
 recognition. The code needs to be of high enough quality, capability and generality to both have value to others, and be 
-trustworthy. This if often work above and beyond what is needed by an individual developer or development team. Do the 
-developers recognize this need? Do the do the extra work? Sometimes they do, but often they do not.
+trustworthy. This is often work above and beyond what is needed by an individual developer or development team. Do the 
+developers recognize this need? Do they do the extra work? Sometimes they do, but often they do not.
 
 Code quality and the level of effort required to understand someone else’s code is one of the oft-stated reasons for 
 preferring to reinvent rather than reuse existing software. But we must acknowledge that many in the CSE and technical 
@@ -27,10 +27,10 @@ software projects that originated elsewhere. Depending on the circumstances, man
 support this bias.
 
 If a code does manage to gain recognition and interest from the broader community, then next question is who are these 
-people? The majority are like to be users of the software. As such, they’re like to report issues with the code and 
+people? The majority are likely to be users of the software. As such, they’re likely to report issues with the code and 
 “suggest” enhancements (often much less politely than that), which can be viewed as a “cost” of opening up a code. How 
 many of these users are likely to have the skills, experience, and willingness to actually contribute to addressing those 
-costs? Typically, much less likely. And when such people step forward, the development team needs to be ready to provide 
+costs? Typically, that's much less likely. And when such people step forward, the development team needs to be ready to provide 
 a welcoming and supportive environment to encourage their on-going contribution. Once again, the core developers need to 
 be ready to incorporate contributions that may not be completely aligned with the goals of the core development team, from 
 contributors who may not be that familiar with team’s preferred development practices, etc. Unfortunately, it is not 
@@ -81,7 +81,7 @@ If it is to be meaningful, it needs to be maintained and supported. Especially i
 projects need to have strategies to ensure that they can continue to support contributions that they accept. Ultimately, 
 this can lead to friction in the contribution process: if the code team is not confident that the contributor will be 
 able to maintain their contribution in the long term, they may be reluctant to accept it, especially more complex or 
-larger contributions, and those that may be further from the knowledge and experience of the core maintainers. In LLVM, 
+larger contributions, and those that may be further from the knowledge and experience of the core maintainers. In LLVM, for example
 there are a reasonably broad community of interest and knowledge in OpenMP, less so for OpenACC, and Fortran is very much 
 a CSE-specific niche.
 
@@ -97,7 +97,7 @@ I would argue that the situation needs to change. While companies often commit s
 projects for extended periods, with an appropriate business case to justify it, research funding is ephemeral, coming 
 and going in cycles of 3-5 years, and sometimes more quickly. It is hard for research-funded contributors to make strong 
 commitments to the maintenance and support of their contributions, regardless of the strength of the “business case” for 
-it – the level of important to others who might be funded by the same program or agency, much less its broader impact. 
+it – the level of importance to others who might be funded by the same program or agency, much less its broader impact. 
 The DOE is not there yet, though there is an opportunity for things to change. A subcommittee of the Advanced Scientific 
 Computing Advisory Committee (ASCAC) has been charged to report on “Transitioning From the Exascale Project”, providing 
 advice on how to sustain investments made in the ECP project.
@@ -126,3 +126,5 @@ today. Further discussions are needed with funding agencies about the business c
 
 (This blog post is taken from a 
 [a white paper for the 2019 Collegeville Workshop on Sustainable Scientific Software (CW3S19)](https://collegeville.github.io/CW3S19/WorkshopResources/WhitePapers/bernholdt-open-source-v02.pdf).)
+
+*The opinions expressed in this blog post are solely those of the author.*

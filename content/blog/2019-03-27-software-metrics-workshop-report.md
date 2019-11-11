@@ -132,7 +132,7 @@ While the detailed results follow, the important points that came out of this ac
 
 - Still, URSSI will have to be careful in determining what it chooses to do, and in particular, will have to consider how these activities, meant to support credit, can work together with other non-credit-related activities.
 
-- These activities can be done by URSSI staff with varying skills: many are related to data collection and analysis, some are related to policy, and some are related to software. In addition, some of the tasks might be done by fellows or by volunteers from the community. Determining which actions need to be done by URSSI directly vs partially funded by URSSI vs coordinate by URSSI will be a challenge.
+- These activities can be done by URSSI staff with varying skills: many are related to data collection and analysis, some are related to policy, and some are related to software. In addition, some of the tasks might be done by fellows or by volunteers from the community. Determining which actions need to be done by URSSI directly vs partially funded by URSSI vs coordinated by URSSI will be a challenge.
 
 **Challenge 1: Career paths in research software are not well established.** In other words, they are [idiosyncratic](http://managingcenters.net/wp-content/uploads/2018/05/Berente-et-al-2017-professionalization.pdf) ([also](http://managingcenters.net/wp-content/uploads/2018/10/Alexandria-RCN-Report-final.pdf)) often ad-hoc or absent in academia, while very present in industry, which leads to a flow of people from academia to industry and national laboratories.
 

@@ -1,18 +1,14 @@
 ---
 title: "FAIR Software at the 2019 eScience Symposium"
 date: 2019-12-09
-author: "Ben van Werkhoven"
+author: "Ben van Werkhoven (Netherlands eScience Center, NL-RSE),
+James Meakin (Radboud UMC, NL-RSE),
+Anna-Lena Lamprecht (Utrecht University),
+Stephan Druskat (DLR, Humboldt Universität zu Berlin),
+Pablo Rodriguez-Sanchez (Netherlands eScience Center)"
 ---
 
 (reposted from the [Netherlands eScience Center blog](https://blog.esciencecenter.nl/fair-software-at-the-2019-escience-symposium-6117f310aa34))
-
-Written by
-
-* Ben van Werkhoven (Netherlands eScience Center, NL-RSE)
-* James Meakin (Radboud UMC, NL-RSE)
-* Anna-Lena Lamprecht (Utrecht University)
-* Stephan Druskat (DLR, Humboldt Universität zu Berlin)
-* Pablo Rodriguez-Sanchez (Netherlands eScience Center)
 
 <img
 src="https://www.software.ac.uk/sites/default/files/FAIR%20software.jpg"

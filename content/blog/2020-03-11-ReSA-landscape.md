@@ -30,9 +30,11 @@ The taskforce then met to consider the results and how to analyze them. The [ReS
 
 
 Some of the issues we've had in assembling this list are:
+
 * How much interest in software does an organization need to have to be listed?
 * When is an organization sufficiently research focused to be included?
 * What momentum/scale does an organization need to have so that we consider it relevant in the global picture? 
+
 On the other hand, once we started adding entries to the list, for many we found that we immediately thought of other similar organizations that should be added. For example, some organizations have a geographic aspect, and this led us to think of other similar organizations with different geographic aspects, such as all the national and regional RSE associations.
 
 

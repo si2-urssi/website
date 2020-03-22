@@ -94,13 +94,7 @@ changelog that records contributions from members. This changelog is different
 from the version control history in that it is more visible to provide credit
 and more focused on significant contributions to make it worthwhile to read.
 
-<img src="http://urssi.us/img/2018-06-22-blog-US-RSE-survey-2017/image1.png" width=100%>
-A publicly available changelog disseminates important new features,
-and attributes credit to community contributors. This is a portion of a [changelog](https://aspect.geodynamics.org/doc/doxygen/changes_current.html) for
-the ASPECT project (Advanced Solver for Problems in Earth's Convection) that is
-updated automatically, whenever new changes are merged into the code.
-
-<img src='https://github.com/betterscientificsoftware/images/raw/master/gassmoeller-blog-changelog.png' class='page lightbox' />[A publicly available changelog disseminates important new features,
+<img src='https://github.com/betterscientificsoftware/images/raw/master/gassmoeller-blog-changelog.png' class='page lightbox' width=100%/>[A publicly available changelog disseminates important new features,
 and attributes credit to community contributors. This is a portion of a [changelog](https://aspect.geodynamics.org/doc/doxygen/changes_current.html) for
 the ASPECT project (Advanced Solver for Problems in Earth's Convection) that is
 updated automatically, whenever new changes are merged into the code.]

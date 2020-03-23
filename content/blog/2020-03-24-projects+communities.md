@@ -1,6 +1,6 @@
 ---
 title: "Scientific Software Projects and Their Communities"
-date: 2020-03-23
+date: 2020-03-24
 author: "Rene Gassmoeller"
 ---
 
@@ -94,10 +94,11 @@ changelog that records contributions from members. This changelog is different
 from the version control history in that it is more visible to provide credit
 and more focused on significant contributions to make it worthwhile to read.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/gassmoeller-blog-changelog.png' class='page lightbox' width=100%/>[A publicly available changelog disseminates important new features,
+<img src='https://github.com/betterscientificsoftware/images/raw/master/gassmoeller-blog-changelog.png' class='page lightbox' width=100%/>
+Figure: A publicly available changelog disseminates important new features,
 and attributes credit to community contributors. This is a portion of a [changelog](https://aspect.geodynamics.org/doc/doxygen/changes_current.html) for
 the ASPECT project (Advanced Solver for Problems in Earth's Convection) that is
-updated automatically, whenever new changes are merged into the code.]
+updated automatically, whenever new changes are merged into the code.
 
 Another strategy I encountered and encourage is official recognition, whether as a
 developer/author on the project’s website or inside the repository, or as a

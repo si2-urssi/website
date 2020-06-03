@@ -4,7 +4,7 @@ date: 2020-03-11
 author: "Daniel S. Katz, Michelle Barker, Paula Andrea Martinez, Hartwig Anzt, Alejandra Gonzalez-Beltran, and Tom Bakker"
 ---
 
-(This post is cross-posted on the [SSI blog](https://www.software.ac.uk/blog) and the [Netherlands eScience Center blog](https://blog.esciencecenter.nl).)
+(This post is cross-posted on the [SSI blog](https://www.software.ac.uk/blog) and the [Netherlands eScience Center blog](https://blog.esciencecenter.nl), and is archived as https://doi.org/10.5281/zenodo.3699949)
 
 ReSA’s mission is to bring research software communities together to collaborate on the advancement of research software. Its vision is to have research software recognized and valued as a fundamental and vital component of research worldwide. Given our mission, there are multiple reasons that it's important for us to understand the landscape of communities that are involved with software, in aspects such as preservation, citation, career paths, productivity, and sustainability. One of these reasons is that ReSA seeks to be a link between these communities, which requires identifying and understanding them. We want to be sure that there aren't significant community organizations that we don't know about to involve in our work. Also, identifying where there are gaps will help us create the opportunities and communities of practices as required.
 

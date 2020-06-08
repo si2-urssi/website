@@ -5,7 +5,7 @@ author: "Michelle Barker, Daniel S. Katz, Alejandra Gonzalez-Beltran"
 ---
 
 
-(This post is cross-posted on the [SSI blog](https://www.software.ac.uk/blog) and the [Netherlands eScience Center blog](https://blog.esciencecenter.nl), and is archived as [https://doi.org/10.5281/zenodo.xxxxx](https://doi.org/10.5281/zenodo.3873832))
+(This post is cross-posted on the [SSI blog](https://www.software.ac.uk/blog) and the [Netherlands eScience Center blog](https://blog.esciencecenter.nl), and is archived as [https://doi.org/10.5281/zenodo.3873832](https://doi.org/10.5281/zenodo.3873832))
 
 This blog analyses work evidencing the importance of research software to research outcomes, to enable the research software community to find useful evidence to share with key influencers. This analysis considers papers relating to meta-research, policy, community, education and training, research breakthroughs and specific software.
 

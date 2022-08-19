@@ -14,6 +14,7 @@ Modern research is inescapably digital, with data and publications most often cr
 - Kyle Niemeyer, Research Software School Lead
 - Nicolas Weber, EAGER PI
 - Daniel S. Katz, Policy Lead
+- Caroline Jay, Steering commmittee member
 
 For more on the previously funded NSF project, please visit the <a href="http://urssi.us/about-si2/">Si2 conceptualization about page</a>
 

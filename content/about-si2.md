@@ -1,5 +1,5 @@
 ---
-title: "About URSSI"
+title: "About the Si2 Conceptualization"
 date: 2018-03-04T12:12:24-08:00
 ---
 

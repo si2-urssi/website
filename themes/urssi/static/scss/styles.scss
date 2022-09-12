@@ -1,0 +1,55 @@
+/*
+	Please, compile this file to /css/styles.css (or /css/styles.min.css);
+	You can change the variables in the _custom-variables.scss file;
+	All additional classes, styles, etc. can be found in the _custom.scss file;
+	All other imports are copy-pasted from the bootstrap.scss file. You can comment imports that you don't use to make compiled CSS file weight less.
+*/
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "custom-variables"; // ADDED - Our custom variables (re-writes the default Bootstrap's values)
+@import "variables";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
+
+@import "custom"; // ADDED - Our custom classes, utilities, styles, etc.
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack

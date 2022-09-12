@@ -1,10 +1,11 @@
 ---
 title: "Newsletters"
-date: 2018-07-04T12:12:24-08:00
+date: 2022-09-07
 ---
 At URSSI we send out newsletters about every two months to update the community on our activities. You can <a href="https://urssi.us17.list-manage.com/subscribe/post?u=34c9c3bb4d54665136bd03e49&id=f55b22de1d">sign up</a> to receive this in your inbox or peruse the archive below
 
-### Newsletter archive
+
+### Newsletter Archive
 
 - [September 2019](https://mailchi.mp/9ff12a24ee11/urssi-september-2019-newsletter)
 - [June 2019](https://mailchi.mp/6b96af5214b2/urssi-june-2019-newsletter)

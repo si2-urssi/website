@@ -1,169 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>US Research Software Sustainability Institute</title>
+		<link rel="icon" href="i/logo-dark@2x.png">
+		<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
+		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
+		<link href="{{.Site.BaseURL}}css/styles.min.css" rel="stylesheet" />
+		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+		<!-- Open graph settings (social networks sharing settings) -->
+		<!-- Open graph settings end -->
+	</head> 
+	<body>
 
-<head>
-    <meta charset="utf-8">
-    <title>US Research Software Sustainability Institute</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" />
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon">
-<link rel="icon" href="/favicon.ico?v=2" type="image/x-icon">
-<!--     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script> -->
-</head>
+<!-- Navigation -->
+{{ partial "navbar.html" . }}
 
-<body>
-    <nav class="navigation_17 padding_top30 padding_bottom30 line_height40">
-        <div class="container nopadding">
-            <div class="white font20 line_height40 float_left logo"><img src="/img/small_logo.png"></div>
-            <div class="float_right">
-                <a href="/about" class="link white sides20">About</a>
-                <a href="https://codeforscience.org/jobs/community-manager-us-research-software-sustainability-institute/" class="link white sides20">Jobs</a>
-                <a href="/blog" class="link white sides20">Blog</a>
-                <a href="/workshops" class="link white sides20">Workshops</a>
-                <!-- <a href="/resources" class="link white sides20">Blog</a> -->
-                <a href="https://discuss.urssi.us" class="link white sides20">Discuss</a>
-            </div>
-        </div>
-    </nav>
-
-
-
-
-    <a class="open_menu white"><i class="fa fa-bars"></i></a>
-    <div class="navigation_mobile type1">
-        <a class="close_menu white"><i class="fa fa-close"></i></a>
-         <div class="padding_sides40 padding_top60 padding_bottom60 inner">
-            <div class="nav_logo white bottom30"><img src="/img/small_logo.png"></div>
-            <div><a href="/" class="raleway font22 link white bottom20">Home</a></div>
-            <div><a href="/about" class="font16 link white opacity3 bottom15">About Us</a></div>
-            <div><a href="/workshops" class="font16 link white opacity3 bottom15">Workshops</a></div>
-            <div><a href="/blog" class="font16 link white opacity3 bottom15">Blog</a></div>
-            <div class="socials top40">
-                <a href="https://twitter.com/si2urssi" target="_blank" class="link white font18 right20"><i class="fa fa-twitter"></i></a>
-                <a href="https://github.com/si2-urssi" target="_blank" class="link white font18 right20"><i class="fa fa-github"></i></a>
-            </div>
-            <div class="top50 font14 light white opacity3 copy"> 2017 URSSI. CC BY.</div>
-        </div> 
-    </div>
-    <header class="header_8 padding_bottom180">
-        <div class="container nopadding">
-            <img srcset="/img/small_logo.png" src="/img/small_logo.png" class="margin_auto top230 logo" alt="" />
-            <!-- <div class="text_center white font20 top20"><span class="semibold"><img src="/img/small_logo.png"></span></div> -->
-            <h1 class="text_center white raleway semibold font72 top90">Developing a pathway to research software sustainability</h1>
-            <div class="text_center top210 block_with_button">
-            </div>
-        </div>
-    </header>
-    <!-- C1 -->
-    <section class="content_10 padding_top90 padding_bottom80">
-        <div class="container nopadding">
-            <div class="max_width370 left30 font28 raleway light dark_blue float_right right_block">
-                Research software is critical to supporting science. Between 1998-2016, the NSF made more than 18k awards totaling $9.6 billion related to research software.
-            </div>
-            <div class="max_width600 left100 text_left font18 dark_blue light hyphens left_block">
-                Modern research is digital: data & publications are created, analyzed, and stored electronically using tools and methods expressed in software. Much software is developed specifically for research, by researchers. This research software is essential to progress in almost all research fields, but it’s often not developed in an efficient or sustainable way, and knowledge is often locked away in individual laboratories or only shared via method papers that cannot directly be used by others. Researchers who develop software know their disciplines, but often don’t have training and understanding of best practices to ease development & maintainability and to encourage sustainability & reproducibility. And, developers don’t match the diversity of overall society or of user communities.
-            </div>
-        </div>
-    </section>
-    <!-- C2 -->
-    <section class="content_3 padding_top100 padding_bottom100">
-        <div class="container nopadding max_width970">
-            
-            <h2 class="raleway light font42 text_center">S2I2 Conceptualization: URSSI: Conceptualizing a US Research Software Sustainability Institute</h2>
-            <div class="top80 inner">
-                <div class="col-sm-6 font18 dark_blue light bottom30">
-                    We have been funded by the NSF as “S2I2 Conceptualization: URSSI: Conceptualizing a US Research Software Sustainability Institute.” We proposed that the long-term goals of an institute should include:
-                    <ul>
-                        <li>Help research software projects grow, become sustainable, and develop a governance model</li>
-                        <li>Provide developers with good practices</li>
-                        <li>Track software impact and usage, which are difficult to measure and interpret</li>
-                        <li>Help grantees of major funders communicate and share resources with each other</li>
-                        <li>Give the public a better understanding of science</li>
-                        <li>Bring more diversity into the field</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 font18 dark_blue light">
-                    In our conceptualization project, we want to:
-                    <ul>
-                        <li>Conceptualize (plan) a US Research Software Sustainability Institute that goes beyond resources like GitHub</li>
-                        <li>Cut across existing activities funded by NSF and beyond</li>
-                        <li>Directly and indirectly positively impact all software development and maintenance projects across all of NSF</li>
-                        <li>Focus on the entire research software ecosystem, including the people who create, maintain, and use research software</li>
-                        <ul>
-
-                    
+	<!-- Header 1 -->
+		<header class="py-20 bg-bg-3">
+			<div class="container">
+				<div class="row align-items-center flex-md-row-reverse">
+					<div class="col-md-6">
+						<img src="i/main.png" alt="" class="w-100" srcset="i/main.png 2x">			
+					</div>
+					<div class="col-md-6 mt-8 mt-md-0">
+						<h1 class="display-3 mb-6">
+									US Research Software Sustainability Institute
+						</h1>
+<p class="mb-8 fs-1 text-dark-1">
+    URSSI's mission is to improve the
+    <b>
+        recognition
+    </b>
+    ,
+    <b>
+        development,
+    </b>
+    and
+    <b>
+        use
+    </b>
+    , of software for a more sustainable research enterprise.
+</p>
+						<a href="{{.Site.BaseURL}}about" class="btn btn-action-1">
+									Learn more about our mission and vision
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
 
 
 
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- C3 -->
-    <section class="feature_22 padding_top50 padding_bottom100">
-        <div class="container nopadding">
-            <img srcset="img/feature_22_img.png 1x, img/feature_22_img_2x.png 2x" src="img/feature_22_img.png" class="float_left max_width_full top20 bg" alt="" />
-            <div class="left500 inner">
-                <h2 class="font42 raleway light dark_gray hyphens">URSSI Activities</h2>
-                <div class="top30 max_width570  font22 light dark_blue text">
-                    This project is conceptualizing a US Research Software Sustainability Institute that will validate and address various classes of concerns impacting all software development and maintenance projects across all of NSF. URSSI conceptualization includes workshops and a widely-distributed survey that will engage important stakeholder communities to learn about the software they produce and use, and the ways they contemplate sustaining it, following the paths blazed by other successful software institutes. The workshops, survey, and community management approach allow the conceptualization project to iteratively build on existing, extensive understanding of the challenges for sustainable software and its developers. The project also addresses how URSSI could formalize, diversify, and improve the pipeline under which students enter universities, learn about and contribute to software, then graduate to full-time positions where they make use of their software skills, to increase the diversity of those entering research software development and to retain diversity over their university careers.
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Two blog posts and a community call -->
 
 
+			<section class="py-10 py-lg-20 text-center text-md-start bg-bg-3">
+				<div class="container">
+					<div class="row justify-content-between mb-lg-20 mb-15">
+						<div class="mb-lg-0 mb-6 col-md-8 col-lg-7 col-xl-6 col-xxl-5">
+							<h2 class="display-5">
+										URSSI Updates
+							</h2>
+						</div>
+						<div class="col-md-8 col-lg-5">
+							<p class="fs-2 mb-0">
+										Keep up to date with URSSI's new activities
+							</p>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+
+						<!-- First blog post -->
+						{{ $p := where .Pages "Type" "blog" }}
+						{{ range first 1 $p }}
+						<div class="col-sm-8 col-md-4 mb-15 mb-md-0">
+							<img src="i/left710x480.png" alt="" class="img-fluid w-100 mb-6" srcset="i/left710x480-1662580726.png 2x">
+							<h4 class="mb-4">{{ .Title }}</h4>
+							{{ .Summary | replaceRE  "<p>" "<p class=\"b-0 fs-2 text-dark-1 aos-animate\">" | safeHTML }}
+							<a href="{{ .Permalink }}">→  More </a>
+						</div>
+						{{ end }}
+				
+						<!-- End first blog post -->
+
+						<!-- Second blog post -->
+						{{ $p := where .Pages "Type" "blog" }}
+						 {{ range first 1 (after 1 $p) }}
+						<div class="col-sm-8 col-md-4 mb-15 mb-md-0">
+							<img src="i/left2355x240.png" srcset="i/left2710x480.png 2x" alt="" class="img-fluid w-100 mb-6">
+							<h4 class="mb-4">{{ .Title }}</h4>
+							 {{ .Summary | replaceRE  "<p>" "<p class=\"b-0 fs-2 text-dark-1 aos-animate\">" | safeHTML }}
+							 	<a href="{{ .Permalink }}">→  More </a>
+						</div>
+						{{ end }}
+						<!-- End second blog post -->
+
+							<!-- Comm calls -->
+						<div class="col-sm-8 col-md-4 mb-15 mb-md-0">
+							<img src="i/feature-20-3.png" alt="" class="img-fluid w-100 mb-6" srcset="i/left3710x480.png 2x">
+							<h4 class="mb-4">Upcoming community calls and events </h4>
+							<p>Stay tuned for upcoming announcements on workshops, training events, conferences and more.</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
 
-    <!-- Mailing list -->
-    <section class="form_11 padding_bottom70">
-        <div class="container nopadding max_width970 text_center">
-            <div class="radius10 padding_top75 padding_bottom25 padding_sides10">
-                <h2 class="font42 raleway light dark_gray">Join the Mailing List</h2>
+			<!-- Core URSSI Projects -->
 
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://urssi.us17.list-manage.com/subscribe/post?u=34c9c3bb4d54665136bd03e49&amp;id=f55b22de1d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-    
-    <input type="email" value="" name="EMAIL" class="email"  id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_34c9c3bb4d54665136bd03e49_f55b22de1d" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-</div>
-    </div>
-</form>
-</div>
+				<section class="py-10 py-lg-20 text-center text-lg-start bg-bg-3">
+					<div class="container">
+						<div class="mb-10 mb-lg-15 row align-items-center justify-content-center justify-content-lg-between flex-lg-row-reverse">
+							<div class="mb-lg-0 mb-8 col-md-8 col-lg-5">
+								<img src="i/projects451x596.png" srcset="i/projects902x592.png 2x" alt="" class="img-fluid w-100 aos-animate">
+							</div>
+							<div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+								<img src="i/logo-blue.png" srcset="i/logo-dark@2x.png 2x" alt="" class="img-fluid mb-4 aos-animate">
+								<h2 class="display-6 mb-6 aos-animate">
+											Core URSSI Projects
+								</h2>
+								<p class="mb-0 fs-2 text-dark-1 aos-animate">
+											As we get started on the institue, we have launched a series of core projects to improve the sustaniability of research software and the people who produce it.
+								</p>
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="mb-10 col-12 aos-animate">
+								<div class="border-bottom border-bottom-dark-2 opacity-30">
+								</div>
+							</div>
+						{{ range .Pages }}
+						{{ if eq .Type "projects"}}
+							<div class="mb-10 mb-md-0 col-sm-8 col-md-4 aos-animate">
+								<h5 class="mb-4">{{ .Title }}</h5>
+								<p class="b-0 fs-2 text-dark-1 aos-animate">
+							 {{ .Summary | markdownify | replaceRE  "<p>" "<p class=\"b-0 fs-2 text-dark-1 aos-animate\">" | safeHTML }}</p>
+							<br> → <a href="{{ .Permalink }}">Learn More</a>
+							</div>
+							{{ end }}
+							{{ end }}
+						</div>
+					</div>
+				</section>
 
-            </div>
-        </div>
-    </section>
-    {{ partial "footer-menu.html" . }}
 
-    <script src="js/slick.min.js"></script>
-    <script src="js/aos.min.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
-    <!-- <script src="js/script.js"></script> -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-462421-7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!-- Testimonial -->
 
-  gtag('config', 'UA-462421-7');
-</script>
+<!-- { partial "testimonial.html" . } -->
 
-</body>
+
+<!-- Newsletter Sign up -->
+
+{{ partial "newsletter-signup.html" . }}
+
+<!-- Funders -->
+
+{{ partial "funders.html" . }}
+
+<!-- Footer  -->
+
+{{ partial "footer-menu.html" . }}
+
+<!-- Javascript -->
+
+{{ partial "js.html" . }}
+
+	</body>
 </html>

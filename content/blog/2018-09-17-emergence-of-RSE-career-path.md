@@ -12,7 +12,7 @@ RSE groups usually launch with a group of generalists --- good software engineer
 
 The first group to explicitly use this model was set up at UCL in 2012 (although similar groups, like EPCC in Edinburgh, have been around since the 90s). It was two years before the next group was founded at the University of Manchester, then four more groups (including my group in Southampton) were created in 2015. Growth has accelerated since this time. There are now RSE Groups at 20 research organizations across the UK, and we are receiving requests for help setting up new groups with increasing regularity.
 
-<img src="http://urssi.us/img/UK_RSGs.png" width=100%>
+<img src="https://urssi.us/img/UK_RSGs.png" width=100%>
 
 Setting up an RSE Group is not easy. We recently [asked some of the leaders of the established groups to share their experiences](http://rse.ac.uk/resources/how-to-start-an-rse-group/). In summary, if you want to set up an RSE group, it's advisable to find a friendly senior academic, prepare a business case that shows both the need for software and the route to recovering costs, include a training program, and promote a collaborative, community-building philosophy.
 

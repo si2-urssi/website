@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>Projects</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="i/logo-dark@2x.png">
+		<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
+		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
+		<link href="{{.Site.BaseURL}}css/styles.min.css" rel="stylesheet" />
+		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+		<!-- Open graph settings (social networks sharing settings) -->
+		<!-- Open graph settings end -->
+	</head> 
+	<body>
+
+<!-- Navigation 2 -->
+{{ partial "navbar.html" . }}
+
+	<!-- Call to action 12 -->
+		<section class="bg-bg-3 py-10 py-lg-20">
+			<div class="container">
+				<div class="row justify-content-lg-center p-xxl-1">
+					<div class="col-md-8 col-lg-6 col-xl-5">
+						<h2 class="display-5 mb-6">
+									{{ .Title }}
+						</h2>
+							</div>
+							<div class="col-lg-1">
+							</div>
+							<div class="mt-lg-0 mt-12 col-xl-4 col-lg-5 col-md-7 col-sm-10">
+								<div class="ps-12 position-relative">
+									<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24" class="position-absolute start-0 fill-action-1">
+										<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
+										</path>
+									</svg>
+									<h5 class="mb-2">
+												GitHub repositories
+									</h5>
+									<p class="mb-8">
+												<a href="{{ .Params.github }}">{{ .Params.github }}</a>
+									</p>
+									<p class="fs-3 mb-8">
+									</p>
+								</div>
+								<div class="ps-12 position-relative">
+									<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute start-0 fill-action-1">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 5C0.5 4.20435 0.81607 3.44129 1.37868 2.87868C1.94129 2.31607 2.70435 2 3.5 2H29.5C30.2956 2 31.0587 2.31607 31.6213 2.87868C32.1839 3.44129 32.5 4.20435 32.5 5V27C32.5 27.7956 32.1839 28.5587 31.6213 29.1213C31.0587 29.6839 30.2956 30 29.5 30H3.5C2.70435 30 1.94129 29.6839 1.37868 29.1213C0.81607 28.5587 0.5 27.7956 0.5 27L0.5 5ZM3.5 4C3.23478 4 2.98043 4.10536 2.79289 4.29289C2.60536 4.48043 2.5 4.73478 2.5 5V27C2.5 27.2652 2.60536 27.5196 2.79289 27.7071C2.98043 27.8946 3.23478 28 3.5 28H29.5C29.7652 28 30.0196 27.8946 30.2071 27.7071C30.3946 27.5196 30.5 27.2652 30.5 27V5C30.5 4.73478 30.3946 4.48043 30.2071 4.29289C30.0196 4.10536 29.7652 4 29.5 4H3.5Z">
+										</path>
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 30V2H12.5V30H10.5ZM20.5 30V2H22.5V30H20.5Z">
+										</path>
+									</svg>
+									<h5 class="mb-2">
+												Other resources
+									</h5>
+									<p class="mb-8">
+												<a href="{{ .Params.other }}">{{ .Params.other }}</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Blog 10 -->
+					<section class="bg-bg-3">
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-lg-10 col-xl-8 col-xxl-7">
+									<img src="https://designmodo.com/startup/app/smiles.php?icon=smile&amp;search=P2lkPTEzNTk2JmluRWRpdG9yPTE=&amp;path=L3N0YXJ0dXAvYXBwL3ByZXZpZXcucGhw&amp;e=NTk1NQ==" id="custom-id-mckmygkj" class="visually-hidden" style="opacity: 0.01;">
+									<h1 class="mb-4 mb-md-8 fs-1">
+												About the effort
+									</h1>
+							
+									{{ .Content | replaceRE   "<p class=\"mb-0 fs-1 text-dark-1 pb-xl-8 border-bottom border-0 border-1\">" "<p class=\"text-dark-1\">" | safeHTML }}
+											
+
+									<br><br><br>
+
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Blog 10 -->
+<!-- 
+Activate in the future
+# ---------------------
+						<section class="bg-bg-3 py-8">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-lg-10 col-xl-8 col-xxl-7">								
+										<h1 class="mb-4 mb-md-8 fs-1">
+													Relevant blog posts
+										</h1>
+										<p class="mb-0 fs-1 text-dark-1">
+													 Link to a blog post - Nic Weber &amp; Postdoc
+										</p>
+										<p class="mb-0 fs-3 fw-light text-dark-2">
+													September 20th, 2022
+										</p>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						 -->
+						<!-- Footer 1 -->
+{{ partial "footer-menu.html" . }}
+{{ partial "js.html" . }}
+
+	</body>
+</html>

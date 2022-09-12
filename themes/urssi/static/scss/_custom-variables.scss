@@ -1,0 +1,395 @@
+/*
+	Unfortunately, if we want to use some values from the _variables.scss, we should set them here too. 
+	
+	Otherwise, we'll catch an error that this variable is undefined. 
+	This is caused because this file included in bootstrap.scss BEFORE the _variables.scss - 
+	we MUST do that because of all the variables in the _variables.scss file has a !default statement. 
+	That means that since this variable was defined it can not be overwritten anymore. 
+	That's why we must put our variables before the default Bootstrap variables to overwrite them, 
+	instead of simply including this file after the _variables.scss. 
+	
+	Weird, right? :)
+	
+	For example, we assign these default variables here:
+	$white, $teal, $cyan, $font-size-base, $font-weight-bold (maybe some others after writing this comment)
+*/
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: null !default;
+// scss-docs-end gray-colors-map
+// fusv-enable
+
+// our custom variables
+$action-1:			#27282A !default;
+$action-2:			#27282A !default;
+$action-3:			#27282A !default;
+$action-4:			#D63384 !default;
+$action-5:			#DC3545 !default;
+$action-6:			#FD7E14 !default;
+$action-7:			#FFA722 !default;
+$action-8:			#8BD74E !default;
+
+$dark-1:		#27282A !default;
+$dark-2:			rgba(39, 40, 42, 0.7) !default;
+$dark-3:	rgba(39, 40, 42, 0.3) !default;
+
+$light-1:		#ffffff !default;
+$light-2:		rgba(255, 255, 255, 0.7) !default;
+$light-3:	rgba(255, 255, 255, 0.45) !default;
+
+$bg-1:			#000000 !default;
+$bg-2:			#F5F5F5 !default;
+$bg-3:			#ffffff !default;
+
+
+// scss-docs-start theme-color-variables
+$primary:       $action-1 !default;
+$secondary:     $dark-2 !default;
+$success:       $action-8 !default;
+$info:          $action-3 !default;
+$warning:       $action-7 !default;
+$danger:        $action-5 !default;
+$light:         $bg-2 !default;
+$dark:          $bg-1 !default;
+
+$white:    $light-1 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+$black:  $dark-1 !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start colors-map
+$colors: (
+  "blue":       $action-1,
+  "indigo":     $action-2,
+  "purple":     $action-3,
+  "pink":       $action-4,
+  "red":        $action-5,
+  "orange":     $action-6,
+  "yellow":     $action-7,
+  "green":      $action-8,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $light-2,
+  "gray-dark":  $dark-2
+) !default;
+// scss-docs-end colors-map
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "action-1":       $action-1,
+  "action-2":       $action-2,
+  "action-3":       $action-3,
+  "action-4":       $action-4,
+  "action-5":       $action-5,
+  "action-6":       $action-6,
+  "action-7":       $action-7,
+  "action-8":       $action-8,
+  
+  "dark-1":     $dark-1,
+  "dark-2":      $dark-2,
+  "dark-3": $dark-3,
+  "light-1":     $light-1,
+  "light-2":     $light-2,
+  "light-3":$light-3,
+  
+  "bg-1":       $bg-1,
+  "bg-2":       $bg-2,
+  "bg-3":       $bg-3,
+  
+  "": #f5f7f7,
+
+) !default;
+// scss-docs-end theme-colors-map
+
+// The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
+// See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
+$min-contrast-ratio:   3 !default;
+
+// Customize the light and dark text colors for use in our color contrast function.
+$color-contrast-dark:      $dark-1 !default;
+$color-contrast-light:     $light-1 !default;
+
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer * 0.75,
+  4: $spacer,
+  5: $spacer * 1.25,
+  6: $spacer * 1.5,
+  7: $spacer * 1.75,
+  8: $spacer * 2,
+  9: $spacer * 2.25,
+  10: $spacer * 2.5,
+  11: $spacer * 2.75,
+  12: $spacer * 3,
+  13: $spacer * 3.25,
+  14: $spacer * 3.5,
+  15: $spacer * 3.75,
+  16: $spacer * 4,
+  17: $spacer * 4.25,
+  18: $spacer * 4.5,
+  19: $spacer * 4.75,
+  20: $spacer * 5,
+) !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   $bg-3 !default;
+$body-color:                $dark-2 !default;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                              $action-1 !default;
+$link-decoration:                         none !default;
+$link-hover-decoration:                   none !default;
+
+// scss-docs-start border-variables
+$border-color:                $dark-3 !default;
+// scss-docs-end border-variables
+
+// scss-docs-start border-radius-variables
+$border-radius:               0.625rem !default;
+$border-radius-sm:            0.3125rem !default;
+$border-radius-lg:            0.9375rem !default; 
+// scss-docs-end border-radius-variables
+
+// scss-docs-start box-shadow-variables
+$box-shadow:                  0 .5rem 1rem rgba($dark-3, .15) !default;
+$box-shadow-sm:               0 .125rem .25rem rgba($dark-3, .075) !default;
+$box-shadow-lg:               0 1rem 3rem rgba($dark-3, .175) !default;
+$box-shadow-inset:            inset 0 1px 2px rgba($dark-3, .075) !default;
+// scss-docs-end box-shadow-variables
+
+$component-active-color:      $light-1 !default;
+$component-active-bg:         $action-1 !default;
+
+$transition-base:             all .2s ease-in-out !default;
+
+// scss-docs-start font-variables
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-heading:      "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+// $font-size-root effects the value of `rem`, which is used for as well font sizes, paddings and margins
+// $font-size-base effects the font size of the body text
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.125 !default;
+
+$font-weight-bold:            700 !default;
+
+$font-weight-base:            400 !default;
+$font-weight-heading:         700 !default;
+$headings-color:              $dark-1 !default;
+
+$font-letter-spacing:         -0.03em !default;
+
+$h1-font-size:                $font-size-base * 2.25 !default;
+// scss-docs-end font-variables
+
+// scss-docs-start font-sizes
+$font-sizes: (
+  1: 1.5rem,
+  2: 1.375rem,
+  3: 1.25rem,
+  4: 1.125rem,
+  5: 0.875rem,
+  6: 0.75rem
+) !default;
+// scss-docs-end font-sizes
+
+// scss-docs-start headings-variables
+$headings-margin-bottom:      0 !default;
+$headings-font-family:        DM Sans !default;
+$headings-font-weight:        700 !default;
+$headings-line-height:        1.25 !default;
+$headings-letter-spacing:     -0.04em !default;
+// scss-docs-end headings-variables
+
+// scss-docs-start display-headings
+$display-font-sizes: (
+  1: 5.5rem,
+  2: 5rem,
+  3: 4.5rem,
+  4: 3.75rem,
+  5: 3rem,
+  6: 2.5rem
+) !default;
+
+$display-font-weight: 700 !default;
+$display-line-height: 1.1 !default;
+$display-letter-spacing: -0.05em !default;
+// scss-docs-end display-headings
+
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+
+// scss-docs-start input-btn-variables
+$input-btn-padding-y:         .825rem !default; // 50px - 2px (border) = 48px/16px = 3rem - 1.35rem (line-height) = 1.65 / 2 = 0.825
+$input-btn-padding-x:         1.1875rem !default; // 20px - 1px (border) = 19/16
+$input-btn-font-size:         $font-size-lg !default; // 18px/16px = 1.125rem
+$input-btn-line-height:       1.2 !default;
+
+$input-btn-focus-width:         0 !default;
+$input-btn-focus-color:         null !default;
+
+$input-btn-padding-y-sm:      0.5875rem !default; // 40px - 2px (border) = 38px/16px = 2.375rem - 1.2rem (line-height) = 1.175 / 2 = 0.5875
+$input-btn-padding-x-sm:      0.9375rem !default; // 16px - 1px = 15/16 = 0.9375
+$input-btn-font-size-sm:      $font-size-base !default;
+
+$input-btn-padding-y-lg:      1.0625rem !default; // 60px - 2px (border) = 58px/16px = 3.625rem - 1.5rem (line-height) = 2.125 / 2 = 1.0625
+$input-btn-padding-x-lg:      1.4375rem !default; // 24px - 1px = 23/16 = 1.4375
+$input-btn-font-size-lg:      $font-size-base*1.25 !default;
+
+// scss-docs-end input-btn-variables
+
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+
+// scss-docs-start btn-variables
+
+$btn-font-weight:             $font-weight-bold !default;
+$btn-box-shadow:              null !default;
+$btn-active-box-shadow:       null !default;
+
+$btn-link-disabled-color:     $light-3 !default;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:           $border-radius !default;
+$btn-border-radius-sm:        $border-radius !default;
+$btn-border-radius-lg:        $border-radius !default;
+// scss-docs-end btn-variables
+
+// Inputs
+$input-bg:                              transparent !default;
+$input-disabled-bg:                     rgba($dark-3,0.3) !default;
+$input-color:                           $dark-1 !default;
+$input-border-color:                    $dark-3 !default;
+$input-placeholder-color:               $dark-3 !default;
+$input-group-addon-bg:                  transparent !default;
+
+// Checkboxes, radios
+// scss-docs-start form-check-variables
+$form-check-input-width:                  1.5rem !default;
+$form-check-padding-start:                0 !default;
+$form-check-margin-bottom:                0 !default;
+$form-check-label-cursor:                 pointer !default;
+$form-check-transition:                   $transition-base !default;
+
+$form-check-input-bg:                     transparent !default;
+$form-check-input-border:                 1px solid $dark-3 !default;
+$form-check-input-border-radius:          $border-radius-sm !default;
+$form-check-input-focus-border:           $action-1 !default;
+$form-check-input-focus-box-shadow:       null !default;
+
+$form-check-input-checked-bg-image:       url("data:image/svg+xml,<svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M18.7104 7.20986C18.6175 7.11613 18.5069 7.04174 18.385 6.99097C18.2632 6.9402 18.1324 6.91406 18.0004 6.91406C17.8684 6.91406 17.7377 6.9402 17.6159 6.99097C17.494 7.04174 17.3834 7.11613 17.2904 7.20986L9.84044 14.6699L6.71044 11.5299C6.61392 11.4366 6.49998 11.3633 6.37512 11.3141C6.25026 11.2649 6.11694 11.2408 5.98276 11.2431C5.84858 11.2454 5.71617 11.2741 5.59309 11.3276C5.47001 11.3811 5.35868 11.4583 5.26544 11.5549C5.1722 11.6514 5.09889 11.7653 5.04968 11.8902C5.00048 12.015 4.97635 12.1484 4.97867 12.2825C4.98099 12.4167 5.00972 12.5491 5.06321 12.6722C5.1167 12.7953 5.19392 12.9066 5.29044 12.9999L9.13044 16.8399C9.2234 16.9336 9.334 17.008 9.45586 17.0588C9.57772 17.1095 9.70843 17.1357 9.84044 17.1357C9.97245 17.1357 10.1032 17.1095 10.225 17.0588C10.3469 17.008 10.4575 16.9336 10.5504 16.8399L18.7104 8.67986C18.8119 8.58622 18.893 8.47257 18.9484 8.34607C19.0038 8.21957 19.0324 8.08296 19.0324 7.94486C19.0324 7.80676 19.0038 7.67015 18.9484 7.54365C18.893 7.41715 18.8119 7.3035 18.7104 7.20986Z' fill='white'/></svg>") !default;
+// scss-docs-end form-check-variables
+
+// Switch
+// scss-docs-start form-switch-variables
+$form-switch-color:               rgba($dark-1, 20%) !default;
+$form-switch-width:               2rem !default;
+$form-switch-padding-start:       0 !default;
+$form-switch-bg-image:            none !default;
+$form-switch-transition:          $transition-base !default;
+
+$form-switch-focus-color:         $action-1 !default;
+$form-switch-focus-bg-image:      null !default;
+
+$form-switch-checked-color:       rgba($action-1, 20%) !default;
+$form-switch-checked-bg-image:    none !default;
+// scss-docs-end form-switch-variables
+
+// Dropdowns
+// Dropdown menu container and contents.
+// scss-docs-start dropdown-variables
+$dropdown-padding-y:                .25rem !default; // 4px
+$dropdown-spacer:                   .5rem !default; // 4px
+$dropdown-color:                    $dark-2 !default;
+$dropdown-bg:                       $bg-3 !default;
+$dropdown-border-width:             0px !default;
+$dropdown-divider-bg:               $dark-3 !default;
+$dropdown-box-shadow:               $box-shadow-lg !default;
+
+$dropdown-link-color:               $dark-1 !default;
+$dropdown-link-hover-color:         $action-1 !default;
+$dropdown-link-hover-bg:            rgba($action-1,0.1) !default;
+
+$dropdown-link-disabled-color:      $dark-3 !default;
+
+$dropdown-item-padding-y:           $dropdown-padding-y !default;
+$dropdown-item-padding-x:           $dropdown-padding-y * 4 !default;
+
+$dropdown-header-color:             $dark-1 !default;
+$dropdown-header-padding:           .4625rem $dropdown-item-padding-x !default;
+// scss-docs-end dropdown-variables
+
+// scss-docs-start dropdown-dark-variables
+$dropdown-dark-color:               $light-2 !default;
+$dropdown-dark-bg:                  $bg-1 !default;
+$dropdown-dark-divider-bg:          $light-1 !default;
+$dropdown-dark-link-color:          $light-1 !default;
+$dropdown-dark-link-disabled-color: $light-3 !default;
+$dropdown-dark-header-color:        $light-1 !default;
+// scss-docs-end dropdown-dark-variables
+
+// Accordion
+
+// scss-docs-start accordion-variables
+$accordion-bg:                            transparent !default;
+$accordion-border-color:                  $dark-3 !default;
+
+$accordion-button-color:                  $dark-1 !default;
+$accordion-button-active-bg:              tint-color($action-1, 90%) !default;
+$accordion-button-active-color:           shade-color($action-1, 10%) !default;
+
+$accordion-button-focus-border-color:     $action-1 !default;
+$accordion-button-focus-box-shadow:       none !default;
+
+$accordion-icon-transform:                scaleY(-1) !default;
+// scss-docs-end accordion-variables
+
+
+// Carousel
+
+// scss-docs-start carousel-variables
+$carousel-control-width:             10% !default;
+$carousel-control-opacity:           .7 !default;
+$carousel-control-hover-opacity:     1 !default;
+
+$carousel-indicator-width:           2rem !default;
+$carousel-indicator-height:          0.125rem !default;
+$carousel-indicator-hit-area-height: 0.9375rem !default;
+$carousel-indicator-spacer:          0.25rem !default;
+$carousel-indicator-opacity:         .7 !default;
+$carousel-indicator-transition:      all .15s ease !default;
+
+$carousel-caption-width:             80% !default;
+$carousel-caption-padding-y:         2rem !default;
+$carousel-caption-spacer:            2rem !default;
+
+$carousel-transition-duration:       .4s !default;
+// Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+$carousel-transition:                transform $carousel-transition-duration cubic-bezier(0, 0.46, 0.42, 1.11) !default; 
+// scss-docs-end carousel-variables
+
+// Modals
+$modal-inner-padding:               2rem !default;
+$modal-backdrop-bg:                 $bg-1 !default;
+
+// Offcanvas
+$offcanvas-padding-y:               $modal-inner-padding !default;
+$offcanvas-padding-x:               $modal-inner-padding !default;
+$offcanvas-horizontal-width:        320px !default;

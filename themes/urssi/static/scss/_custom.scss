@@ -1,0 +1,645 @@
+/*!
+Customization of a Bootstrap for Designmodo's Startup product
+ */
+ 
+/* Extra mixin */
+/* USAGE: @include sf-classes-match("fs-",("letter-spacing": $font-letter-spacing,)); */
+@mixin sf-classes-match($class, $properties) {
+	[class^='#{$class}'], [class*=' #{$class}']{
+		@each $property, $value in $properties {
+			#{$property}: $value;
+		}
+	}
+}
+
+/* Replacer function */
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+  
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+  
+  @return $string;
+}
+
+/* How to use it: https://getbootstrap.com/docs/5.0/utilities/api/#using-the-api */
+/* Modify the default utilities values */
+$utilities: map-merge(
+  $utilities,
+  (
+  
+	// Modify
+	
+	"color": map-merge(
+      map-get($utilities, "color"),
+      (
+        local-vars: false,
+		values: $theme-colors,
+      ),
+    ),
+	
+    "font-family": map-merge(
+      map-get($utilities, "font-family"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "font-family"), "values"),
+          (
+			monospace: var(--#{$variable-prefix}font-monospace),
+			body: $font-family-sans-serif,
+			heading: $font-family-heading
+		  ),
+        ),
+      ),
+    ),
+	
+	"font-weight": map-merge(
+      map-get($utilities, "font-weight"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "font-weight"), "values"),
+          (
+			1: 100,
+			2: 200,
+			3: 300,
+			4: 400,
+			5: 500,
+			6: 600,
+			7: 700,
+			8: 800,
+			9: 900
+		  ),
+        ),
+      ),
+    ),
+	
+	"opacity": map-merge(
+      map-get($utilities, "opacity"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "opacity"), "values"),
+          (
+			0: 0,
+			10: .1,
+			20: .2,
+			30: .3,
+			40: .4,
+			50: .4,
+			60: .6,
+			70: .7,
+			80: .8,
+			90: .9,
+			100: 1
+		  ),
+        ),
+      ),
+    ),
+	
+	"background-color": map-merge(
+      map-get($utilities, "background-color"),
+      (
+        local-vars: false,
+		values: map-merge(
+			$theme-colors,
+			(
+				"transparent": transparent
+			)
+		)
+      ),
+    ),
+	
+	// Add new
+	"z-index": (
+      property: z-index,
+      class: zi,
+      values: (
+		-1: -1,
+		0: 0,
+		1: 1,
+		2: 2,
+		3: 3,
+		4: 4,
+		5: 5
+	  )
+    ),
+	"background-size": (
+      property: background-size,
+      class: bg-size,
+      values: (
+		cover: cover,
+		contain: contain,
+		fit-x: 100% auto,
+		fit-y: auto 100%,
+	  )
+    ),
+	"background-position": (
+      property: background-position,
+      class: bg-position,
+      values: (
+		top-left: 0 0,
+		top-center: 50% 0,
+		top-right: 100% 0,
+		center: 50% 50%,
+		bottom-left: 0 100%,
+		bottom-center: 50% 100%,
+		bottom-right: 100% 100%,
+	  )
+    ),
+	"background-attachment": (
+      property: background-attachment,
+      class: bg,
+      values: fixed
+    ),
+	"background-repeat": (
+      property: background-repeat,
+      class: bg-repeat,
+      values: (none : no-repeat)
+    ),
+	
+	
+  )
+);
+
+/* Letter-spacings for texts, paragraphs */
+body, p{
+	letter-spacing:$font-letter-spacing;
+}
+@each $val, $font-size in $font-sizes {
+  .fs-#{$val} {
+    letter-spacing: $font-letter-spacing; 
+  }
+}
+
+/* Letter-spacings for heading */
+@each $val, $font-size in $display-font-sizes {
+  .h-#{$val}, h#{$val} {
+    letter-spacing: $headings-letter-spacing; 
+  }
+}
+
+/* Letter-spacings for display heading */
+@each $val, $font-size in $display-font-sizes {
+  .display-#{$val} {
+    letter-spacing: $display-letter-spacing; 
+  }
+}
+
+/* Color settings for some elements */
+@each $key, $color in $theme-colors {
+	/* Fill color property for SVG icons */
+	.fill-#{$key} {fill: $color; } // Don't forget to remove the "fill" attribute from all elements inside SVG!
+	/* Stroke color property for SVG icons */
+	.stroke-#{$key} {stroke: $color;} // Don't forget to remove the "stroke" attribute from all elements inside SVG!
+	/* Input/textarea placeholder colors */
+	.form-control.border-#{$key} {
+		&::placeholder{
+			color:$color;
+		}
+		&::-moz-placeholder{
+			color:$color;
+		}
+		&::-webkit-input-placeholder{
+			color:$color;
+		}
+		&:-ms-input-placeholder{
+			color:$color;
+		}
+	}
+	/* Arrow color for select tag */
+	.form-select.border-#{$key} {
+		$value: str-replace(#{$color},'#','%23');
+		background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='#{$value}' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+	}
+	/* "Basic" color for checkboxes, radios and switches */
+	.basic-#{$key} {
+		border-color: $color;
+	}
+	.form-switch{
+		.form-check-input.basic-#{$key} + .form-switch-wrapper{
+			background: rgba($color,20%);
+			.form-switch-pin{
+				background: $color;
+			}
+		}
+	}
+	/* "Checked" color for checkboxes, radios and switches */
+	.checked-#{$key}:checked {
+		background-color: $color;
+		border-color: $color;
+	}
+	.form-switch{
+		.form-check-input.checked-#{$key}:checked + .form-switch-wrapper{
+			background: rgba($color,20%);
+			.form-switch-pin{
+				background: $color;
+			}
+		}
+	}
+}
+
+/* Text highlight color */
+$selection-background: $action-7;
+$selection-color: color-contrast($selection-background);
+::-moz-selection {
+  background: $selection-background;
+  color: $selection-color;
+}
+
+::-webkit-selection {
+  background: $selection-background;
+  color: $selection-color;
+}
+
+::selection {
+  background: $selection-background;
+  color: $selection-color;
+}
+
+/* Customized distance for AOS animations */
+$aos-distance: 35px !default;
+
+@media screen {
+  html:not(.no-js) {
+
+    [data-aos='fade-up'] {
+      transform: translate3d(0, $aos-distance, 0);
+    }
+
+    [data-aos='fade-down'] {
+      transform: translate3d(0, -$aos-distance, 0);
+    }
+
+    [data-aos='fade-right'] {
+      transform: translate3d(-$aos-distance, 0, 0);
+    }
+
+    [data-aos='fade-left'] {
+      transform: translate3d($aos-distance, 0, 0);
+    }
+
+    [data-aos='fade-up-right'] {
+      transform: translate3d(-$aos-distance, $aos-distance, 0);
+    }
+
+    [data-aos='fade-up-left'] {
+      transform: translate3d($aos-distance, $aos-distance, 0);
+    }
+
+    [data-aos='fade-down-right'] {
+      transform: translate3d(-$aos-distance, -$aos-distance, 0);
+    }
+
+    [data-aos='fade-down-left'] {
+      transform: translate3d($aos-distance, -$aos-distance, 0);
+    }
+
+    [data-aos='zoom-in-up'] {
+      transform: translate3d(0, $aos-distance, 0) scale(.6);
+    }
+
+    [data-aos='zoom-in-down'] {
+      transform: translate3d(0, -$aos-distance, 0) scale(.6);
+    }
+
+    [data-aos='zoom-in-right'] {
+      transform: translate3d(-$aos-distance, 0, 0) scale(.6);
+    }
+
+    [data-aos='zoom-in-left'] {
+      transform: translate3d($aos-distance, 0, 0) scale(.6);
+    }
+
+    [data-aos='zoom-out-up'] {
+      transform: translate3d(0, $aos-distance, 0) scale(1.2);
+    }
+
+    [data-aos='zoom-out-down'] {
+      transform: translate3d(0, -$aos-distance, 0) scale(1.2);
+    }
+
+    [data-aos='zoom-out-right'] {
+      transform: translate3d(-$aos-distance, 0, 0) scale(1.2);
+    }
+
+    [data-aos='zoom-out-left'] {
+      transform: translate3d($aos-distance, 0, 0) scale(1.2);
+    }
+
+  }
+}
+
+/* Set default font-weight */
+.font-body, .font-monospace{font-weight:$font-weight-base;}
+.font-heading{font-weight:$font-weight-heading;}
+
+/* Display all links as inline-block */
+a{
+	display:inline-block;
+}
+
+/* Add transition and hover effect to all links */
+a:not([data-aos]):not(.btn){
+	transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
+	&:hover{
+		opacity:0.7;
+	}
+}
+
+/* Button with width=height. Used for a Play button */
+.btn-width-equal-height{
+	padding:0;
+	width:3.125rem;
+	height:3.125rem;
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+	&.btn-sm{
+		width:2.5rem;
+		height:2.5rem;
+	}
+	&.btn-lg{
+		width:3.75rem;
+		height:3.75rem;
+	}
+}
+
+/* Custom light color for button for dark block */
+.btn-light-custom{
+	color:$bg-3;
+	background-color:rgba($bg-3, 0.15);
+	&:hover{
+		background-color:rgba($bg-3, 0.3);
+	}
+}
+
+/* Responsive text (the <br> tag will be removed on the specific breakpoint) */
+@include media-breakpoint-down(sm) {
+	.remove-br br{display:none;}
+}
+@include media-breakpoint-down(md) {
+	.remove-br-sm br{display:none;}
+}
+@include media-breakpoint-down(lg) {
+	.remove-br-md br{display:none;}
+}
+@include media-breakpoint-down(xl) {
+	.remove-br-lg br{display:none;}
+}
+@include media-breakpoint-down(xxl) {
+	.remove-br-xl br{display:none;}
+}
+
+/* Mobile navigation styles */
+.custom-mobile-nav-btn{
+	background:lighten($bg-1,9%);
+	&:hover{
+		background:lighten($bg-1,25%);
+	}
+}
+.custom-dark-offcanvas-bg{
+	background:lighten($bg-1,9%);
+}
+
+/* Dropdowns styles */
+.dropdown-menu{
+	box-shadow:$box-shadow;
+}
+.dropdown-divider{
+	background-color:$dark-3;
+}
+
+.dropdown-item-text{
+	color:$dark-2;
+}
+
+/* Input, Textarea, Select styles */
+.form-control{
+	&:focus{
+		&::placeholder{
+			color:transparent !important;
+		}
+		&::-moz-placeholder{
+			color:transparent !important;
+		}
+		&::-webkit-input-placeholder{
+			color:transparent !important;
+		}
+		&:-ms-input-placeholder{
+			color:transparent !important;
+		}
+	}
+}
+
+.form-select{
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+
+/* Fix wrong margin-left */
+$validation-messages: "";
+@each $state in map-keys($form-validation-states) {
+	$validation-messages: $validation-messages + ":not(." + unquote($state) + "-tooltip)" + ":not(." + unquote($state) + "-feedback)";
+}
+  
+.input-group > :not(:first-child):not(.dropdown-menu)#{$validation-messages}.border-start-0{
+	margin-left:0;
+}
+
+/* Light transparent background for light-bordered controls */
+.border-light-1, .border-light-2, .border-light-3, .border-bg-2, .border-bg-3,
+.text-light-1, .text-light-2, .text-light-3, .text-bg-2, .text-bg-3{
+	&.input-group-text, &.form-control, &.form-select{
+		background-color:rgba($bg-3,0.1);
+	}
+	&.form-select option{
+		color:$light-1;
+		background:$bg-1;
+	}
+}
+
+/* Checkboxes / radios styles */
+.form-check-input{
+	margin-right:0.5rem;
+	&.form-control-sm{
+		width:1rem;
+		height:1rem;
+		min-height:1rem;
+		padding:0;
+		margin-top:0.25rem;
+	}
+	&.form-control-lg{
+		width:2rem;
+		height:2rem;
+		min-height:2rem;
+		padding:0;
+	}
+}
+
+/* Switches styles */
+.form-switch{
+	.form-check-input{
+		opacity: 0;
+		z-index: -1;
+		position: absolute;
+		&:checked{
+			+ .form-switch-wrapper{
+				background:rgba($action-1,20%);				
+				.form-switch-pin{
+					left:100%;
+					transform:translateX(-0.875rem);
+					background:$action-1;
+				}
+			}
+		}
+		&:disabled + .form-switch-wrapper .form-switch-pin{
+			pointer-events: none;
+			filter: none;
+			opacity: $form-check-input-disabled-opacity;
+		}
+		&.form-control-sm{
+			&:checked{
+				+ .form-switch-wrapper .form-switch-pin{
+					transform:translateX(-0.75rem);
+				}
+			}
+			+ .form-switch-wrapper{
+				width:1.5rem;
+				height:0.75rem;
+				min-height:0.75rem;
+				margin-top:0;
+				.form-switch-pin{
+					width:1rem;
+					height:1rem;
+				}
+			}
+		}
+		&.form-control-lg{
+			&:checked{
+				+ .form-switch-wrapper .form-switch-pin{
+					transform:translateX(-1rem);
+				}
+			}
+			+ .form-switch-wrapper{
+				width:2.5rem;
+				height:1rem;
+				min-height:1rem;
+				margin-top:0;
+				.form-switch-pin{
+					width:1.25rem;
+					height:1.25rem;
+				}
+			}
+		}
+	}
+}
+
+.form-switch-wrapper{
+	margin-left:0.125rem;
+	margin-right:0.5rem;
+	position:relative;
+	display:inline-block;
+	vertical-align:middle;
+	width:2rem;
+	height:0.875rem;
+	border-radius:25rem;
+	background:rgba($dark-1,20%);
+	cursor:pointer;
+	transition:$transition-base;
+}
+
+.form-switch-pin{
+	position:absolute;
+	top:-0.125rem;
+	left:0;
+	transform:translateX(-0.125rem);
+	width:1.125rem;
+	height:1.125rem;
+	border-radius:100%;
+	background:$dark-1;
+	transition:$transition-base;
+}
+
+/* Carousel (Slider) styles */
+.carousel-indicators{ // Hover effect for default indicators
+	[data-bs-target]:hover{
+		transform:scaleY(2);
+	}
+}
+
+$carousel-indicator-circle-width: $carousel-indicator-width / 2;
+$carousel-indicator-circle-hit-area-height: (2rem - $carousel-indicator-circle-width) / 2;
+.carousel-indicators.carousel-indicators-circles{ // Circles indicators
+	[data-bs-target] {
+		width: $carousel-indicator-circle-width;
+		height: $carousel-indicator-circle-width;
+		margin-right: $carousel-indicator-spacer * 2;
+		margin-left: $carousel-indicator-spacer * 2;
+		border-top: $carousel-indicator-circle-hit-area-height solid transparent;
+		border-bottom: $carousel-indicator-circle-hit-area-height solid transparent;
+		border-radius:100%;
+		&:hover{
+			transform:scale(1.2);
+		}
+	}
+}
+.carousel-indicators.carousel-indicators-dots{ // Dots indicators
+	[data-bs-target] {
+		width: $carousel-indicator-width / 6;
+		height: $carousel-indicator-width / 6;
+		margin-right: $carousel-indicator-spacer * 2;
+		margin-left: $carousel-indicator-spacer * 2;
+		border-top: $carousel-indicator-hit-area-height solid transparent;
+		border-bottom: $carousel-indicator-hit-area-height solid transparent;
+		border-radius:100%;
+		&:hover{
+			transform:scale(1.5);
+		}
+	}
+	.active {
+		transform:scale(2);
+	}
+}
+.carousel-arrows-circled{ // Adds circles under the Prev/Next arrows
+	.carousel-control-prev, .carousel-control-next{
+		opacity:1;
+	}
+	.carousel-control-next{
+		&:hover{
+			.carousel-control-next-icon{
+				transform:scale(1.1);
+			}
+		}
+	}
+	.carousel-control-prev{
+		&:hover{
+			.carousel-control-prev-icon{
+				transform:scale(1.1);
+			}
+		}
+	}
+	.carousel-control-prev-icon, .carousel-control-next-icon{
+		flex-shrink:0;
+		width: $carousel-control-icon-width * 2;
+		height: $carousel-control-icon-width * 2;
+		background-size: $carousel-control-icon-width $carousel-control-icon-width;
+		background-color:$dark-1;
+		border-radius:100%;
+		transition:$carousel-indicator-transition;
+	}
+	$carousel-control-icon-width-compensate: $carousel-control-icon-width / 16;
+	.carousel-control-prev-icon{
+		background-position: calc(50% - #{$carousel-control-icon-width-compensate}) 50%;		
+	}
+	.carousel-control-next-icon{
+		background-position: calc(50% + #{$carousel-control-icon-width-compensate}) 50%;		
+	}
+	&.carousel-dark{
+		.carousel-control-prev-icon, .carousel-control-next-icon{
+			background-color:#000000; // will be reverted to #ffffff;
+		}
+	}
+}
+
+/* Put your custom styles here */
+
+/* End of your custom styles */

@@ -1,20 +1,67 @@
-{{ partial "header.html" . }}
-<section class="content_40 padding_top60 padding_bottom110">
-    <div class="container nopadding padding_left100">
-        <h2 class="raleway light font42 dark_gray">{{ .Title }}</h2>
-        <div class="float_left max_width770 block_left">
-            <div class="padding_sides30 padding_top30 radius10">
-                <div class="content">
-                    <h1>{{ title .Data.Term  }}</h1> {{ range .Pages }} {{ if eq .Type "blog"}}
-                    <p>
-                        <!-- <aside>{{ .Date.Format "January 2, 2006"}}</aside> -->
-                        <a href="{{ .Permalink }}" style="color:black;"><h2>{{ .Title }} </h2><br> <b>{{ .Params.author | default .Site.Params.author }}</b> • <i>{{ .Date.Format "January 2, 2006"}}</i></a>{{ if .Draft }} <span style="color:#FF4136;">(unpublished)</span>{{ end }}
-                    </p>
-                    <p>{{ .Summary }}</p>
-                    <br><br>
-                    {{ end }} {{ end }}
-                </div>
-            </div>
-        </div>
-</section>
-{{ partial "footer.html" . }}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>URSSI Blog</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="{{.Site.BaseURL}}i/logo-dark@2x.png">
+		<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
+		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
+		<link href="{{.Site.BaseURL}}css/styles.min.css" rel="stylesheet" />
+		<link href="{{.Site.BaseURL}}css/pagination.css" rel="stylesheet" />
+		
+		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+		<!-- Open graph settings (social networks sharing settings) -->
+		<!-- Open graph settings end -->
+	</head> 
+	<body>
+
+<!-- Navigation 2 -->
+{{ partial "navbar.html" . }}
+
+	<!-- Blog 7 -->
+		<section class="bg-bg-3 py-10 py-lg-20">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-xl-8">
+						<div class="mb-10 row justify-content-between">
+						</div>
+						<h1 class="mb-6 mb-md-15 display-4">
+									URSSI Blog
+						</h1>
+						<!-- { range .Pages }
+							{ if eq .Type "blog"}
+							 -->
+						{{ $paginator := .Paginate (where .Pages "Type" "blog") }}
+						{{ range $paginator.Pages }}	
+						<p class="mb-8 fs-1 text-dark-1 fw-bold text-capitalize">
+									<a href="{{ .Permalink }}">{{ .Title }}</a>
+						</p>
+						<p class="text-dark-1 text-capitalize fs-3 mb-4">
+							{{ .Params.author | default .Site.Params.author }} • {{ .Date.Format "January 2, 2006"}}
+						</p>
+						<p class="mb-0 text-dark-1 fs-3">
+									{{ .Summary }}
+						</p>
+								 {{ range .Params.tags }}
+          <!-- <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li> -->
+          <p class="mb-0 mt-xl-12 text-capitalize fs-4 text-dark-2">{{ . }} •</p>
+       							 {{ end }}
+							{{ end }} 
+					{{ template "_internal/pagination.html" . }}
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Content 4 -->
+			{{ partial "newsletter-banner.html" . }}
+				{{ partial "footer-menu.html" . }}
+
+{{ partial "js.html" . }}
+
+	</body>
+</html>

@@ -1,6 +1,6 @@
 ---
 title: "Announcing 4 new grants for URSSI"
-date: 2021-09-04
+date: 2022-09-04
 author: "Karthik Ram, Nic Weber, Kyle Niemeyer, and Daniel S. Katz"
 ---
 

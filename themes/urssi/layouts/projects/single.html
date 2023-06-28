@@ -27,11 +27,12 @@
 				<div class="row justify-content-lg-center p-xxl-1">
 					<div class="col-md-8 col-lg-6 col-xl-5">
 						<h2 class="display-5 mb-6">
-									{{ .Title }}
+							{{ .Title }}
 						</h2>
 							</div>
 							<div class="col-lg-1">
-							</div>
+							</div>{{ if ne .File.BaseFileName "policy" }}
+
 							<div class="mt-lg-0 mt-12 col-xl-4 col-lg-5 col-md-7 col-sm-10">
 								<div class="ps-12 position-relative">
 									<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24" class="position-absolute start-0 fill-action-1">
@@ -62,6 +63,7 @@
 									</p>
 								</div>
 							</div>
+							{{ end }}
 						</div>
 					</div>
 				</section>

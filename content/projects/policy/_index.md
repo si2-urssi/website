@@ -15,4 +15,4 @@ This section will help you stay updated with our latest news, research, and comm
 <br>
 <br>
 <br>
-{{< html >}}
+{{< /html >}}

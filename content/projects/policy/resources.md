@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: "Policy Resources"
 Type: "policy"
 ---
 

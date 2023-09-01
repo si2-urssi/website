@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About the Policy project"
 Type: "policy"
 ---
 

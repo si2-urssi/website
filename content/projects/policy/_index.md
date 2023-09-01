@@ -1,6 +1,6 @@
 ---
 title: "Charting the Course: Policy and Planning for Sustainable Research Software"
-Type: "policy"
+Type: "project"
 Section: "policy"
 ---
 

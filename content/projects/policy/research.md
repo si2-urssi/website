@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Policy Research"
 Type: "policy"
 ---
 

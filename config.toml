@@ -1,6 +1,6 @@
 baseURL = "https://urssi.us/"
 languageCode = "en-us"
-title = " Website of the US Research Software Sustaiability Institute"
+title = " Website of the US Research Software Sustainability Institute"
 theme = "urssi"
 
 googleAnalytics = ""

@@ -1,5 +1,5 @@
 ---
-title: "Team"
+title: "Policy Team"
 Type: "policy"
 ---
 

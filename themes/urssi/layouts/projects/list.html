@@ -35,7 +35,7 @@
 						{{ $projects := .Site.Data.projects.projects }}
 						{{ range $projects }}
 						<p class="mb-8 fs-1 text-dark-1 fw-bold text-capitalize">
-									<a href="{{ .url }}">{{ .title }}</a>
+									<a href="{{ .url }}"> {{ .title }}</a>
 						</p>
 						<p class="text-dark-1 text-capitalize fs-3 mb-4">
 							{{ .author }} • {{ (.date | time).Format "January 2, 2006" }}

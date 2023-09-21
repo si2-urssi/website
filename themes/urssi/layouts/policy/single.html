@@ -1,89 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>URSSI Policy</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="i/logo-dark@2x.png">
+		<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
+		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
+		<link href="{{.Site.BaseURL}}css/styles.min.css" rel="stylesheet" />
+		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+		<!-- Open graph settings (social networks sharing settings) -->
+		<!-- Open graph settings end -->
+	</head> 
+	<body>
 
-<head>
-	<meta charset="utf-8">
-	<title>{{ .Title }}</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="i/logo-dark@2x.png">
-	<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
-	<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
-	<link href="{{.Site.BaseURL}}css/styles.min.css" rel="stylesheet" />
-	<script src="https://use.fontawesome.com/0acb16a506.js"></script>
+<!-- Navigation 2 -->
+{{ partial "navbar.html" . }}
 
-	<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-	<!-- Open graph settings (social networks sharing settings) -->
-	<!-- Open graph settings end -->
-</head>
-
-<body>
-
-	{{ partial "navbar.html" . }}
-
-	<!-- Navigation 2 -->
-	<section class="bg-bg-3 py-10 py-lg-20">
-		<div class="container">
-			<div class="row justify-content-lg-center p-xxl-1">
-				<div class="col-md-6 col-sm-12">
-					<h2 class="display-5 mb-6">
-						{{ .Title }}
-					</h2>
-				</div>
-				<div class="col-md-2">
-				</div>
-				{{ partial "policy-submenu.html" . }}
-				<div class="col-md-1">
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Blog 10 -->
-	<section class="bg-bg-3">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-10 col-xl-8 col-xxl-7">
-					<img src="https://designmodo.com/startup/app/smiles.php?icon=smile&amp;search=P2lkPTEzNTk2JmluRWRpdG9yPTE=&amp;path=L3N0YXJ0dXAvYXBwL3ByZXZpZXcucGhw&amp;e=NTk1NQ==" id="custom-id-mckmygkj" class="visually-hidden" style="opacity: 0.01;">
-					<div>{{ .Content }}</div>
-
-					<br><br><br>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Blog 10 -->
-	<!-- 
-Activate in the future
-# ---------------------
-						<section class="bg-bg-3 py-8">
-							<div class="container">
-								<div class="row justify-content-center">
-									<div class="col-lg-10 col-xl-8 col-xxl-7">								
-										<h1 class="mb-4 mb-md-8 fs-1">
-													Relevant blog posts
-										</h1>
-										<p class="mb-0 fs-1 text-dark-1">
-													 Link to a blog post - Nic Weber &amp; Postdoc
-										</p>
-										<p class="mb-0 fs-3 fw-light text-dark-2">
-													September 20th, 2022
-										</p>
-									</div>
-								</div>
+	<!-- Blog 7 -->
+		<section class="bg-bg-3 py-10 py-lg-20">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-xl-8">
+						<div class="mb-10 row justify-content-between">
+							<div class="col-auto">
 							</div>
-						</section>
+							<a href="#" class="text-dark-1">
+							</a>
+						</div>
+						<h1 class="display-3 mb-6 mb-md-15">
+									{{ .Title }}
+						</h1>
+						<p class="fs-3 fw-bold text-dark-1 mt-xl-8 border-bottom">
+									{{ .Params.author | default .Site.Params.author }}
+						</p>
+			
+						<p class="mb-8 fs-1 text-dark-1">
+									 {{ .Content }}
+						</p>
+						
+		 {{ range .Params.tags }}
+          <!-- <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li> -->
+          <p class="mb-0 mt-xl-12 text-capitalize fs-4 text-dark-2">{{ . }} •</p>
+        {{ end }}
+					</div>
+				</div>
+			</div>
+		</section>
+					<!-- Footer 1 -->
+{{ partial "footer-menu.html" . }}
+{{ partial "js.html" . }}
 
-						 -->
-	<!-- Footer 1 -->
-	{{ partial "policy-footer.html" . }}
-	{{ partial "newsletter-banner.html" . }}
-
-	{{ partial "footer-menu.html" . }}
-	{{ partial "js.html" . }}
-
-</body>
-
+	</body>
 </html>

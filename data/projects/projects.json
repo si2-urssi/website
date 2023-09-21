@@ -1,0 +1,24 @@
+[{
+    "title": "Characterizing Research Software from NSF Awards",
+    "abstract": "This EAGER project will investigate the development and maintenance of software produced in research projects funded by the National Science Foundation. The goals of this project are:\n1 To understand what factors influence software sustainability by gathering data from grant-funded research projects;\n2 To describe current models of sustainability planning and suggest potential new models that could increase the likelihood of achieving long-term software sustainability; and\n3 To develop new methods to evaluate research software sustainability.\nTo meet these goals we will use a mixed-methods research appraoch that includes both a survey as well as interviews with researchers that have produced software as part of an NSF-funded award. As part of the EAGER project, URSSI will collaborate with the CHAOSS community to better understand how repository metrics can be used to evaluate and forecast the sustainability of a research software project.\nThe data collected for this study will also be used to develop a set of models for research software sustainability planning. These models support scientists and engineers planning for software sustainability; help research funding agencies be better prepared to evaluate research software in grant applications, and enable institutions that support software development and maintenance to be equipped to support impactful research that in turn, produces impactful research software.\n",
+    "url": "/projects/eager-2022",
+    "grant_url": "https://nsf.gov/awardsearch/showAward?AWD_ID=2211275&HistoricalAwards=false",
+    "author": "Nic Weber",
+    "date": "2022-09-05"
+  },
+  {
+    "title": "New School in Research Software Engineering",
+    "abstract": "As part of a set of connected activities under the banner of the US Research Software Sustainability Institute, this grant funds an effort by Kyle Niemeyer, Associate Professor of mechanical engineering at Oregon State University, to develop and run four, weeklong “beyond introductory” winter/summer schools for researchers who want to deepen their software engineering skills.\nBeyond directly training researchers in sustainable software development, Niemeyer will develop, hone, and release a scalable mid-level curriculum for the training of non-expert scientists in best practices in software engineering. His project will also provide useful data on the size of demand for such skills-training events.",
+    "url": "/projects/urssi-software-school",
+    "grant_url": "https://sloan.org/grant-detail/10072",
+    "author": "Kyle Niemeyer",
+    "date": "2022-09-07"
+  },
+  {
+    "title": "Charting the Course: Policy and Planning for Sustainable Research Software",
+    "abstract": "Welcome to “Charting the Course: Policy and Planning for Sustainable Research Software,” a Sloan Foundation-funded project dedicated to supporting the future of research software through evidence-informed policy work. This section will help you stay updated with our latest news, research, and community engagement activities.",
+    "url": "/policy",
+    "author": "Eric A. Jensen",
+    "date": "2023-06-21"
+  }
+]

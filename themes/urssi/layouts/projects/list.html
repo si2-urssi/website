@@ -31,22 +31,23 @@
 						<h1 class="mb-6 mb-md-15 display-4">
 									URSSI Projects
 						</h1>
-						{{ range .Pages }}
-						{{ if eq .Type "projects"}}
+
+						{{ $projects := .Site.Data.projects.projects }}
+						{{ range $projects }}
 						<p class="mb-8 fs-1 text-dark-1 fw-bold text-capitalize">
-									<a href="{{ .Permalink }}">{{ .Title }}</a>
+									<a href="{{ .url }}">{{ .title }}</a>
 						</p>
 						<p class="text-dark-1 text-capitalize fs-3 mb-4">
-							{{ .Params.author | default .Site.Params.author }} • {{ .Date.Format "January 2, 2006"}}
+							{{ .author }} • {{ (.date | time).Format "January 2, 2006" }}
 						</p>
 						<p class="mb-0 text-dark-1 fs-3">
-									{{ .Summary }}
+									{{ .abstract | truncate 500 | safeHTML }}
 						</p>
-								 {{ range .Params.tags }}
+								 
           <!-- <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li> -->
-          <p class="mb-0 mt-xl-12 text-capitalize fs-4 text-dark-2">{{ . }} •</p>
-        {{ end }}
-						{{ end }} {{ end }}
+          
+         
+						{{ end }}  
 					</div>
 				</div>
 			</div>
@@ -61,3 +62,5 @@
 
 	</body>
 </html>
+
+

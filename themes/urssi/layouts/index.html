@@ -77,8 +77,8 @@
 					<div class="row justify-content-center">
 
 						<!-- First blog post -->
-						{{ $p := where .Pages "Type" "blog" }}
-						{{ range first 1 $p }}
+					{{ $pages := where site.Pages "Type" "blog" }}
+					{{ range first 1 $pages }}
 						<div class="col-sm-8 col-md-4 mb-15 mb-md-0">
 							<img src="i/left710x480.png" alt="" class="img-fluid w-100 mb-6" srcset="i/left710x480-1662580726.png 2x">
 							<h4 class="mb-4">{{ .Title }}</h4>
@@ -90,8 +90,8 @@
 						<!-- End first blog post -->
 
 						<!-- Second blog post -->
-						{{ $p := where .Pages "Type" "blog" }}
-						 {{ range first 1 (after 1 $p) }}
+						{{ $pages := where site.Pages "Type" "blog" }}
+						 {{ range first 1 (after 1 $pages) }}
 						<div class="col-sm-8 col-md-4 mb-15 mb-md-0">
 							<img src="i/left2355x240.png" srcset="i/left2710x480.png 2x" alt="" class="img-fluid w-100 mb-6">
 							<h4 class="mb-4">{{ .Title }}</h4>
@@ -135,16 +135,18 @@
 								<div class="border-bottom border-bottom-dark-2 opacity-30">
 								</div>
 							</div>
-						{{ range .Pages }}
-						{{ if eq .Type "projects"}}
-							<div class="mb-10 mb-md-0 col-sm-8 col-md-4 aos-animate">
-								<h5 class="mb-4">{{ .Title }}</h5>
-								<p class="b-0 fs-2 text-dark-1 aos-animate">
-							 {{ .Summary | markdownify | replaceRE  "<p>" "<p class=\"b-0 fs-2 text-dark-1 aos-animate\">" | safeHTML }}</p>
-							<br> → <a href="{{ .Permalink }}">Learn More</a>
-							</div>
-							{{ end }}
-							{{ end }}
+						{{ $projects := .Site.Data.projects.projects }}
+						{{ range $projects }}
+						<div class="mb-10 mb-md-0 col-sm-8 col-md-4 aos-animate">
+               		 <h5 class="mb-4">{{ .title }}</h5>
+               		 <p class="b-0 fs-2 text-dark-1 aos-animate">
+               {{ .abstract | truncate 500 | replaceRE  "<p>" "<p class=\"b-0 fs-2 text-dark-1 aos-animate\">" | safeHTML }}
+           </p>
+              			<br> → <a href="{{ .url }}">Learn More</a>
+              			</div>
+						
+
+						{{ end }}
 						</div>
 					</div>
 				</section>

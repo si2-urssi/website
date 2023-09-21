@@ -21,39 +21,59 @@
 <!-- Navigation 2 -->
 {{ partial "navbar.html" . }}
 
-	<!-- Blog 7 -->
-		<section class="bg-bg-3 py-10 py-lg-20">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-10 col-xl-8">
-						<div class="mb-10 row justify-content-between">
-							<div class="col-auto">
-							</div>
-							<a href="#" class="text-dark-1">
-							</a>
-						</div>
-						<h1 class="display-3 mb-6 mb-md-15">
-									{{ .Title }}
-						</h1>
-						<p class="fs-3 fw-bold text-dark-1 mt-xl-8 border-bottom">
-									{{ .Params.author | default .Site.Params.author }}
-						</p>
-			
-						<p class="mb-8 fs-1 text-dark-1">
-									 {{ .Content }}
-						</p>
-						
-		 {{ range .Params.tags }}
-          <!-- <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li> -->
-          <p class="mb-0 mt-xl-12 text-capitalize fs-4 text-dark-2">{{ . }} •</p>
-        {{ end }}
-					</div>
-				</div>
-			</div>
-		</section>
+	<!-- Call to action 12 -->
+    <section class="bg-bg-3 py-10 py-lg-20">
+        <div class="container">
+            <div class="row justify-content-lg-center p-xxl-1">
+                <div class="col-lg-1">
+                </div>
+                <div class="mt-lg-0 mt-12 col-xl-4 col-lg-5 col-md-7 col-sm-10">
+                    <div class="ps-12 position-relative">
+                        <h5 class="mb-2">
+                        </h5>
+                        <p class="mb-8">
+                        </p>
+                    </div>
+                </div>
+                <h2 speechify-initial-font-family="SFMono-Regular, Menlo, Monaco, Consolas, &quot;Liberation Mono&quot;, &quot;Courier New&quot;, monospace" speechify-initial-font-size="32px" class="display-2">
+                    Charting the Course: Policy and Planning for Sustainable Research Software
+                </h2>
+            </div>
+        </div>
+    </section>
+    <!-- Blog 10 -->
+    <section class="bg-bg-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8 col-xxl-7 border-0">
+                    <h1 class="mb-4 mb-md-8 fs-1">
+                        {{ .Title }}
+                    </h1>
+                    <p class="mb-0 fs-1 text-dark-1 pb-xl-8 border-0 border-1">
+                        {{ .Content }}
+                    </p>
+       
+                </div>
+
+                <div class="col-4" speechify-initial-font-family="SFMono-Regular, Menlo, Monaco, Consolas, &quot;Liberation Mono&quot;, &quot;Courier New&quot;, monospace" speechify-initial-font-size="14px">
+
+                	<!-- This section generates the sidebar menu -->
+ 					{{ range where .Site.RegularPages "Section" "policy" }}
+                    <div class="p-4 text-center text-dark-1 fs-1" speechify-initial-font-family="SFMono-Regular, Menlo, Monaco, Consolas, &quot;Liberation Mono&quot;, &quot;Courier New&quot;, monospace" speechify-initial-font-size="14px"><a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </div>
+                    {{end}}
+                    <!-- End: This section generates the sidebar menu -->
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Room for another div  -->
+    </section>
 					<!-- Footer 1 -->
 {{ partial "footer-menu.html" . }}
 {{ partial "js.html" . }}
 
 	</body>
 </html>
+

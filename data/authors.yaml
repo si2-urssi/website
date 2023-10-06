@@ -1,0 +1,35 @@
+karthik:
+  name: "Karthik Ram"
+  bio: "John is a software engineer with over 10 years of experience in web development."
+  profile_image: "/images/john_doe.jpg"
+  mastodon: "https://hachyderm.io/@inundata"
+  website: "https://ram.berkeley.edu/"
+
+dan:
+  name: "Daniel S. Katz"
+  bio: "Dan is ..."
+  profile_image: "/images/dan_katz.jpg"
+  mastodon: ""
+  website: "https://danielskatz.org/"
+
+eric:
+  name: "Eric A. Jensen"
+  bio: "Eric is ..."
+  profile_image: "/images/eric_jensen.jpg"
+  mastodon: "eric_jensen"
+  website: ""
+
+nic:
+  name: "Nic Weber"
+  bio: "Nic is ..."
+  profile_image: "/images/nic_weber.jpg"
+  mastodon: "nic_weber"
+  website: "https://nicweber.info/"
+
+kyle:
+  name: "Kyle Niemeyer"
+  bio: "Kyle is ..."
+  profile_image: "/images/kyle_niemeyer.jpg"
+  mastodon: "kyle_niemeyer"
+  website: "https://niemeyer-research-group.github.io/"
+

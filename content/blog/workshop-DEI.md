@@ -1,0 +1,33 @@
+---
+title: "Diversity and inclusion in research software: Insights from an international workshop"
+date: 2023-10-26
+author: "Eric A. Jensen and Daniel S. Katz"
+---
+The [IEEE eScience conference](https://www.escience-conference.org/2023/) in October 2023 served as the backdrop for an international participatory workshop convened by the [URSSI](https://urssi.us) [Charting the Course project](https://urssi.us/projects/policy). This workshop in Cyprus facilitated a focused discussion about how to advance the field of research software. A [previous blog article](https://urssi.us/blog/2023/10/24/what-we-learned-about-research-software-careers-from-a-recent-international-workshop) presented the part of this discussion that focused on career paths. Here, we delve into the second part of the discussion, which centered on diversity and inclusion in the research software field.
+
+**Diversity in Research Software: A Stark Reality**
+
+Workshop participants didn't mince words about the problem, pointing to the sobering truth that diversity diminishes as we zoom in from science and technology to specialized fields like research software engineering. "We're ignoring 60%-90% [of potential talent due to a lack of social inclusion], some large fractions of people that could be working in this job". This stark summary sets the stage for a critical conversation on how to broaden the research software talent pool.
+
+**Diagnosing the Diversity and Inclusion Problem in Research Software**
+ 
+There was extensive discussion around the widespread problem of limited gender diversity in the RSE field. One participant said, "Pretty much every lab I can think of has some gender disparity." While some labs were seen to be making strides, the issue is far from resolved, especially at higher academic levels. "It's taking a while for [improvements in diversity at early career stages] to drift [up to higher levels in the academic hierarchy]."
+Another participant noted the challenges in conceptualizing diversity and inclusion in an international context given that the specific dimensions of diversity that pose challenges can vary significantly depending on the local context. As one participant noted, "It is almost impossible to talk about diversity in a generic way because diversity is so specific to the context that it’s being discussed in."
+Another identified challenge was the fact that inclusion problems start affecting the talent pool in research software from an early stage: "I actually think the biggest part of the problem is upstream of where we are. […] Generally, if you’re trying to put in place solutions to this problem at the point you hire, it’s sort of too late. The pool of people applying for your job is already set. You need to excite people about different opportunities in STEM [science, technology, engineering and math] much, much earlier than that. And that’s a huge societal problem."
+Given this backdrop, a participant argued that the diversity and inclusion objective at the level of recruitment and selection to research software jobs should be: "Anyone who wants a job as a research software engineer (RSE) feels they can have one if they want it."
+
+**The Role of Awareness: Intervening to Encourage Diverse Applicants**
+
+Transitioning to a discussion of practical steps required to improve diversity and inclusion, a participant emphasized the importance of cultivating research software career awareness at different stages. "Each stage presents its own challenges and opportunities for intervention," they noted. This perspective begs the question: How can we catch people's interest when they may have assumed that a career in research software is not open to them?
+One aspect of this challenge is the recruitment process for research software jobs, including job advertisements. "One of the other things that we actually hadn't thought about was to completely overhaul our job advert text." This is because the phrasing of research software job advertisements can inadvertently discourage potential applicants. "So we've really changed the language around what we're asking for. We made it very clear that even if you've just got some of these things, we're interested." The goal is to attract, not [pre-]filter – because such pre-filtering can disproportionately affect applicants from under-represented backgrounds.
+Another point that was raised regarding inclusiveness during the recruitment stage was the power of visibility in opening doors to under-represented applicants in research software. "When [potential job applicants] see someone like them [is already working in the unit/department/organization], it can be a game-changer," a participant said, highlighting the importance of diverse staff profiles on team webpages.
+Adding another layer to the discussion, a participant said, "Diversity for us, the challenge is the difference in scientific background." This participant reported that this visibility intervention had proven effective in expanding the pool of research software job applicants with backgrounds outside of computer science.
+
+**Flexibility as a Key to Inclusion**
+
+"We've got situations where people work part-time because of things like fatigue or just social anxiety kind of things. And we let them spread their part-time contracts over five days a week." Flexibility in work arrangements can be critical for people who need different levels of support, including those with caregiving responsibilities. Given gender and ethnic inequalities in the caregiving burden, the availability of flexible working arrangements can help retain under-represented individuals in the research software workforce.
+
+**Conclusion**
+
+In summary, the workshop hosted a much-needed conversation about practical steps to advance diversity and inclusion in research software. As we move forward, the insights gained here can help inform strategies, both localized and international, to make the field more inclusive. The road ahead is long, but the workshop pointed to some steps in the right direction.
+The [URSSI](https://urssi.us) [Charting the Course project](https://urssi.us/projects/policy) is working to identify and promote ways of promoting this kind of discussion about the future of research software as a field. One way to get involved is to participate in the GitHub-based platform for [collaborative engagement](https://blogs.lse.ac.uk/impactofsocialsciences/2023/09/07/from-backstage-to-spotlight-a-call-to-highlight-the-critical-role-of-research-software) about ideas for advancing research software, which includes the theme of diversity and inclusion.

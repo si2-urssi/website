@@ -1,7 +1,9 @@
 ---
 title: "Elevate Research Software: Co-creating a Digital Roadmap"
 date: 2023-10-04
-author: "Eric A. Jensen and Daniel S. Katz"
+authors:
+  - eric
+  - dan
 ---
 As algorithms become the new lab assistants in contemporary research, software is no longer a sidebar—it's the headline. The need to recognize and support software contributions has become imperative. How do we measure and extend the impact of research software? How do we integrate it into academic evaluations? One lens in which to view these types of questions is policy, which can be thought of as involving, research, organizing, and advocacy. 
 

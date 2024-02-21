@@ -13,8 +13,8 @@
   {{- $imageurl := printf "%s/%s" $dir .Name -}}
   {{- $imagetitle := index (split .Name ".") 0 -}}
     <li>
-      <a href="{{ $image.Permalink }}" title="{{ $imagetitle }}" class="lightbox-image">
-        <img src="{{ $image.Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+      <a href="{{ $image }}" title="{{ $imagetitle }}" class="lightbox-image">
+        <img src="{{ $image }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
         <span>{{ $imagetitle }}</span>
       </a>
     </li>

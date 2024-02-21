@@ -1,6 +1,6 @@
 ---
 title: "A pathway for participation in research open source"
-date: 2024-02-20T14:56:01-07:00
+date: 2024-02-20
 author: "James Howison, Jennifer Schopf"
 ---
 

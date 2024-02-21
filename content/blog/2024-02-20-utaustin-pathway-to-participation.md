@@ -25,12 +25,7 @@ In this blog post we discuss maturity models and present the UT OSPO Participati
 
 ## Maturity models that inspired us
 
-![SEI Capability Maturity Model v1.1 (Paulk et al., 1993)](/utaustin-ospo-images/sei_capability.png "SEI Capability Maturity Model v1.1 (Paulk et al., 1993) {width='640' style='border: 1px solid red;`}")
-![“A maturity model for embracing open source” focused on assessing depth of engagement within enterprises (GitHub, 2016)](/utaustin-ospo-images/github_maturity.png "“A maturity model for embracing open source” focused on assessing depth of engagement within enterprises (GitHub, 2016) {width='640' style='border: 1px solid red;`}")
-![The “Reader to Leader” Framework (Preece & Shneiderman, 2009)](/utaustin-ospo-images/reader_to_leader.png "The “Reader to Leader” Framework (Preece & Shneiderman, 2009) {width='640' style='border: 1px solid red;`}")
-![The “Motivational Arc of massive virtual collaboration” (Crowston & Fagnot, 2018)](/utaustin-ospo-images/motivational_arc.png "The “Motivational Arc of massive virtual collaboration” (Crowston & Fagnot, 2018) (Paulk et al., 1993) {width='640' style='border: 1px solid red;`}")
-![A provocation disguised as a Maturity Model from “Software Sustainability, Routes to Peer Production, Ecosystem Complexity (NSF Lecture)” (Howison, 2021)](/utaustin-ospo-images/ecosystem_management_taxonomy.png "A provocation disguised as a Maturity Model from “Software Sustainability, Routes to Peer Production, Ecosystem Complexity (NSF Lecture) {width='640' style='border: 1px solid red;`}")
-![The Four Stages of an Open Source Program Office (TODO Group, 2023)](/utaustin-ospo-images/ospo_four_stages.png "The Four Stages of an Open Source Program Office (TODO Group, 2023) {width='640' style='border: 1px solid red;`}")
+{{< image-gallery gallery_dir="/utaustin-ospo-images/" >}}
 
 Maturity models for open source practice describe activities observed around open source and research, and are generally arranged in a progression that is part biographical description of a participant's journey and part an abstraction of how improving practices benefit the overall world of open collaboration. 
 

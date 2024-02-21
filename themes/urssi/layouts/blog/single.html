@@ -41,6 +41,7 @@
 						<p class="mt-xl-1 fw-light border-bottom border-dark-3 fs-5 text-dark-2 mb-xl-8 pb-xl-4">
 									{{ .Date.Format "January 2, 2006"}}
 						</p>
+						{{ partial "image-gallery" (dict "context" . "gallery_dir" "album") }}
 						<p class="mb-8 fs-1 text-dark-1">
 									 {{ .Content }}
 						</p>

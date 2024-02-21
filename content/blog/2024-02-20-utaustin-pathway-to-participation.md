@@ -23,6 +23,15 @@ In this effort, we were inspired by models of increasing engagement, sometimes b
 
 In this blog post we discuss maturity models and present the UT OSPO Participation Pathway illustrated with case study examples from the NetSage open source project.
 
+## Maturity models that inspired us
+
+![SEI Capability Maturity Model v1.1(Paulk et al., 1993)](/utaustin-ospo-images/sei_capability.png)
+![“A maturity model for embracing open source” focused on assessing depth of engagement within enterprises (GitHub, 2016)](/utaustin-ospo-images/github_maturity.png)
+![The “Reader to Leader” Framework (Preece & Shneiderman, 2009)](/utaustin-ospo-images/reader_to_leader.png)
+![The “Motivational Arc of massive virtual collaboration” (Crowston & Fagnot, 2018)](/utaustin-ospo-images/motivational_arc.png)
+![A provocation disguised as a Maturity Model from “Software Sustainability, Routes to Peer Production, Ecosystem Complexity (NSF Lecture)” (Howison, 2021)](/utaustin-ospo-images/ecosystem_management_taxonomy.png)
+![The Four Stages of an Open Source Program Office (TODO Group, 2023)](/utaustin-ospo-images/ospo_four_stages.png)
+
 Maturity models for open source practice describe activities observed around open source and research, and are generally arranged in a progression that is part biographical description of a participant's journey and part an abstraction of how improving practices benefit the overall world of open collaboration. 
 
 At the earlier/lower levels in these models, we find many people, with decreasing numbers at later/higher levels: almost everyone can and should progress from earlier/lower levels, but fewer people are needed at the higher levels of participation (with their activities having magnified impact).
@@ -30,6 +39,7 @@ At the earlier/lower levels in these models, we find many people, with decreasin
 We found these sorts of models helped us in two ways. First, they helped us conceive a developmental process with transitions between activities that we could help foster (and potentially measure). Second, the models helped us think about the number of researchers across campus that our OSPO could reach, and thus identify the transitions between levels in which we could have the greatest beneficial impact. 
 
 Our team brings together stakeholders from across the university: 
+
 - those building and supporting open source tools used in research,
 - an organization scientist who has studied research software development, 
 - librarians who work with researchers around data and field-specific computing, 
@@ -53,11 +63,16 @@ In the process of using these data collection tools, the NetSage team **contribu
 
 In its third year, the decision was made to shift from a bespoke internal framework to the use of the open-source tool Grafana to display its data, in part because it could work with multiple backend databases. By this time, the project was looking at collecting flow data from routers, using open protocols such as NetFlow. This data was then deposited in an Elastic database, furthering the project's use of open-source tools. At this point, the architecture shown in Figure 2 was used for the project. The core software, stitching together contributions from various open-source communities, was released and licensed. 
 
+![](/utaustin-ospo-images/netsage_datapipeline.png)
+
 In Year 6, the Energy Science Network (ESnet) decided to rebuild its monitoring and measurement infrastructure and created StarDust, a variant of NetSage. It used much of the NetSage code, but added in different information sources, such as the way that ESnet collected SNMP data. This module was **accepted** into the NetSage codebase and later used by the TACC/EPOC NetSage deployments. 
 
 In addition, as the project matured, NetSage developers created additional ways to collect or display data. These included displays for Heatmaps (Figure 3), Sankey Graphs (Figure 4), and Slope Graph (Figure 5). We developed these because we needed them, yet graphics are only tangentially related to the core functionality of NetSage. We also thought that these might be useful to a broader community (and that their future maintenance would be easier there). These plugins were then contributed back to the Grafana open-source project (**pushed upstream**), thereby **advancing the larger ecosystem of tools** available to the broader community. Grafana has more than 20 million users.
 
-Conclusion
+![](/utaustin-ospo-images/netsage_heatmap.png)
+![](/utaustin-ospo-images/netsage_sankey.png)
+
+## Conclusion
 
 The participation pathway, derived from maturity models, helps the UT-OSPO conceptualize the impact we plan to have. The NetSage case study, above, shows how the framework helps rethink through the history of a mature project to see elements of the pathway unfold. As is clear in the case study, while the pathway has a biographical or logical flow that helps build a shared understanding of activity, we don’t mean that the pathway will necessarily be linear!
 
@@ -68,3 +83,15 @@ We hope the participation pathway can be useful for others in helping disparate 
 We look forward to working with other OSPOs, in universities and in industry, and in participating in [the OSPO++ community](https://ospoplusplus.org/) and OSPO networks like [CURIOSS](https://docs.google.com/document/d/1rgGp1Wo912nIY0K53qQdX9qi6ecnncZOUWQckJ_dlDU/edit#heading=h.6x63xcybx6or). 
 
 You can get in touch via the contact details at our website: <https://opensource.utexas.edu/>
+
+## References
+
+References
+
+Chue Hong, N. P., Katz, D. S., Barker, M., Lamprecht, A.-L., Martinez, C., Psomopoulos, F. E., Harrow, J., Castro, L. J., Gruenpeter, M., Martinez, P. A., & Honeyman, T. (2021, June 10). FAIR Principles for Research Software (FAIR4RS Principles). RDA. https://www.rd-alliance.org/group/fair-research-software-fair4rs-wg/outcomes/fair-principles-research-software-fair4rs
+Crowston, K., & Fagnot, I. (2018). Stages of motivation for contributing user-generated content: A theory and empirical test. International Journal of Human-Computer Studies, 109, 89–101. https://doi.org/10.1016/j.ijhcs.2017.08.005
+GitHub. (2016, January 13). A maturity model for embracing open source. https://github.com/github/maturity-model
+Howison, J. (2021, January 14). CISE Distinguished Lecture: Software Sustainability, Routes to Peer Production, Ecosystem Complexity. [Presentation]. figshare. https://doi.org/10.6084/m9.figshare.13574870.v1
+Paulk, M. C., Curtis, B., Chrissis, M. B., & Weber, C. V. (1993). Capability Maturity Model for Software, Version 1.1: Defense Technical Information Center. https://doi.org/10.21236/ADA263403
+Preece, J., & Shneiderman, B. (2009). The Reader-to-Leader Framework: Motivating Technology-Mediated Social Participation. AIS Transactions on Human-Computer Interaction, 1(1), 13–32.
+TODO Group. (2023). OSPO Landscape. OSPO Landscape. https://landscape.todogroup.org

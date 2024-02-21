@@ -26,8 +26,7 @@ In this blog post we discuss maturity models and present the UT OSPO Participati
 ## Maturity models that inspired us
 
 ![SEI Capability Maturity Model v1.1 (Paulk et al., 1993)](/utaustin-ospo-images/sei_capability.png "This is the title attribute {width='640' style='border: 1px solid red;`}")
-{{< imgh src="/utaustin-ospo-images/github_maturity.png" alt="“A maturity model for embracing open source” focused on assessing depth of engagement within enterprises (GitHub, 2016)" >}}
-# ![“A maturity model for embracing open source” focused on assessing depth of engagement within enterprises (GitHub, 2016)](/utaustin-ospo-images/github_maturity.png)
+{{< img src="/utaustin-ospo-images/github_maturity.png" alt="“A maturity model for embracing open source” focused on assessing depth of engagement within enterprises (GitHub, 2016)" >}}
 ![The “Reader to Leader” Framework (Preece & Shneiderman, 2009)](/utaustin-ospo-images/reader_to_leader.png)
 ![The “Motivational Arc of massive virtual collaboration” (Crowston & Fagnot, 2018)](/utaustin-ospo-images/motivational_arc.png)
 ![A provocation disguised as a Maturity Model from “Software Sustainability, Routes to Peer Production, Ecosystem Complexity (NSF Lecture)” (Howison, 2021)](/utaustin-ospo-images/ecosystem_management_taxonomy.png)

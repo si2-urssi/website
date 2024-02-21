@@ -25,7 +25,7 @@ In this blog post we discuss maturity models and present the UT OSPO Participati
 
 ## Maturity models that inspired us
 
-{{< image-gallery gallery_dir="/utaustin-ospo-images" >}}
+{{< image-gallery gallery_dir="/utaustin-ospo-images/" >}}
 
 Maturity models for open source practice describe activities observed around open source and research, and are generally arranged in a progression that is part biographical description of a participant's journey and part an abstraction of how improving practices benefit the overall world of open collaboration. 
 

@@ -4,6 +4,8 @@ date: 2024-02-20
 author: "James Howison, Jennifer Schopf"
 ---
 
+{{< load-photoswipe >}}
+
 In planning for the University of Texas at Austin Open Source Program Office ([UT-OSPO)](http://opensource.utexas.edu), funded by the Sloan Foundation in 2023, we worked to think about the impacts that we hoped to have on campus (and beyond).
 
 In this effort, we were inspired by models of increasing engagement, sometimes broadly called "maturity models." This approach helped bring together our OSPO team from across campus around the idea of a Participation Pathway. 
@@ -25,7 +27,14 @@ In this blog post we discuss maturity models and present the UT OSPO Participati
 
 ## Maturity models that inspired us
 
-{{< gallery dir="/utaustin-ospo-images/" />}}
+{{< gallery caption-effect="none">}}
+  {{< figure src="/utaustin-ospo-images/sei_capability.png" caption="The SEI capability maturity model" >}}
+  {{< figure src="/utaustin-ospo-images/ecosystem_management_taxonomy.png" caption="Howison's ecosystem levels">}}
+  {{< figure src="/utaustin-ospo-images/reader_to_leader.png" caption="Reader to Leader framework">}}
+  {{< figure src="/utaustin-ospo-images/motivational_arc.png" caption="A motivation arc of participation">}}
+  {{< figure src="/utaustin-ospo-images/github_maturity.png" caption="Github's open source maturity model">}}
+  {{< figure src="/utaustin-ospo-images/ospo_four_stages.png" caption="Four stages of OSPOs">}}
+{{< /gallery >}}
 
 Maturity models for open source practice describe activities observed around open source and research, and are generally arranged in a progression that is part biographical description of a participant's journey and part an abstraction of how improving practices benefit the overall world of open collaboration. 
 
@@ -57,15 +66,18 @@ From the beginning, NetSage leveraged other open-source tools to gather network 
 In the process of using these data collection tools, the NetSage team **contributed back** to these offerings by identifying bugs and needed features, and at times worked closely with the developers to work through edge cases that the NetSage infrastructure would find, enacting the idea of **Pushing downstream**.
 
 In its third year, the decision was made to shift from a bespoke internal framework to the use of the open-source tool Grafana to display its data, in part because it could work with multiple backend databases. By this time, the project was looking at collecting flow data from routers, using open protocols such as NetFlow. This data was then deposited in an Elastic database, furthering the project's use of open-source tools. At this point, the architecture shown in Figure 2 was used for the project. The core software, stitching together contributions from various open-source communities, was released and licensed. 
-
-![](/utaustin-ospo-images/netsage_datapipeline.png)
+{{< gallery caption-effect="none">}}
+  {{< figure src="/utaustin-ospo-images/netsage_datapipeline.png" width="600" caption="Netsage Data Pipeline">}}
+{{< /gallery >}}
 
 In Year 6, the Energy Science Network (ESnet) decided to rebuild its monitoring and measurement infrastructure and created StarDust, a variant of NetSage. It used much of the NetSage code, but added in different information sources, such as the way that ESnet collected SNMP data. This module was **accepted** into the NetSage codebase and later used by the TACC/EPOC NetSage deployments. 
 
 In addition, as the project matured, NetSage developers created additional ways to collect or display data. These included displays for Heatmaps (Figure 3), Sankey Graphs (Figure 4), and Slope Graph (Figure 5). We developed these because we needed them, yet graphics are only tangentially related to the core functionality of NetSage. We also thought that these might be useful to a broader community (and that their future maintenance would be easier there). These plugins were then contributed back to the Grafana open-source project (**pushed upstream**), thereby **advancing the larger ecosystem of tools** available to the broader community. Grafana has more than 20 million users.
 
-![](/utaustin-ospo-images/netsage_heatmap.png)
-![](/utaustin-ospo-images/netsage_sankey.png)
+{{< gallery caption-effect="none">}}
+  {{< figure src="/utaustin-ospo-images/netsage_heatmap.png" caption="A Netsage heatmap, contributed style to Grafana">}}
+  {{< figure src="/utaustin-ospo-images/netsage_sankey.png" caption="A Netsage Sankey diagram, contributed style to Grafana">}}
+{{< /gallery >}}
 
 ## Conclusion
 

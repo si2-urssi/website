@@ -1,0 +1,3 @@
+[submodule "themes/hugo-easy-gallery"]
+	path = themes/hugo-easy-gallery
+	url = https://github.com/Darthagnon/hugo-easy-gallery.git

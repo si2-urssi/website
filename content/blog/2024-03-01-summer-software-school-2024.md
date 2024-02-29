@@ -1,6 +1,6 @@
 ---
 title: "Applications now open for the 2024 URSSI Summer School in Research Software Engineering"
-date: 2024-03-31
+date: 2024-02-29
 author: "Kyle Niemeyer, Lorena Barba"
 ---
 

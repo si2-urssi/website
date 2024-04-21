@@ -2,7 +2,7 @@ baseURL = "https://urssi.us/"
 relativeURLs = true
 languageCode = "en-us"
 title = " Website of the US Research Software Sustainability Institute"
-theme = "urssi"
+theme = ["urssi", "hugo-easy-gallery"]
 
 googleAnalytics = ""
 disqusShortname = ""

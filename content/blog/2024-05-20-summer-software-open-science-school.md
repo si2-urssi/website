@@ -5,25 +5,30 @@ author: "Madicken Munk"
 ---
 
 
-__Do you want your science, research, and software to be open and accessible? Do you use, develop, or contribute to software in your research? Do you have some basic skills but desire more?__
+__Do you want your science, research, and software to be open and accessible? Do you use or develop software in your research? Do you have some basic skills but desire more?__
 
 If this sounds like you, then you might be interested in the upcoming Summer School in Open Science and Research Software Engineering. 
-This workshop complements previous summer and winter schools hosted by URSSI to develop research software engineering skills. 
-This school will help students hone their open science skills in addition to building research software engineering skills.  
-In July 2024, we will be hosting a five day workshop on open science and research software engineering at the University of Illinois at Urbana-Champaign.
+This workshop complements previous summer and winter schools hosted by URSSI on research software engineering. 
+This school will help students hone their open science skills in addition to building their skillset in research software engineering.  
+In July 2024, we will be hosting a five day workshop on open science and research software engineering at the University of Illinois at Urbana-Champaign. This event is co-hosted by URSSI at the University of Illinois at Urbana-Champaign. 
 
-This is aimed at early-career researchers, particularly graduate students and postdocs, who are familiar with basic skills such as interacting with the Unix shell, version control using Git, and Python programming, and would like to learn more about best practices for developing research software and leveraging their research software to practice open science.
+This is aimed at early-career researchers, particularly graduate students and postdocs, who are familiar with basic skills such as interacting with the Unix shell, version control using Git, and Python programming, and would like to learn more about best practices for developing research software and leveraging their research software to practice and enhance their own open science. 
 
 ## Target Audience
 
-This workshop seeks candidates that want to make their research open, accessible, and reproducible by implementing open science best practices. Further
+This workshop seeks candidates that want to make their research open, accessible, and reproducible by implementing open science best practices. 
+Science practitioners that use or develop software in their research, but want to share their software in their community of practice, or contributing to other research software projects are ideal candidates for this workshop. 
 
 To get the most benefit from this workshop, we expect students to be familiar with the Unix shell, Python, and git, at the level taught at a Software Carpentry Workshop. 
 
 ## Format and topics
 
-This five-day workshop will enable learners to hone their skills in developing sustainable research software and building their science 
+This five-day workshop will enable learners to hone their skills in developing sustainable research software, practicing open science in their workflow, and contributing to their communities of practice. Topcs covered will include:  
 
+*   The Ethos of Open Science
+*   Open Tools and Resources
+*   Open Data 
+*   Open Results 
 *   Software design and modularity
 *   Collaborative software development via Git+GitHub
 *   Software testing in Python

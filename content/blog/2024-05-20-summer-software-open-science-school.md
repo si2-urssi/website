@@ -5,10 +5,10 @@ author: "Madicken Munk"
 ---
 
 
-__Do you want your science, research, and software to be open and accessible? Do you use or develop software in your research? Do you have some basic skills would like to build on and expand them?__
+__Do you want your science, research, and software to be open and accessible? Do you use or develop software in your research? Do you have some basic skills and would like to build on and expand them?__
 
 If this sounds like you, then you might be interested in the upcoming Summer School in Open Science and Research Software Engineering. 
-In July 2024, we will be hosting a five day workshop on open science and research software engineering at the University of Illinois at Urbana-Champaign. 
+In July 2024, we will be hosting a five-day workshop on open science and research software engineering at the University of Illinois Urbana-Champaign. 
 
 This workshop complements previous summer and winter schools hosted by URSSI on research software engineering. 
 At this school, students will hone their open science skills in addition to building their skillset in research software engineering.  
@@ -17,7 +17,7 @@ This is aimed at early-career researchers, particularly graduate students and po
 
 ## Target Audience
 
-Ideal candidates for this workshop are science practitioners that user or develop software in their research and want to share their software in their community of practice, or are contributing to other research projects. 
+Ideal candidates for this workshop are science practitioners who use or develop software in their research and want to share their software in their community of practice, or are contributing to other research projects. 
 These practitioners want to make their research open, accessible, and reproducible by implementing open science best practices in addition to building and contributing to research software. 
 
 To get the most benefit from this workshop, we expect students to be familiar with the Unix shell, Python, and git, at the level taught at a Software Carpentry Workshop. 

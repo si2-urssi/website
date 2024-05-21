@@ -10,10 +10,13 @@ __Do you want your science, research, and software to be open and accessible? Do
 If this sounds like you, then you might be interested in the upcoming Summer School in Open Science and Research Software Engineering. 
 In July 2024, we will be hosting a five-day workshop on open science and research software engineering at the University of Illinois Urbana-Champaign. 
 
-This workshop complements previous summer and winter schools hosted by URSSI on research software engineering. 
-At this school, students will hone their open science skills in addition to building their skillset in research software engineering.  
+This workshop complements previous [summer](https://urssi.us/blog/2024/02/29/applications-now-open-for-the-2024-urssi-summer-school-in-research-software-engineering/) and [winter](https://urssi.us/blog/2023/10/31/applications-now-open-for-the-2024-urssi-winter-school-in-research-software-engineering/) schools hosted by URSSI on research software engineering.
+At this school, students will hone their open science skills in addition to building their skillset in research software engineering.
+To that end, we strongly encourage attendees to consider a particular software project to apply learning principles to during the school.
+Throughout the sessions, learners will collaborate with other school participants on their software projects and apply software engineering and open science best practices to make their work visible, citable, and accessible.
 
 This is aimed at early-career researchers, particularly graduate students and postdocs, who are familiar with basic skills such as interacting with the Unix shell, version control using Git, and Python programming, and would like to learn more about best practices for developing research software and leveraging their research software to practice and enhance their own open science. 
+All disciplines are welcome at this school; including--but not limited to--practitioners in the humanities, social sciences and economics.
 
 ## Target Audience
 

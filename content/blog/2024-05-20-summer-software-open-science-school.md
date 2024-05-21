@@ -48,7 +48,7 @@ The school will consist of lectures on these topics along with open hacking time
 ## Logistics
 
 *   **Dates**: July 29 - August 02, 2024
-*   **Location**: Urbana-Champaign, IL - [University of Illinois at Urbana-Champaign](https://illinois.edu)
+*   **Location**: Urbana, IL - [University of Illinois at Urbana-Champaign](https://illinois.edu)
 *   **Cost**: Free (supported by a grant from the NASA [Transform to Open Science Training](https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/) call)
 *   Travel support is available for non-local participants
 

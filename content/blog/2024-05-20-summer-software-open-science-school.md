@@ -17,6 +17,7 @@ Throughout the sessions, learners will collaborate with other school participant
 
 This is aimed at early-career researchers, particularly graduate students and postdocs, who are familiar with basic skills such as interacting with the Unix shell, version control using Git, and Python programming, and would like to learn more about best practices for developing research software and leveraging their research software to practice and enhance their own open science. 
 All disciplines are welcome at this school; including--but not limited to--practitioners in the humanities, social sciences and economics.  
+If you use or develop software in the course of doing research, you will find applicable skills in this workshop for your work. 
 
 ## Target Audience
 

@@ -16,7 +16,7 @@ To that end, we strongly encourage attendees to consider a particular software p
 Throughout the sessions, learners will collaborate with other school participants on their software projects and apply software engineering and open science best practices to make their work visible, citable, and accessible.    
 
 This is aimed at early-career researchers, particularly graduate students and postdocs, who are familiar with basic skills such as interacting with the Unix shell, version control using Git, and Python programming, and would like to learn more about best practices for developing research software and leveraging their research software to practice and enhance their own open science. 
-All disciplines are welcome at this school; including--but not limited to--practitioners in the sciences, engineering, humanities, social sciences and economics.  
+All disciplines are welcome at this school; including--but not limited to--practitioners in the sciences, engineering, humanities, social sciences, and economics.  
 If you use or develop software in the course of doing research, you will find applicable skills in this workshop for your work. 
 
 ## Target Audience

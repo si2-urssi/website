@@ -12,7 +12,7 @@ In July 2024, we will be hosting a five-day workshop on open science and researc
 
 This workshop complements previous [summer](https://urssi.us/blog/2024/02/29/applications-now-open-for-the-2024-urssi-summer-school-in-research-software-engineering/) and [winter](https://urssi.us/blog/2023/10/31/applications-now-open-for-the-2024-urssi-winter-school-in-research-software-engineering/) schools hosted by URSSI on research software engineering. 
 At this school, students will hone their open science skills in addition to building their skillset in research software engineering. 
-To that end, we strongly encourage attendees to consider a particular software project to apply learning principles to during the school. 
+To that end, attendees must bring a particular software project to apply learning principles to during the school. 
 Throughout the sessions, learners will collaborate with other school participants on their software projects and apply software engineering and open science best practices to make their work visible, citable, and accessible.    
 
 This is aimed at early-career researchers, particularly graduate students and postdocs, who are familiar with basic skills such as interacting with the Unix shell, version control using Git, and Python programming, and would like to learn more about best practices for developing research software and leveraging their research software to practice and enhance their own open science. 
@@ -43,7 +43,7 @@ This five-day workshop will enable learners to hone their skills in developing s
 *   Software, Data, and Documentation Licensing
 *   Reproducibility
 
-The school will consist of lectures on these topics along with open hacking time to allow participants to practice the concepts covered in the lectures. To facilitate the hands-on experience, each participant is strongly encouraged to bring a project to work on throughout the course for applying these concepts.
+The school will consist of lectures on these topics along with open hacking time to allow participants to practice the concepts covered in the lectures. To facilitate the hands-on experience, each participant must bring a project to work on throughout the course for applying these concepts.
 
 ## Logistics
 

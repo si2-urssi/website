@@ -54,6 +54,6 @@ The school will consist of lectures on these topics along with open hacking time
 
 ## Important Dates
 
-*   **Registration deadline**: June 06, 2024
-*   **Notification**: June 10, 2024 
+*   **Application deadline**: June 06, 2024
 *   **Application:** [summer school application](https://forms.gle/jf3dHpLszcBRD72b9)
+*   **Notification**: June 10, 2024 

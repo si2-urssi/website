@@ -11,7 +11,7 @@ If this sounds like you, then you might be interested in the upcoming Summer Sch
 In July 2024, we will be hosting a five-day workshop on open science and research software engineering at the University of Illinois Urbana-Champaign. 
 
 This workshop complements previous [summer](https://urssi.us/blog/2024/02/29/applications-now-open-for-the-2024-urssi-summer-school-in-research-software-engineering/) and [winter](https://urssi.us/blog/2023/10/31/applications-now-open-for-the-2024-urssi-winter-school-in-research-software-engineering/) schools hosted by URSSI on research software engineering. 
-At this school, students will hone their open science skills in addition to building their skillset in research software engineering. 
+At this school, students will hone their open science skills in addition to building their skill set in research software engineering. 
 To that end, attendees must bring a particular software project to apply learning principles to during the school. 
 Throughout the sessions, learners will collaborate with other school participants on their software projects and apply software engineering and open science best practices to make their work visible, citable, and accessible.    
 
@@ -28,7 +28,7 @@ To get the most benefit from this workshop, we expect students to be familiar wi
 
 ## Format and topics
 
-This five-day workshop will enable learners to hone their skills in developing sustainable research software, practicing open science in their workflow, and contributing to their communities of practice. Topcs covered will include:  
+This five-day workshop will enable learners to hone their skills in developing sustainable research software, practicing open science in their workflow, and contributing to their communities of practice. Topics covered will include:  
 
 *   The Ethos of Open Science
 *   Open Tools and Resources

@@ -35,6 +35,8 @@ Selected fellows will be expected to:
 - Participate in URSSI events (remote) 
 - Mentor future fellows
 
+The first cohort of URSSI Fellows will start on 1 February 2025 and end 31 July 2025, with a midpoint progress evaluation on 15 April.
+
 ## Research Tracks
 
 For the Winter 2025 cohort of fellows we are specifically looking for projects in one of the three following areas:
@@ -92,6 +94,8 @@ Incomplete applications will not be reviewed.
 
 *   **Application deadline**: 15 January 2025 at 11:59 PM PST
 *   **Notification**: end of January 2025
+*   **First cohort kickoff**: 1 February 2025
+*   **First cohort end**: 31 July 2025
 
 ## FAQs
 

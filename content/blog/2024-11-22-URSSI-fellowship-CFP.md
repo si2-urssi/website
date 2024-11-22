@@ -102,6 +102,9 @@ Generally we are open to whatever is required to successfully complete a fellows
 - Research expenses - $10k (e.g. participant stipends, compute, etc) 
 - Equipment - by request only
 
+**Does the fellowship funding come directly to the recipient or go through an institution (potentially with overhead)?**
+The fellowship will come directly to the recipient, and not go through an institution.  Expense reimbursements or purchases will go through URSSI's fiscal sponsor, Code for Science & Society, and salary/stipend payments will come directly from them as an independent contractor. (Note that there are tax implications for this, that you would be responsible for handling.)
+
 **What is the expected time commitment?**
 We anticipate competitive projects will be completed in a six-month time period - the level of effort and the time commitment will vary between projects. If you intend to propose a project that will take longer than six months to complete please be in touch before your submission. 
 

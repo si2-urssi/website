@@ -1,5 +1,5 @@
 ---
-title: "Applications now open for a Summer School in Open Science + Research Software Engineering"
+title: "Applications open for 2025 Summer School in Open Science + Research Software Engineering"
 date: 2025-06-03
 author: "Madicken Munk"
 ---

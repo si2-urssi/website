@@ -56,5 +56,5 @@ The school will consist of lectures on these topics along with open hacking time
 ## Important Dates
 
 *   **Application deadline**: June 27, 2025
-*   **Application:** [summer school application](https://forms.gle/jf3dHpLszcBRD72b9)
+*   **Application:** [summer school application](https://forms.gle/8t8hW31v5oTBpNgm9)
 *   **Notification**: July 02, 2024 

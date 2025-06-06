@@ -38,7 +38,7 @@ This five-day workshop will enable learners to hone their skills in developing s
 *   Open Data 
 *   Open Results 
 *   Software design and modularity
-*   Collaborative software development via Git+GitHub
+*   Collaborative software development via Git and GitHub
 *   Software testing in Python
 *   Code review
 *   Packaging and distributing Python software

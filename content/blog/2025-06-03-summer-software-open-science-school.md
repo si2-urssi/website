@@ -1,7 +1,7 @@
 ---
 title: "Applications open for 2025 Summer School in Open Science + Research Software Engineering"
 date: 2025-06-03
-author: "Madicken Munk"
+author: "Madicken Munk, Joseph H. Kennedy"
 ---
 
 
@@ -57,6 +57,6 @@ The school will consist of lectures on these topics along with open hacking time
 
 ## Important Dates
 
-*   **Application deadline**: June 27, 2025
+*   **Application deadline**: June 29, 2025
 *   **Application:** [summer school application](https://forms.gle/8t8hW31v5oTBpNgm9)
-*   **Notification**: July 02, 2024 
+*   **Notification**: July 02, 2025 

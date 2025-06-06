@@ -8,7 +8,9 @@ author: "Madicken Munk"
 __Do you want your science, research, and software to be open and accessible? Do you use or develop software in your research? Do you have some foundational skills and would like to build on and expand them?__
 
 If this sounds like you, then you might be interested in the upcoming Summer School in Open Science and Research Software Engineering. 
-In August 2025 we will be hosting a five-day workshop on open science and research software engineering at the University of Alaska Fairbanks. 
+In August 2025 we will be hosting a five-day workshop on open science and research software engineering at the University of Alaska Fairbanks
+and organized in collaboration with the Alaska Satellite Facility and 
+the Geophysical Institute.  
 
 This workshop complements previous [summer](https://urssi.us/blog/2024/05/20/applications-now-open-for-a-summer-school-in-open-science--research-software-engineering/) and [winter](https://urssi.us/blog/2024/02/29/applications-now-open-for-the-2024-urssi-summer-school-in-research-software-engineering/) 
 schools hosted by URSSI on research software engineering. 

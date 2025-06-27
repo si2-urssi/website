@@ -9,8 +9,8 @@ disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 
-paginate = 4
-paginatePath = "page"
+pagination.pagerSize = 4
+pagination.path = "page"
 rssLimit = 20
 
 [permalinks]

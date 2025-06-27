@@ -1,0 +1,16 @@
+[workspace]
+channels = ["conda-forge"]
+name = "website"
+platforms = ["linux-64", "osx-arm64", "win-64"]
+version = "0.1.0"
+
+[tasks.serve]
+description = "Serve the site with Hugo"
+cmd = "hugo serve --buildFuture"
+
+[tasks.start]
+description = "Get started"
+depends-on = ["serve"]
+
+[dependencies]
+hugo = ">=0.147.9,<0.148"

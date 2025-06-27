@@ -2,6 +2,22 @@
 
 URSSI is a newly launched institute with funding from the Alfred P. Sloan Foundation and the National Science Foundation. The effort began as a planning grant (2018-2022) from [NSF](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1743188).
 
+## Local development setup
+
+1. Install [Pixi](https://pixi.sh/)
+2. Fork this repository on GitHub
+3. Clone your fork locally with the `--recurse-submodules` option
+
+```
+git clone --recurse-submodules <repository URL>
+```
+
+4. Run
+
+```
+pixi run start
+```
+
 ## How to add content
 
 This is a static site based on Hugo. To preview additions and changes on your local machine, you will need to [install Hugo](https://gohugo.io/getting-started/installing/)
@@ -21,13 +37,13 @@ The site will be built automatically once you push commits to GitHub. If you wis
 
 This requires you to have Hugo installed locally. You can learn more about installing Hugo here: https://gohugo.io/getting-started/installing/
 
-To preview draft content: 
+To preview draft content:
 
 ```
 hugo serve -F
 ```
 
-Once you're happy with your post, remove `draft: true` from the yml and send a pull request explaining your additions and/or changes. 
+Once you're happy with your post, remove `draft: true` from the yml and send a pull request explaining your additions and/or changes.
 
 
 ## Sending a pull request

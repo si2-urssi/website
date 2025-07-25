@@ -10,7 +10,7 @@ This fellowship offers funding support between $10,000 and $25,000 for research 
 
 The fellowship is open to PhD students, postdoctoral researchers, research software engineers, and research scientists who are less than three years removed from their final degree or appointment. 
 
-Applications are due by 25 July 2025 at 11:59 PM PST.
+Applications are due by ~25 July~ 10 August 2025 at 11:59 PM PST.
 
 Please see below for additional details on how to apply.
 
@@ -87,9 +87,9 @@ Incomplete applications will not be reviewed.
 
 ## Important Dates
 
-*   **Application deadline**: 25 July 2025 at 11:59 PM PST
-*   **Notification**: 1 August 2025
-*   **Cohort kickoff**: 15 August 2025
+*   **Application deadline**: ~25 July~ 10 August 2025 at 11:59 PM PST
+*   **Notification**: 15 August 2025
+*   **Cohort kickoff**: 25 August 2025
 
 ## FAQs
 

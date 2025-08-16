@@ -1,7 +1,8 @@
 ---
 title: "Introducing 'Charting the Course: Policy and Planning for Sustainable Research Software'"
 date: 2023-06-22
-author: "Eric A. Jensen"
+authors:
+  - eric
 ---
 
 Hello research software community!

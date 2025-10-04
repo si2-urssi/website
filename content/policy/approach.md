@@ -1,6 +1,7 @@
 ---
 title: "Our Policy Approach"
 Type: "policy"
+draft: true
 ---
 "Charting the Course: Policy and Planning for Sustainable Research Software" is a strategic initiative focused on understanding and transforming the sociotechnical landscape of research software for sustainable outcomes. Our goal is to drive policy changes that foster software sustainability and improved research.
 

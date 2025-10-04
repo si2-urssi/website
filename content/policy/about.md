@@ -11,20 +11,22 @@ Type: "policy"
 <br>
 {{< / html >}}
 
-### Project Overview
+## Approach and Activities
 
+To achieve its goals, *Charting the Course* employed a multifaceted, evidence-informed approach. The team (led by Principal Investigator Prof. Daniel S. Katz and researcher Dr. Eric A. Jensen) collected data on existing policies and practices through literature reviews, stakeholder interviews, and direct community input. Early in the project, the team issued a public call to action via the [LSE Impact Blog](https://blogs.lse.ac.uk), inviting broad participation in identifying the needs and values of the research software community. This helped set the stage and gather initial ideas from researchers, software engineers, funders, and institutional leaders about the most pressing policy issues.
 
-Funded by the Sloan Foundation, "Charting the Course: Policy and Planning for Sustainable Research Software" is a project aimed at reshaping the future of research software within the scholarly community through evidence-informed policy work. This initiative gathers and analyzes data about existing practices and policies, then communicates this crucial information to stakeholders. Building on established planning by [URSSI](/), the project strives to understand why research software policy changes succeed or fail, and leverages these insights to devise and refine future policy strategies for enhanced software sustainability and impact.
+A core activity of the project was organizing participatory workshops to engage the community in frank discussions about challenges and opportunities in research software policy. Notably, the team convened an international workshop at the IEEE eScience Conference (October 2023 in Cyprus), which brought together research software practitioners and policymakers from around the world. This workshop facilitated focused discussions on two key themes: career paths for research software professionals and diversity and inclusion in the research software community. By structuring conversations around these areas, the project gathered qualitative evidence on the sociotechnical barriers people face and brainstormed potential solutions in a collaborative setting.
 
-This policy work focuses on grasping and altering the sociotechnical landscape of research software to foster beneficial outcomes like software sustainability and improved research, rather than targeting changes at the individual or project level.
+The project researcher also led a three-day workshop on monitoring and evaluating research software impact at the Research Software Alliance's [Funders Forum](https://www.researchsoft.org/blog/2024-10).
 
-The project's work is being carried out in an open and transparent manner, with the aim of encouraging wider community engagement. All outcomes will be openly shared, supporting the on-going development of the sustainable software community.
+Finally, an institutional survey was undertaken at the University of Illinois Urbana-Champaign to understand the role of research software policy at the level of individual researchers' experiences.
 
-### Our Approach
+---
 
+## Fostering online collaboration for research software policy challenges
 
-"Charting the Course: Policy and Planning for Sustainable Research Software" is a strategic initiative focused on understanding and transforming the sociotechnical landscape of research software for sustainable outcomes. Our goal is to drive policy changes that foster software sustainability and improved research.
+In addition to in-person events, the project leveraged online collaboration. Building on planning work initiated by the US Research Software Sustainability Institute (URSSI), the team compiled **44 concrete ideas and recommendations** for actions that could elevate the status of research software in academia - ranging from new funding mechanisms and citation practices to better training, recognition, and hiring policies.  
 
-Our policy work aims to grasp the nuances of the research software landscape and enact changes that lead to beneficial outcomes. Through evidence-based strategies, we're striving to improve software sustainability and impact in the research community.
+➡️ These ideas were posted publicly as GitHub issues: [https://github.com/si2-urssi/policy/issues](https://github.com/si2-urssi/policy/issues).  
 
-This project is built upon the established planning of the [URSSI](https://urssi.us/about), furthering its vision for software sustainability and impact.
+Each idea was tagged by type (e.g. research, advocacy, education), topic (such as career path, impact, maintenance, or diversity), and estimated scale of effort, creating a structured menu of potential policy interventions.

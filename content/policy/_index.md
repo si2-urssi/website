@@ -13,7 +13,7 @@ This website houses resources, publications and other outputs from the *“Chart
 We would love to hear from you!  
 
 **Email us:**  
-- Daniel S. Katz – [dskatz@illinois.edu](mailto:dskatz@illinois.edu)  
+- Daniel S. Katz – [d.katz@ieee.org](mailto:d.katz@ieee.org)  
 - Eric A. Jensen – [eric@methodsinnovation.org](mailto:eric@methodsinnovation.org)  
 
 **Connect on LinkedIn:**  

@@ -6,11 +6,9 @@ author: "Eva Maxfield Brown, David Farr, and Shahan Ali Memon"
 
 ## When AI Starts Writing Scientific Software
 
-Just a few years ago, code for scientific research was written almost entirely by humans, line by line, bug by bug. Now, AI systems enabled by large language models (LLMs), like OpenAI's ChatGPT, Anthropic's Claude, or GitHub's Copilot, can generate entire codebases in seconds. They’ve become quiet collaborators in software development, influencing everything from industry codebases to the specialized scientific software that mediates contemporary science. 
+As a multi-purpose technology, large language models (LLMs) have rapidly been integrated across industries including academia and software development. From suggesting syntax to writing full functions, they’ve transformed the possibilities for how scientists build and maintain research software.
 
-Where this shift has brought new speed, accessibility, and creative freedom, it’s also pushing the community to confront long-standing weak points in how research software is built and maintained. Verification, correctness, ownership, and sustainability—already fragile foundations—are being tested in new ways. 
-
-Scientific software often lives at the forefront of discovery, where a subtle bug or misused library can distort an entire analysis[^1]. As researchers increasingly use LLMs to write code, we face a new question:
+However, the speed and convenience of LLMs comes with trade-offs. Scientific software often lives at the frontier of discovery, where a subtle bug or misused library can distort an entire analysis[^1]. As researchers increasingly use tools like ChatGPT or Claude to write code, we face a new question:
 
 > How is AI-generated code changing the structure, reliability, and culture of scientific software?
 
@@ -48,7 +46,7 @@ Our findings will help:
 
 3. Encourage reproducible science by improving awareness of how AI contributions shape research codebases.
 
-All datasets, software, and models we create will be open-source, enabling others to build on this work.
+All datasets, software, and models we create will be open-source, enabling others to build on our work.
 
 ## How We’re Engaging the Community
 
@@ -59,17 +57,6 @@ A central part of the project is collaboration with the research software commun
 2. **Collaborative Feedback:** We plan on inviting scientific software maintainers and computational researchers to share feedback on integration strategies, best practices, or general collaboration.
 
 3. **Workshops and Presentations:** We plan to share progress and results, focusing on practical takeaways for the community.
-
-If you’re interested in contributing, providing feedback, or testing our tools, please reach out! 
-
-## What’s Next
-
-Over the next six months, we’ll be:
-
-1. Curating our dataset of scientific repositories. 
-2. Evaluting and creating our detection tool which integrates existing models.
-3. Analyzing code quality, documentation, and maintainability trends.
-4. Presenting results at community events.
 
 ## Thank You!
 

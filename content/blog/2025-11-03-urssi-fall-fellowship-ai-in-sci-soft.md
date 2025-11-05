@@ -22,7 +22,7 @@ Our project has three main objectives:
 
 1. **Build a dataset of scientific source code**
 
-We’re curating a dataset of paired scientific publications and their associated source-code repositories which are publicly hosted on GitHub. The source-code repositories include a mix of "analysis repositories" (repositories which store the analysis code and visualization scripts for a publication) and  "research tools" (general purpose libraries and reusable tools typically attached to 'software papers'). In addition, our dataset includes repositories with development activity from 2015 (“pre-Gen AI”) to more recent projects possibly influenced by AI tools, including a subset of repositories that span both Pre-Gen AI and Post-Gen AI time periods.
+We’re curating a dataset of paired scientific publications and their associated source-code repositories which are publicly hosted on GitHub. The source-code repositories include a mix of "analysis repositories" (repositories which store the analysis code and visualization scripts for a publication) and  "research tools" (general purpose libraries and reusable tools typically attached to 'software papers'). In addition, our dataset includes repositories with development activity from 2015 (“pre-Gen AI”) to more recent projects possibly influenced by AI tools, including a subset of repositories that span both pre-Gen AI and post-Gen AI time periods.
 
 2. **Detecting AI-assisted vs. human-authored code**
 

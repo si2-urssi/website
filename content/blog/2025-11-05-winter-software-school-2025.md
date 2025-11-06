@@ -42,4 +42,4 @@ The school will consist of lectures on these topics along with open hacking time
 
 *   **Application deadline**: 16 November 2025
 *   **Notification**: 21 November 2025
-*   **Application:** [urssi.us/winter-school-application](/winter-school-application/)
+*   **Application:** [urssi.us/winter-school-2025-application](/winter-school-2025-application/)

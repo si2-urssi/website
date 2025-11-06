@@ -15,6 +15,8 @@ This is aimed at early-career researchers, particularly graduate students and po
 
 The ideal candidate to attend this Winter School is a graduate student or postdoc who understands the basics of programming and version control but wants to learn more about software development practices. To get the most benefit from this workshop, we expect students to be familiar with the Unix shell, Python, and Git at the level taught at a Software Carpentry workshop.
 
+Participants are limited to US-based students and researchers only.
+
 ## Format and topics
 
 This three-day, hands-on workshop will expose participants to a series of topics necessary for developing sustainable research software. Topics to be covered include:

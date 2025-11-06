@@ -12,12 +12,12 @@
 		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
 		<link href="{{.Site.BaseURL}}css/styles.min.css" rel="stylesheet" />
 		<link href="{{.Site.BaseURL}}css/pagination.css" rel="stylesheet" />
-		
+
 		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
 		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 		<!-- Open graph settings (social networks sharing settings) -->
 		<!-- Open graph settings end -->
-	</head> 
+	</head>
 	<body>
 
 <!-- Navigation 2 -->
@@ -37,7 +37,7 @@
 							{ if eq .Type "blog"}
 							 -->
 						{{ $paginator := .Paginate (where .Pages "Type" "blog") }}
-						{{ range $paginator.Pages }}	
+						{{ range $paginator.Pages }}
 						<p class="mb-8 fs-1 text-dark-1 fw-bold text-capitalize">
 									<a href="{{ .Permalink }}">{{ .Title }}</a>
 						</p>
@@ -51,8 +51,8 @@
           <!-- <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li> -->
           <p class="mb-0 mt-xl-12 text-capitalize fs-4 text-dark-2">{{ . }} •</p>
        							 {{ end }}
-							{{ end }} 
-					{{ .Paginator }}
+							{{ end }}
+					{{ partial "pagination.html" . }}
 					</div>
 				</div>
 			</div>

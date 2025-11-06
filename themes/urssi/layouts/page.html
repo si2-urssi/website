@@ -4,18 +4,18 @@
 		<meta charset="utf-8" >
 		<title>standard</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="i/logo-dark@2x.png">
+		<link rel="icon" href="{{ "i/logo-dark@2x.png" | relURL }}">
 		<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
 		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
-		<link href="css/styles.min.css" rel="stylesheet" />
+		<link href="{{ "css/styles.min.css" | relURL }}" rel="stylesheet" />
 		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
 		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 		<!-- Open graph settings (social networks sharing settings) -->
 		<!-- Open graph settings end -->
-	</head> 
+	</head>
 	<body>
 
 <!-- Navigation 2 -->
@@ -36,7 +36,7 @@
 							{{ .Title }}
 						</h1>
 						<p class="mb-8 fs-1 text-dark-1">
-							{{ .Content | replaceRE "<p>" "<p class=\"mb-8 fs-1 text-dark-1\">" | safeHTML }}	
+							{{ .Content | replaceRE "<p>" "<p class=\"mb-8 fs-1 text-dark-1\">" | safeHTML }}
 						</p>
 					</div>
 				</div>

@@ -13,4 +13,4 @@ description = "Get started"
 depends-on = ["serve"]
 
 [dependencies]
-hugo = ">=0.147.9,<0.148"
+hugo = ">=0.152.2,<0.153"

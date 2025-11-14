@@ -42,7 +42,7 @@ This work has positively affected my own scientific software practices in my res
 ### Workshops and Events
 
 * [Reproducible Machine Learning Workflows for Scientists Workshop Pilot 2025](https://indico.global/event/14745/), Matthew Feickert. June 16-17, 2025.
-* [SciPy 2025 tutorial on Reproducible Machine Learning Workflows for Scientists with Pixi](https://github.com/matthewfeickert-talks/reproducible-ml-for-scientists-with-pixi-scipy-2025), Matthew Feickert, Ruben Arts, John Kirkham. July 7, 2025.
+* [SciPy 2025 tutorial: Reproducible Machine Learning Workflows for Scientists with Pixi](https://github.com/matthewfeickert-talks/reproducible-ml-for-scientists-with-pixi-scipy-2025), Matthew Feickert, Ruben Arts, John Kirkham. July 7, 2025.
 * [Reproducible Machine Learning Workflows for Scientists Workshop 2025](https://indico.global/event/14982/), Matthew Feickert. August 12-14, 2025.
 
 ### Research Products and Publications

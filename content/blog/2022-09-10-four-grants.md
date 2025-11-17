@@ -2,6 +2,11 @@
 title: "Announcing 4 new grants for URSSI"
 date: 2022-09-04
 author: "Karthik Ram, Nic Weber, Kyle Niemeyer, and Daniel S. Katz"
+authors:
+  - karthik
+  - nic
+  - kyle
+  - dan
 ---
 
 For many of us who develop, maintain, and use research software, the issue of software sustainability or lack thereof

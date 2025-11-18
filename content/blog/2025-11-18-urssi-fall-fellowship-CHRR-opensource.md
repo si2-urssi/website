@@ -6,9 +6,9 @@ author: "Hannah Olson-Williams"
 
 ## When funding loss motivates innovation 
 
-For over fifteen years, the [County Health Rankings & Roadmaps](https://www.countyhealthrankings.org/) (CHR&R) program has provided data on measures of US population health that support work in epidemiology, public policy, and community planning. With our current funding ending, we are motivated to innovate. 
+For over fifteen years, the [County Health Rankings & Roadmaps](https://www.countyhealthrankings.org/) (CHR&R) program has provided data on measures of US population health to support work in epidemiology, public policy, and community planning. With our current funding ending, we are motivated to innovate. 
 
-This project aims to expand access to county-level health public data by moving our work from SAS into R, publishing our calculations on GitHub, developing a Shiny app to replace part of our website, and creating an R package to make our data more widely accessible. In doing so, we hope to build a community of data scientists and public health professionals who can help make aspects of CHR&R self-sustaining, while also supporting ongoing efforts to secure new funding. 
+This project aims to expand access to county-level public health data by moving CHR&R calculations, documentation, and data onto open-source platforms and tools. In doing so, we hope to build a community of data scientists and public health professionals who can help make aspects of CHR&R self-sustaining, while also supporting ongoing efforts to secure new funding. 
 
 ## What We’re Building
 

@@ -1,12 +1,14 @@
 ---
-title: "URSSI Fall Fellowship: Preserving and Expanding Access to County Health Rankings & Roadmaps Data"
+title: "URSSI Fall Fellowship: Preserving and Expanding Access to County-level Public Health Data"
 date: 2025-11-18
 author: "Hannah Olson-Williams"
 ---
 
 ## When funding loss motivates innovation 
 
-The [County Health Rankings & Roadmaps](https://www.countyhealthrankings.org/) (CHR&R) program has long provided data on U.S. population health indicators, supporting work in epidemiology, public policy, and community planning. With fifteen years of historical data to preserve and our current funding ending, we are motivated to innovate. This project aims to expand access to county-level health data by moving our work from SAS into R, publishing it on GitHub, developing a Shiny app to adapt parts of the hosted website, and creating an R package to make our data more widely accessible. In doing so, we hope to build a community of data scientists and public health professionals that can help make aspects of CHR&R self-sustaining, while also supporting ongoing efforts to secure new funding. 
+For over fifteen years, the [County Health Rankings & Roadmaps](https://www.countyhealthrankings.org/) (CHR&R) program has provided data on measures of US population health that support work in epidemiology, public policy, and community planning. With our current funding ending, we are motivated to innovate. 
+
+This project aims to expand access to county-level health public data by moving our work from SAS into R, publishing our calculations on GitHub, developing a Shiny app to replace part of our website, and creating an R package to make our data more widely accessible. In doing so, we hope to build a community of data scientists and public health professionals who can help make aspects of CHR&R self-sustaining, while also supporting ongoing efforts to secure new funding. 
 
 ## What We’re Building
 
@@ -24,11 +26,11 @@ We are building a Shiny app to replicate core aspects of the CHR&R website. Many
 
 3. **GitHub and Zenodo Archives**
 
-To preserve CHR&R’s fifteen-year history, we are creating GitHub and Zenodo archives including data, documentation, and select calculations. In an era where data sources can be volatile, these documented archives are especially important. We aim to ensure that CHR&R’s history remains accessible and reproducible while laying the foundation for community engagement and long-term sustainability.
+To preserve CHR&R’s fifteen-year history, we are creating GitHub and Zenodo archives including data, documentation, and select calculations. In an era where data sources can be volatile, these documented archives are especially important. We aim to ensure that CHR&R’s history remains accessible and reproducible while building a foundation for community engagement and long-term sustainability.
 
 ## Why It Matters
 
-Preserving CHR&R data and making it more accessible helps researchers, public health professionals, and local communities understand and address health disparities. By lowering barriers to use and fostering a collaborative community, we aim to ensure that CHR&R resources can continue to inform policy and practice long into the future.
+Preserving CHR&R data and making it more accessible helps researchers, public health professionals, and local communities understand and address health disparities. By lowering barriers to use and building a collaborative community, we aim to ensure that CHR&R resources can continue to inform policy and practice long into the future.
 
 ## Thank You!
 
@@ -36,4 +38,4 @@ Thank you for providing mentorship, training, and resources to make this project
 
 ## Join us!
 
-If you’ve used County Health Rankings & Roadmaps data in the past or are just hearing about us now, we'd love to collaborate with you! Please find us on GitHub at [github.com/County-Health-Rankings-and-Roadmaps](https://github.com/County-Health-Rankings-and-Roadmaps).
+Whether you’ve used County Health Rankings & Roadmaps data in the past or are just hearing about us now, we'd love to collaborate with you! Please find us on GitHub at [github.com/County-Health-Rankings-and-Roadmaps](https://github.com/County-Health-Rankings-and-Roadmaps).

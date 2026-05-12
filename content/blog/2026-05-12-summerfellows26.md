@@ -21,7 +21,7 @@ We welcome applications from US-based early-career researchers including: PhD St
 URSSI is committed to fostering a diverse and inclusive scientific software community. We strongly encourage applications from individuals of all backgrounds and institutions.
 
 ### Fellowship Benefits
-We can offer financial support of $25,000 for all projects. Fellows will also have access to URSSI's extensive network and resources including mentorship from senior researchers, professional development opportunities, and the opportunity to collaboration with a cohort of peer fellows. 
+We can offer financial support of $25,000 for all projects. Fellows will also have access to URSSI's extensive network and resources including mentorship from senior researchers, professional development opportunities, and the opportunity to collaborate with a cohort of peer fellows. 
 
 Selected fellows will be expected to:
 - Submit monthly progress reports via GitHub

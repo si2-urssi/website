@@ -18,15 +18,15 @@ As part of this fellowship, I intend to explore:
 
 1. **R package**
 
-An R package to make CHR&R data readily accessible in R with clear documentation and metadata. By lowering barriers to use, we aim to broaden the audience, support reproducible research, and encourage innovative applications of our data. 
+An [R package](https://cran.r-project.org/web/packages/countyhealthR/index.html) to make CHR&R data readily accessible in R with clear documentation and metadata. By lowering barriers to use, we aim to broaden the audience, support reproducible research, and encourage innovative applications of our data. 
 
 2. **Shiny App**
 
-A Shiny app to replicate core aspects of the CHR&R website. Many of our users are small local health departments with limited data capacity, so usability is a priority. The app will provide interactive access to county-level health data.
+A [Shiny app](https://countyhealthrankings.shinyapps.io/snapshot/) to replicate core aspects of the CHR&R website. Many of our users are small local health departments with limited data capacity, so usability is a priority. The app will provide interactive access to county-level health data.
 
 3. **GitHub and Zenodo Archives**
 
-GitHub and Zenodo archives including data, documentation, and select calculations. In an era where data sources can be volatile, these documented archives are especially important. We aim to ensure that a record of CHR&R’s history remains accessible and reproducible while building a foundation for community engagement and long-term sustainability.
+GitHub and [Zenodo archives](https://zenodo.org/communities/countyhealthrankingsandroadmaps/records) including data, documentation, and select calculations. In an era where data sources can be volatile, these documented archives are especially important. We aim to ensure that a record of CHR&R’s history remains accessible and reproducible while building a foundation for community engagement and long-term sustainability.
 
 ## Why It Matters
 
@@ -38,4 +38,4 @@ Thank you for providing mentorship, training, and resources to make this project
 
 ## Join us!
 
-Whether you’ve used County Health Rankings & Roadmaps data in the past or are just hearing about us now, we'd love to collaborate with you! Please find us on GitHub at [github.com/County-Health-Rankings-and-Roadmaps](https://github.com/County-Health-Rankings-and-Roadmaps).
+Whether you’ve used County Health Rankings & Roadmaps data in the past or are just hearing about us now, we'd love to collaborate with you! Please find us on GitHub at [github.com/countyhealthrankings](https://github.com/countyhealthrankings).

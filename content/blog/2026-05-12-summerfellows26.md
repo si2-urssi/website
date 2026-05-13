@@ -43,14 +43,14 @@ For the Summer 2026 cohort of fellows we are specifically looking for projects i
    - [Reproducible ML workflows for Scientists](https://urssi.us/blog/2025/11/17/winter-2025-urssi-fellowship-report-reproducible-machine-learning-workflows-for-scientists/)
    
 
-3. **Scientific Software Sustainability:** We would like to support researchers developing scientific software (biology, earth sciences, social sciences, physics, etc.) to extend or improve practices within that domain. Example projects could include: Developing domain-specific software sustainability audits (e.g., identifying critical dependencies); creating assessment tools for research software reliability; or implementing methods for automated documentation generation (e.g., LLM assisted).
+2. **Scientific Software Sustainability:** We would like to support researchers developing scientific software (biology, earth sciences, social sciences, physics, etc.) to extend or improve practices within that domain. Example projects could include: Developing domain-specific software sustainability audits (e.g., identifying critical dependencies); creating assessment tools for research software reliability; or implementing methods for automated documentation generation (e.g., LLM assisted).
 
   Projects previously supported by this track include:
    - [Principled Data Processing](https://urssi.us/blog/2025/12/09/winter-2025-urssi-fellowship-report-principled-data-processing/)
    - [Building Sustainable Plugin Ecosystems](https://urssi.us/blog/2025/11/24/urssi-fall-2025-fellowship-building-sustainable-plugin-ecosystems-in-scientific-software/)
    - [Preserving and Expanding Access to County-level Public Health Data](https://urssi.us/blog/2025/11/20/urssi-fall-fellowship-preserving-and-expanding-access-to-county-level-public-health-data/)
 
-4. **Software Education Research:** URSSI runs a semi-annual school (2–3 days of co-located classroom work) to train researchers to use best practices in research software development. We are particularly interested in expanding our curriculum to include best practices working with a coding harness and agentic software development. This might include developing new modules or lessons for URSSI, or producing more general web content (e.g. blog posts and videos) on these topics. 
+3. **Software Education Research:** URSSI runs a semi-annual school (2–3 days of co-located classroom work) to train researchers to use best practices in research software development. We are particularly interested in expanding our curriculum to include best practices working with a coding harness and agentic software development. This might include developing new modules or lessons for URSSI, or producing more general web content (e.g. blog posts and videos) on these topics. 
 
 ### We will not fund the following: 
 - Feature Development: this includes projects that are focused solely on adding new features or maintaining existing scientific software (aside from software specifically in support of research aligned with the above tracks). 
@@ -74,7 +74,9 @@ To submit an application, please provide the following information, your CV, and
  - Evaluation Metrics: Concrete ways to measure project success. Include both quantitative and qualitative metrics.
  - Timeline and Deliverables: Plan Month-by-month breakdown of activities, methods, and approaches. Include specific milestones and check-in points. The deliverables description should specify what, at the successful conclusion of the project, you will ultimately produce. 
 
-3. Budget proposal ($25,000) with justification for expenses. Your budget must include a $10,000 stipend for the fellow or fellows. The budget may not include hiring or paying students, support staff, or collaborators. 
+3. Budget proposal ($25,000 total) with justification for expenses. 
+Your budget must include a $10,000 stipend for the fellow or fellows. 
+The budget may not include hiring or paying students, support staff, or collaborators. 
 
 4. Contact information for two professional references. 
 
@@ -96,18 +98,19 @@ Incomplete applications will not be reviewed.
 **What can the budget be spent on?**
 Generally we are open to whatever is required to successfully complete a fellowship project. Below are the guidelines we intend to follow in all but exceptional cases: 
 - Time/salary - required $10k
-- Travel - max $5k 
-- Research expenses - max $10k 
+- Travel - suggested max $5k
+- Research expenses - suggested max $10k
 - Equipment - by request only
 
 **Does the fellowship funding come directly to the recipient or go through an institution (potentially with overhead)?**
-The fellowship will come directly to the recipient as an independent contractor. (Note that there are tax implications for this, which you would be responsible for handling.)
+The fellowship will come directly to the recipient as an independent contractor. 
+(Note that there are tax implications for this, which you would be responsible for handling.)
 
 **What is the expected time commitment?**
 We anticipate competitive projects will be completed in a six-month time period—the level of effort and the time commitment will vary between projects. If you intend to propose a project that will take longer than six months to complete please be in touch before your submission. 
 
 **How many fellowships are available?**
-We anticipate funding 4-6 fellows this round (Summer 2026) 
+We anticipate funding 4-6 fellows this round (Summer 2026).
 
 **If I am not selected can I submit to a future fellowship?**
 Yes! But, please note that we have limited capacity to provide feedback on previous proposals. 
@@ -122,5 +125,4 @@ Yes, with a few stipulations:
 
 **Do I have to live in the USA to be eligible for this fellowship?**
 Yes. 
-
 

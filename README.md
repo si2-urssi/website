@@ -18,7 +18,7 @@ git clone --recurse-submodules <repository URL>
 pixi run start
 ```
 
-## How to add content
+## How to add content w/ Hugo
 
 This is a static site based on Hugo. To preview additions and changes on your local machine, you will need to [install Hugo](https://gohugo.io/getting-started/installing/)
 
@@ -29,9 +29,7 @@ This is a static site based on Hugo. To preview additions and changes on your lo
 | Adding a project page | `hugo new projects/<title_of_page>.md` | Then edit the front matter and content of `/content/projects/<title_of_page.md>` in your editor.  |
 | Adding a job page | `hugo new jobs/<title_of_page>.md` | Then edit the front matter and content of `/content/jobs/<title_of_page.md>` in your editor.  |
 
-You can also add content without Hugo. Create a new file in the appropriate folder from the web editor, add the appropriate yml and then open a PR. Netlify will show you a preview of the new site in the PR.
-
-## Preview the site locally
+### Preview the site locally
 
 The site will be built automatically once you push commits to GitHub. If you wish to preview locally, follow the steps below.
 
@@ -45,6 +43,17 @@ hugo serve -F
 
 Once you're happy with your post, remove `draft: true` from the yml and send a pull request explaining your additions and/or changes.
 
+## How to add content w/o Hugo 
+Create a new file in the appropriate folder from the web editor, add the appropriate yml and then open a PR. Netlify will show you a preview of the new site in the PR. To add a new blog post - add a new file to the `content/blog` folder, name the file using the convention `YYYY-MM-DD-your-title.md` and add the following yml:
+
+```
+---
+title: "Your title"
+date: YYYY-MM-DD
+author: "Your Name"
+
+---
+```
 
 ## Sending a pull request
 

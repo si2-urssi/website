@@ -41,9 +41,13 @@
 						<p class="mb-8 fs-1 text-dark-1 fw-bold text-capitalize">
 									<a href="{{ .Permalink }}">{{ .Title }}</a>
 						</p>
-						<p class="text-dark-1 text-capitalize fs-3 mb-4">
-							{{ .Params.author | default .Site.Params.author }} • {{ .Date.Format "January 2, 2006"}}
-						</p>
+{{ $authors := .Params.authors }} <!-- Store authors in a variable outside the loop -->
+  {{ range $index, $author := $authors }}
+    {{ with index $.Site.Data.authors $author }}
+      {{ .name }}
+      {{ if ne $index (sub (len $authors) 1) }}, {{ end }} <!-- This adds a comma between names except for the last name -->
+    {{ end }}
+  {{ end }}
 						<p class="mb-0 text-dark-1 fs-3">
 									{{ .Summary }}
 						</p>

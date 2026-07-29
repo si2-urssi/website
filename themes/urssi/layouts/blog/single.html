@@ -35,9 +35,17 @@
 						<h1 class="display-3 mb-6 mb-md-15">
 									{{ .Title }}
 						</h1>
-						<p class="fs-3 fw-bold text-dark-1 mt-xl-8">
-									{{ .Params.author | default .Site.Params.author }}
-						</p>
+				 
+<p class="fs-3 fw-bold text-dark-1 mt-xl-8">
+  {{ $authors := .Params.authors }} <!-- Store authors in a variable outside the loop -->
+  {{ range $index, $author := $authors }}
+    {{ with index $.Site.Data.authors $author }}
+      {{ .name }}
+      {{ if ne $index (sub (len $authors) 1) }}, {{ end }} <!-- This adds a comma between names except for the last name -->
+    {{ end }}
+  {{ end }}
+</p>
+
 						<p class="mt-xl-1 fw-light border-bottom border-dark-3 fs-5 text-dark-2 mb-xl-8 pb-xl-4">
 									{{ .Date.Format "January 2, 2006"}}
 						</p>

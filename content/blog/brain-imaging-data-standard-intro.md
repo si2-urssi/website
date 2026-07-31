@@ -81,8 +81,8 @@ It also makes interpreting an existing BIDS dataset harder than it should be.
 Even I, a maintainer of [MNE-BIDS](https://mne.tools/mne-bids/), *still* find myself with
 the spec open in a browser tab on a regular basis. Meanwhile, most scientists just want
 to do science. They don't care about file formats or schemas. They don't want to get stuck
-converting their data to BIDS—but if they *do* get stuck, they can't share their data on 
-penNeuro, which will not accept a dataset that fails validation. If only there were some
+converting their data to BIDS. But if they *do* get stuck, they can't share their data on 
+OpenNeuro, which will not accept a dataset that fails validation. If only there were some
 way to help these researchers out.
 
 ## BIDS my data and get out of my way!
@@ -93,11 +93,10 @@ tools like Claude Code and Codex the context and tooling they need to help resea
 convert their data to BIDS, without making things worse in the process.
 
 There have been some encouraging efforts in this space already. The BIDS maintainers have
-been prototyping a chatbot embedded in the specification website, and there is a
-separate web-based BIDS chatbot demo as well.
+been prototyping a chatbot embedded in the specification website.
 
-These are useful for answering "what does the spec say about X?" But without access to
-your files, the most common question—"why is *my* dataset failing validation, and what do I do about it?"—
+This is useful for answering "what does the spec say about X?" But without access to
+your files, the most common question — "why is *my* dataset failing validation, and what do I do about it?" —
 is harder to answer, because the assistant can only work from what you paste into it or tell it. Coding
 agents don't have that limitation. They already run in your terminal, next to your data. If
 we extend this capability to coding agents, they should be able to:
@@ -117,7 +116,7 @@ whether the agent actually uses it well.
 That last point is the one I care most about. An LLM that confidently invents a metadata
 field is worse than no assistant at all, because the researcher has no easy way to tell
 the difference. The design principle for this project is that the agent should never be
-the final authority on whether a dataset is valid—the validator is. The agent's job is to
+the final authority on whether a dataset is valid, the validator is. The agent's job is to
 read the error, find the relevant rule, propose a change, apply it, and then run the
 validator again to see whether it was right.
 
@@ -127,6 +126,3 @@ Over the course of the fellowship I'll be working on a prototype.
 All software, documentation, benchmarks, and evaluation results will be released in the
 open. If all goes well, and this tool proves to be both reliable and useful, I will plan
 to write up the benchmark and findings, and share them with the community.
-
-I'll be posting updates here as the work progresses. If you'd like to follow along or get
-involved, please reach out.

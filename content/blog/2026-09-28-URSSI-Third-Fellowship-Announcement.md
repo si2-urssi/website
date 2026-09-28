@@ -6,7 +6,7 @@ author: "Nic Weber and Kyle Niemeyer"
 
 # URSSI Welcomes Third Cohort of Early-Career Fellows
 
-We are happy to announce a third cohort of the [US Research Software Sustainability Institute (URSSI) Early-Career Fellowship](https://urssi.us/blog/2026/05/12/call-for-proposals-urssi-early-career-fellows/). This cohort includes eight fellows working on the following projects: 
+We are happy to announce a third cohort of the [US Research Software Sustainability Institute (URSSI) Early-Career Fellowship](https://urssi.us/blog/2026/05/12/call-for-proposals-urssi-early-career-fellows/). This cohort includes six fellows working on the following projects: 
 
 **Reliable Agentic Workflows for Sustainable Multi-Language Scientific Software Interfaces** - Su Sun is a postdoctoral scientific software engineer in Chemical Engineering at Northeastern University. His project  will investigate whether agentic AI workflows can reliably maintain and sustain cross-language interfaces for scientific software, using the [Cantera](https://cantera.org) MATLAB interface as a case study. You can read more at the [project website](https://ssun30.github.io/urssi-cantera-matlab-agentic-workflows/).
 

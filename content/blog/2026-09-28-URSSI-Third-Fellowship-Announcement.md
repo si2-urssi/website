@@ -6,7 +6,7 @@ author: "Nic Weber and Kyle Niemeyer"
 
 # URSSI Welcomes Third Cohort of Early-Career Fellows
 
-We are happy to announce a third cohort of the [US Research Software Sustainability Institute (URSSI) Early-Career Fellowship](https://urssi.us/blog/2026/05/12/call-for-proposals-urssi-early-career-fellows/). This cohort includes six fellows working on the following projects: 
+We are happy to announce a third cohort of the [US Research Software Sustainability Institute (URSSI) Early-Career Fellowship](https://urssi.us/blog/2026/05/12/call-for-proposals-urssi-early-career-fellows/). This cohort includes seven fellows working on the following projects: 
 
 **Reliable Agentic Workflows for Sustainable Multi-Language Scientific Software Interfaces** - Su Sun is a postdoctoral scientific software engineer in Chemical Engineering at Northeastern University. His project  will investigate whether agentic AI workflows can reliably maintain and sustain cross-language interfaces for scientific software, using the [Cantera](https://cantera.org) MATLAB interface as a case study. You can read more at the [project website](https://ssun30.github.io/urssi-cantera-matlab-agentic-workflows/).
 
@@ -20,4 +20,6 @@ We are happy to announce a third cohort of the [US Research Software Sustainabil
 
 **Silent Failures in ML-Driven Simulations** - Ali Mohaghegh is a PhD student in the Department of Aerospace Engineering at the University of Kansas. His project aims to produce an open-source diagnostic framework for detecting subtle reliability failures in scientific simulations that use machine learning (ML), reduced-order models (ROMs), neural operators, and other learned components. You can follow along [here](https://github.com/alimike97/URSSI_Fellowship).
 
-We're excited to bring these projects into the URSSI early-career program, and continue working with highly-motivated scientists who take their software seriously.
+**Navigating Successes and Failures in Agent-Assisted Code Development** - Connor McClellan is a postdoctoral researcher in astrophysics at Michigan State University. His project will develop a new workshop module for the URSSI Schools on Research Software Development that asks what separates a successful integration of AI/ML coding tools from a failure. Participants will work through curated scenarios—solving similar problems both with and without agentic assistance—to build a concrete sense of when coding agents are likely to help, when they should not be used, and when restraints can counter their limitations. Because participants write code throughout, the workshop will also generate data on how agent usage affects code quality and maintainability, paired with exit and follow-up surveys on how it affects developers' own understanding of the problems they solved.
+
+We're excited to bring these projects into the URSSI early-career program, and continue working with highly motivated scientists who take their software seriously.

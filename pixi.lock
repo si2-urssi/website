@@ -11,6 +11,9 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgcc-15.1.0-h767d61c_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgomp-15.1.0-h767d61c_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-15.1.0-h8f9b012_3.conda
+      osx-64:
+      - conda: https://conda.anaconda.org/conda-forge/osx-64/hugo-0.152.2-hdfc888c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-64/libcxx-22.1.8-h19cb2f5_0.conda
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/hugo-0.152.2-h26d7ee4_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-20.1.7-ha82da77_0.conda
@@ -49,6 +52,18 @@ packages:
   license_family: APACHE
   size: 18160228
   timestamp: 1761375783870
+- conda: https://conda.anaconda.org/conda-forge/osx-64/hugo-0.152.2-hdfc888c_0.conda
+  sha256: ceb692dcf63838716e19bd7ac04e043be45ec81e1c29e5385194f3867a0084d1
+  md5: f65198c2c66f4fa15ca30365fad4a16b
+  depends:
+  - __osx >=12.3
+  - libcxx >=19
+  constrains:
+  - __osx>=10.12
+  license: Apache-2.0
+  license_family: APACHE
+  size: 17349039
+  timestamp: 1761376339298
 - conda: https://conda.anaconda.org/conda-forge/osx-arm64/hugo-0.152.2-h26d7ee4_0.conda
   sha256: 504016c836466457cee21783ec89dc3626381e528576c2b3fdb346c81db7176d
   md5: ef0dd4faa7890bcdba21abc8a6c4de68
@@ -68,6 +83,15 @@ packages:
   license_family: APACHE
   size: 17602665
   timestamp: 1761376167725
+- conda: https://conda.anaconda.org/conda-forge/osx-64/libcxx-22.1.8-h19cb2f5_0.conda
+  sha256: 57ee997f1f800cf38abc743c0f0a9ddfe6a101c697c35510452ce6f4ddf96361
+  md5: 0f600157f28fc7bc9549ecafdfa5bc12
+  depends:
+  - __osx >=11.0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 566717
+  timestamp: 1781672189697
 - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-20.1.7-ha82da77_0.conda
   sha256: a3fd34773f1252a4f089e74a075ff5f0f6b878aede097e83a405f35687c36f24
   md5: 881de227abdddbe596239fa9e82eb3ab
